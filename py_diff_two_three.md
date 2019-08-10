@@ -47,8 +47,8 @@ with open(‘./test.txt’,  ‘w’) as f:
 
 ##    二        print语句
 ###    2.1 语法转变，由语句变为函数； 
-```python
-  python27 以下语法均正确，有多种用法:  
+
+python27 以下语法均正确，有多种用法:  
 print  ‘this is debuging’ 
 print(‘this is debuging’) 
   python36 仅支持以下函数式用法： 
@@ -57,17 +57,17 @@ print(‘this is debuting’)
 
 ###    2.2 更新一，不同的指定显示方式
 包括如输出错误方式 ，如果要指定调试输出对象，在python27中用法如下：
-```python
+
 python27:    print >> sys.stderr, "error"    
 
 在python36中用法如下：
-```python
+
 python36:    print("error", file=sys.stderr)
 
 ###    2.3  更新二, 更多样的调用参数
 在python36中可以使用新的方式调用模块中的参数值到调试语句
 如：
-```python
+
 a = ‘develop’
 print(f'a value {a}')
 a value develop
@@ -76,7 +76,7 @@ a value develop
 ##    三        单整数类型
 
 ###    3.1 int， 在python36中没有long类型 
-```python
+
 >>> long(123) 
 Traceback (most recent call last): 
 File "<pyshell 4>", line 1, in <module> 
@@ -100,7 +100,7 @@ NameError: name 'long' is not defined
    1/2              返回0      这个应该算是个bug，中v3中解决了
    1/2.0       返回 0.5
 在python27中  
-```python
+
 from future import division
 
    1/2            返回0.5
@@ -117,7 +117,7 @@ from future import division
 // 双斜线除法运算号 无论操作数是什么类型，永远表示整数除法  
          1//2                 返回 0
          1.0//2.0     返回 0.0  
-```python
+
     python27 中
 >>> 2/4
 0
@@ -151,8 +151,8 @@ python3中直接以 0110 表示，控制台交互器报错非法token
 
 ##    六   数值类型操作         
 ###    6.1 八进制表示方法不同 
-```python
-  python36 中  c.oct(self) 表示 
+
+python36 中  c.oct(self) 表示 
 >>> oct(6) 
 '0o6' 
 python27 
@@ -163,7 +163,7 @@ python27
 c.hex(self) 表示 十六进制 表示方法相同 
 
 ###    6.2 python36移除 强制转换为相同的数值类型 函数  coerce
-```python
+
 coerce(6,10.0) 
 Traceback (most recent call last): 
 File "<pyshell 31>", line 1, in <module> 
@@ -171,14 +171,14 @@ coerce(6,10.0)
 NameError: name 'coerce' is not defined 
 
 > python27 正常使用  ， int类型 6 将被转换为 浮点类型
-```python
+
 coerce(6， 10.0)  
 （6.0， 10.0） 
 
 
 ##    七        类的定义
 ###    7.1 在python27中，有经典类和新式类之分
-```python
+
 class A:                       经典类
          a = ‘a1’
 class Aa():                             经典类
@@ -188,7 +188,7 @@ class Aaa(object):       新式类
 
 
 ###    7.2 在 python36中，默认定义新式类
-```python
+
 class Aa:                          新式类
      pass
 class A(object):         新式类
@@ -198,8 +198,8 @@ class A(object):         新式类
 ###    7.3  如下定义3个类和多重继承关系
 经典类多继承属性搜索顺序: 先深入继承树左侧，再返回，开始找右侧;新式类多继承属性搜索顺序: 先水平搜索，然后再向上移动
 新式类有新增方法 \getattribute
-```python
-   inhert_class.py
+
+inhert_class.py
 a():
          def init(self):
                  pass
@@ -249,7 +249,7 @@ except (AssertionError, BaseError), e：
 ##    九        输入 
 ###    9.1  python27 Input   raw_input   输入  字符都处理为字符串 
 input 输入数字可成功处理为数字。 
-```python
+
 >>> input() 
 123         输入 
 123           输出 
@@ -259,7 +259,7 @@ input 输入数字可成功处理为数字。
 
 ###    9.2. 在python3.x中，整合了2.7.x中的 raw_input 和 input，统一 
 input, 输入字符串和数字都处理为字符串。 
-```python
+
 >>> input() 
 123 
 '123' 
@@ -273,7 +273,7 @@ input, 输入字符串和数字都处理为字符串。
 类似于PyPy dict实现，dict 字典移除方法has_key等,相比旧的版本(python35及以前) ，字典使用的内存减少了20％到25％
 在python2.7中判断一个字典对象是否含有某个key可使用如下方法
 
-```python
+
 dict.has_key(‘key’)        
   >>> d2.has_key('a')
 True
@@ -281,7 +281,7 @@ True
 True
 
 python36中直接使用
-```python
+
          >>> d1.has_key(‘a’)
          Traceback (most recent call last):
          d1.has_key('a')
@@ -307,6 +307,7 @@ keys()、values()、items()，zip()，map()，filter()
 
 
 ## 更新点
+```python
         1，新型的 单类类型，类是类对象，实例是实例对象， 名称相同的 类变量 和 实例变量可同时 赋值 和取值；
         2，而在java中，类是类型，实例是类的对象；
         3，单整数类型，int， 在python3中没有long类型

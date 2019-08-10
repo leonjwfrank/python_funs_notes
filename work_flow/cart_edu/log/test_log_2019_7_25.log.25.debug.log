@@ -1,0 +1,886 @@
+[2019-07-25 22:21:38,592][test_cart.py:15][INFO][4655150528] start for cart
+[2019-07-25 22:21:38,594][test_cart.py:22][INFO][4655150528] complet test for cart
+[2019-07-25 22:34:10,857][test_cart.py:15][INFO][4457276864] start for cart
+[2019-07-25 22:34:10,859][test_cart.py:43][DEBUG][4457276864] ipads:<product.Products.Ipad object at 0x1052fd400>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:34:10,859][test_cart.py:44][INFO][4457276864] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:34:10,860][test_cart.py:49][DEBUG][4457276864] display:<product.Products.Displayer object at 0x1052fd438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:34:10,860][test_cart.py:50][INFO][4457276864] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:34:10,861][test_cart.py:55][DEBUG][4457276864] Beers:<product.Products.Beer object at 0x1052fd4a8>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:34:10,861][test_cart.py:56][INFO][4457276864] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:34:10,861][test_cart.py:61][DEBUG][4457276864] Beers:<product.Products.Bread object at 0x1052fd390>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:34:10,862][test_cart.py:62][INFO][4457276864] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:34:10,862][test_cart.py:68][DEBUG][4457276864] cart:{'1_3_2012': <product.Products.Displayer object at 0x1052fd438>, '4_1_2019': <product.Products.Beer object at 0x1052fd4a8>, '2_1_2019': <product.Products.Bread object at 0x1052fd390>},{'1_3_2012': <product.Products.Displayer object at 0x1052fd438>, '4_1_2019': <product.Products.Beer object at 0x1052fd4a8>, '2_1_2019': <product.Products.Bread object at 0x1052fd390>},19,None
+[2019-07-25 22:34:10,862][test_cart.py:69][INFO][4457276864] cart total price: 1964.00
+[2019-07-25 22:34:10,870][test_cart.py:81][INFO][4457276864] complet test for cart
+[2019-07-25 22:34:19,054][test_cart.py:15][INFO][4394685888] start for cart
+[2019-07-25 22:34:19,058][test_cart.py:43][DEBUG][4394685888] ipads:<product.Products.Ipad object at 0x1021024e0>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:34:19,058][test_cart.py:44][INFO][4394685888] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:34:19,058][test_cart.py:49][DEBUG][4394685888] display:<product.Products.Displayer object at 0x1021024a8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:34:19,058][test_cart.py:50][INFO][4394685888] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:34:19,058][test_cart.py:55][DEBUG][4394685888] Beers:<product.Products.Beer object at 0x102102128>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:34:19,058][test_cart.py:56][INFO][4394685888] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:34:19,059][test_cart.py:61][DEBUG][4394685888] Beers:<product.Products.Bread object at 0x102102160>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:34:19,059][test_cart.py:62][INFO][4394685888] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:34:19,059][test_cart.py:68][DEBUG][4394685888] cart:{'1_3_2012': <product.Products.Displayer object at 0x1021024a8>, '4_1_2019': <product.Products.Beer object at 0x102102128>, '2_1_2019': <product.Products.Bread object at 0x102102160>},{'1_3_2012': <product.Products.Displayer object at 0x1021024a8>, '4_1_2019': <product.Products.Beer object at 0x102102128>, '2_1_2019': <product.Products.Bread object at 0x102102160>},19,None
+[2019-07-25 22:34:19,059][test_cart.py:69][INFO][4394685888] cart total price: 1964.00
+[2019-07-25 22:34:19,070][test_cart.py:81][INFO][4394685888] complet test for cart
+[2019-07-25 22:36:35,943][test_cart.py:16][INFO][4686435776] start for cart
+[2019-07-25 22:36:35,947][test_cart.py:41][INFO][4686435776] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:36:35,948][test_cart.py:45][DEBUG][4686435776] ipads:<product.Products.Ipad object at 0x10d905320>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:36:35,948][test_cart.py:46][INFO][4686435776] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:36:35,949][test_cart.py:51][DEBUG][4686435776] display:<product.Products.Displayer object at 0x10d9055f8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:36:35,950][test_cart.py:52][INFO][4686435776] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:36:35,951][test_cart.py:57][DEBUG][4686435776] Beers:<product.Products.Beer object at 0x10d9052b0>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:36:35,951][test_cart.py:58][INFO][4686435776] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:36:35,952][test_cart.py:63][DEBUG][4686435776] Beers:<product.Products.Bread object at 0x10d9052e8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:36:35,952][test_cart.py:64][INFO][4686435776] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:36:35,953][test_cart.py:70][DEBUG][4686435776] cart:{'1_3_2012': <product.Products.Displayer object at 0x10d9055f8>, '4_1_2019': <product.Products.Beer object at 0x10d9052b0>, '2_1_2019': <product.Products.Bread object at 0x10d9052e8>},{'1_3_2012': <product.Products.Displayer object at 0x10d9055f8>, '4_1_2019': <product.Products.Beer object at 0x10d9052b0>, '2_1_2019': <product.Products.Bread object at 0x10d9052e8>},19,None
+[2019-07-25 22:36:35,953][test_cart.py:71][INFO][4686435776] cart total price: 1964.00
+[2019-07-25 22:36:35,965][test_cart.py:84][INFO][4686435776] completed test for cart
+[2019-07-25 22:37:02,637][test_cart.py:16][INFO][4627776960] start for cart
+[2019-07-25 22:37:02,638][test_cart.py:84][INFO][4627776960] completed test for cart
+[2019-07-25 22:37:15,037][test_cart.py:16][INFO][4461299136] start for cart
+[2019-07-25 22:37:15,040][test_cart.py:41][INFO][4461299136] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:37:15,041][test_cart.py:45][DEBUG][4461299136] ipads:<product.Products.Ipad object at 0x10234b630>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:37:15,041][test_cart.py:46][INFO][4461299136] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:37:15,041][test_cart.py:51][DEBUG][4461299136] display:<product.Products.Displayer object at 0x10234b5f8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:37:15,041][test_cart.py:52][INFO][4461299136] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:37:15,041][test_cart.py:57][DEBUG][4461299136] Beers:<product.Products.Beer object at 0x10234b240>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:37:15,041][test_cart.py:58][INFO][4461299136] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:37:15,041][test_cart.py:63][DEBUG][4461299136] Beers:<product.Products.Bread object at 0x10234b278>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:37:15,041][test_cart.py:64][INFO][4461299136] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:37:15,041][test_cart.py:70][DEBUG][4461299136] cart:{'1_3_2012': <product.Products.Displayer object at 0x10234b5f8>, '4_1_2019': <product.Products.Beer object at 0x10234b240>, '2_1_2019': <product.Products.Bread object at 0x10234b278>},{'1_3_2012': <product.Products.Displayer object at 0x10234b5f8>, '4_1_2019': <product.Products.Beer object at 0x10234b240>, '2_1_2019': <product.Products.Bread object at 0x10234b278>},19,None
+[2019-07-25 22:37:15,042][test_cart.py:71][INFO][4461299136] cart total price: 1964.00
+[2019-07-25 22:37:15,055][test_cart.py:77][INFO][4461299136] completed test test_cart_with_ava_coupon success
+[2019-07-25 22:37:15,056][test_cart.py:84][INFO][4461299136] completed test for cart
+[2019-07-25 22:38:38,127][test_cart.py:17][INFO][4365297088] start for cart
+[2019-07-25 22:38:38,128][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:39,133][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:40,139][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:41,144][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:42,146][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:43,151][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:44,156][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:45,160][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:46,162][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:47,167][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:48,169][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:49,173][test_cart.py:46][INFO][4365297088] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:38:49,174][test_cart.py:50][DEBUG][4365297088] ipads:<product.Products.Ipad object at 0x104096668>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:38:49,174][test_cart.py:51][INFO][4365297088] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:38:49,174][test_cart.py:56][DEBUG][4365297088] display:<product.Products.Displayer object at 0x104096630>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:38:49,174][test_cart.py:57][INFO][4365297088] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:38:49,174][test_cart.py:62][DEBUG][4365297088] Beers:<product.Products.Beer object at 0x104096320>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:38:49,174][test_cart.py:63][INFO][4365297088] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:38:49,175][test_cart.py:68][DEBUG][4365297088] Beers:<product.Products.Bread object at 0x104096358>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:38:49,175][test_cart.py:69][INFO][4365297088] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:38:49,175][test_cart.py:75][DEBUG][4365297088] cart:{'1_3_2012': <product.Products.Displayer object at 0x104096630>, '4_1_2019': <product.Products.Beer object at 0x104096320>, '2_1_2019': <product.Products.Bread object at 0x104096358>},{'1_3_2012': <product.Products.Displayer object at 0x104096630>, '4_1_2019': <product.Products.Beer object at 0x104096320>, '2_1_2019': <product.Products.Bread object at 0x104096358>},19,None
+[2019-07-25 22:38:49,175][test_cart.py:76][INFO][4365297088] cart total price: 1964.00
+[2019-07-25 22:38:49,182][test_cart.py:82][INFO][4365297088] completed test test_cart_with_ava_coupon success
+[2019-07-25 22:38:49,182][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:50,186][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:51,189][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:52,193][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:53,194][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:54,195][test_cart.py:21][INFO][4365297088] start for case
+[2019-07-25 22:38:55,201][test_cart.py:88][INFO][4365297088] test end for case
+[2019-07-25 22:38:56,207][test_cart.py:93][INFO][4365297088] completed test for cart
+[2019-07-25 22:39:52,462][test_cart.py:17][INFO][4632085952] start for cart
+[2019-07-25 22:39:52,464][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:39:53,467][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:39:54,473][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:39:55,479][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:39:56,485][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:39:57,490][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:39:58,496][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:39:59,500][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:00,505][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:40:01,506][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:02,512][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:40:03,517][test_cart.py:47][INFO][4632085952] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:40:03,518][test_cart.py:51][DEBUG][4632085952] ipads:<product.Products.Ipad object at 0x10fb552e8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:40:03,518][test_cart.py:52][INFO][4632085952] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:40:03,518][test_cart.py:57][DEBUG][4632085952] display:<product.Products.Displayer object at 0x10fb55320>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:40:03,518][test_cart.py:58][INFO][4632085952] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:40:03,519][test_cart.py:63][DEBUG][4632085952] Beers:<product.Products.Beer object at 0x10fb552b0>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:40:03,519][test_cart.py:64][INFO][4632085952] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:40:03,519][test_cart.py:69][DEBUG][4632085952] Beers:<product.Products.Bread object at 0x10fb556d8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:40:03,519][test_cart.py:70][INFO][4632085952] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:40:03,519][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:04,525][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:40:05,526][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:06,528][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:40:07,534][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:08,540][test_cart.py:21][INFO][4632085952] start for case
+[2019-07-25 22:40:09,543][test_cart.py:89][INFO][4632085952] test end for case
+[2019-07-25 22:40:10,547][test_cart.py:95][INFO][4632085952] completed test for cart
+[2019-07-25 22:40:39,099][test_cart.py:17][INFO][4633298368] start for cart
+[2019-07-25 22:40:39,100][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:40,103][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:41,105][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:42,109][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:43,115][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:44,119][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:45,124][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:46,131][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:47,135][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:48,136][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:49,142][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:50,147][test_cart.py:47][INFO][4633298368] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:40:50,147][test_cart.py:51][DEBUG][4633298368] ipads:<product.Products.Ipad object at 0x105fc52e8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:40:50,147][test_cart.py:52][INFO][4633298368] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:40:50,148][test_cart.py:57][DEBUG][4633298368] display:<product.Products.Displayer object at 0x105fc5320>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:40:50,148][test_cart.py:58][INFO][4633298368] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:40:50,148][test_cart.py:63][DEBUG][4633298368] Beers:<product.Products.Beer object at 0x105fc52b0>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:40:50,148][test_cart.py:64][INFO][4633298368] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:40:50,148][test_cart.py:69][DEBUG][4633298368] Beers:<product.Products.Bread object at 0x105fc5780>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:40:50,148][test_cart.py:70][INFO][4633298368] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:40:50,148][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:51,153][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:52,154][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:53,157][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:54,160][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:55,164][test_cart.py:21][INFO][4633298368] start for case
+[2019-07-25 22:40:56,168][test_cart.py:89][INFO][4633298368] test end for case
+[2019-07-25 22:40:57,172][test_cart.py:95][INFO][4633298368] completed test for cart
+[2019-07-25 22:41:20,385][test_cart.py:17][INFO][4459234752] start for cart
+[2019-07-25 22:41:20,385][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:21,391][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:22,396][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:23,397][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:24,402][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:25,406][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:26,408][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:27,414][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:28,419][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:29,425][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:30,429][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:31,434][test_cart.py:47][INFO][4459234752] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:41:31,434][test_cart.py:51][DEBUG][4459234752] ipads:<product.Products.Ipad object at 0x108122240>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:41:31,435][test_cart.py:52][INFO][4459234752] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:41:31,435][test_cart.py:57][DEBUG][4459234752] display:<product.Products.Displayer object at 0x108122278>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:41:31,435][test_cart.py:58][INFO][4459234752] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:41:31,435][test_cart.py:63][DEBUG][4459234752] Beers:<product.Products.Beer object at 0x108122208>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:41:31,435][test_cart.py:64][INFO][4459234752] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:41:31,435][test_cart.py:69][DEBUG][4459234752] Beers:<product.Products.Bread object at 0x1081226d8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:41:31,435][test_cart.py:70][INFO][4459234752] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:41:31,436][test_cart.py:77][DEBUG][4459234752] cart:{'1_3_2012': <product.Products.Displayer object at 0x108122278>, '4_1_2019': <product.Products.Beer object at 0x108122208>, '2_1_2019': <product.Products.Bread object at 0x1081226d8>},{'1_3_2012': <product.Products.Displayer object at 0x108122278>, '4_1_2019': <product.Products.Beer object at 0x108122208>, '2_1_2019': <product.Products.Bread object at 0x1081226d8>},19,None
+[2019-07-25 22:41:31,436][test_cart.py:78][INFO][4459234752] cart total price: 1964.00
+[2019-07-25 22:41:31,444][test_cart.py:84][INFO][4459234752] completed test test_cart_with_ava_coupon success
+[2019-07-25 22:41:31,445][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:32,447][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:33,448][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:34,452][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:35,457][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:36,461][test_cart.py:21][INFO][4459234752] start for case
+[2019-07-25 22:41:37,463][test_cart.py:90][INFO][4459234752] test end for case
+[2019-07-25 22:41:38,469][test_cart.py:96][INFO][4459234752] completed test for cart
+[2019-07-25 22:42:58,278][test_cart.py:17][INFO][4665628096] start for cart
+[2019-07-25 22:42:58,279][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:42:59,283][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.00010800361633300781
+[2019-07-25 22:43:00,287][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:01,292][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.00012183189392089844
+[2019-07-25 22:43:02,293][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:03,297][test_cart.py:91][INFO][4665628096] test end for case, cost time:8.702278137207031e-05
+[2019-07-25 22:43:04,301][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:05,305][test_cart.py:91][INFO][4665628096] test end for case, cost time:8.296966552734375e-05
+[2019-07-25 22:43:06,310][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:07,315][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.00012111663818359375
+[2019-07-25 22:43:08,321][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:09,326][test_cart.py:48][INFO][4665628096] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:43:09,327][test_cart.py:52][DEBUG][4665628096] ipads:<product.Products.Ipad object at 0x10e2af2b0>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:43:09,327][test_cart.py:53][INFO][4665628096] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:43:09,327][test_cart.py:58][DEBUG][4665628096] display:<product.Products.Displayer object at 0x10e2af2e8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:43:09,327][test_cart.py:59][INFO][4665628096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:43:09,328][test_cart.py:64][DEBUG][4665628096] Beers:<product.Products.Beer object at 0x10e2af278>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:43:09,328][test_cart.py:65][INFO][4665628096] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:43:09,328][test_cart.py:70][DEBUG][4665628096] Beers:<product.Products.Bread object at 0x10e2af6a0>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:43:09,328][test_cart.py:71][INFO][4665628096] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:43:09,328][test_cart.py:78][DEBUG][4665628096] cart:{'1_3_2012': <product.Products.Displayer object at 0x10e2af2e8>, '4_1_2019': <product.Products.Beer object at 0x10e2af278>, '2_1_2019': <product.Products.Bread object at 0x10e2af6a0>},{'1_3_2012': <product.Products.Displayer object at 0x10e2af2e8>, '4_1_2019': <product.Products.Beer object at 0x10e2af278>, '2_1_2019': <product.Products.Bread object at 0x10e2af6a0>},19,None
+[2019-07-25 22:43:09,328][test_cart.py:79][INFO][4665628096] cart total price: 1964.00
+[2019-07-25 22:43:09,339][test_cart.py:85][INFO][4665628096] completed test test_cart_with_ava_coupon success
+[2019-07-25 22:43:09,339][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.012504816055297852
+[2019-07-25 22:43:10,343][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:11,348][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.00010895729064941406
+[2019-07-25 22:43:12,350][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:13,354][test_cart.py:91][INFO][4665628096] test end for case, cost time:0.0001590251922607422
+[2019-07-25 22:43:14,360][test_cart.py:21][INFO][4665628096] start for case
+[2019-07-25 22:43:15,361][test_cart.py:91][INFO][4665628096] test end for case, cost time:7.581710815429688e-05
+[2019-07-25 22:43:16,365][test_cart.py:97][INFO][4665628096] completed test for cart
+[2019-07-25 22:47:24,160][test_cart.py:17][INFO][4603483584] start for cart
+[2019-07-25 22:47:24,162][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:25,165][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.00011539459228515625
+[2019-07-25 22:47:26,170][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:27,175][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.0002758502960205078
+[2019-07-25 22:47:28,180][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:29,184][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.00010800361633300781
+[2019-07-25 22:47:30,191][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:31,196][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.00013017654418945312
+[2019-07-25 22:47:32,201][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:33,205][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.00011610984802246094
+[2019-07-25 22:47:34,210][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:35,210][test_cart.py:48][INFO][4603483584] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 22:47:35,211][test_cart.py:52][DEBUG][4603483584] ipads:<product.Products.Ipad object at 0x10e2df358>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 22:47:35,211][test_cart.py:53][INFO][4603483584] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 22:47:35,211][test_cart.py:58][DEBUG][4603483584] display:<product.Products.Displayer object at 0x10e2df390>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 22:47:35,211][test_cart.py:59][INFO][4603483584] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 22:47:35,211][test_cart.py:64][DEBUG][4603483584] Beers:<product.Products.Beer object at 0x10e2df320>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 10, 'numbers': 12}
+[2019-07-25 22:47:35,211][test_cart.py:65][INFO][4603483584] 12 * 啤酒 型号: Beer_0722  10.00
+[2019-07-25 22:47:35,211][test_cart.py:70][DEBUG][4603483584] Beers:<product.Products.Bread object at 0x10e2df668>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 22:47:35,211][test_cart.py:71][INFO][4603483584] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 22:47:35,212][test_cart.py:78][DEBUG][4603483584] cart:{'1_3_2012': <product.Products.Displayer object at 0x10e2df390>, '4_1_2019': <product.Products.Beer object at 0x10e2df320>, '2_1_2019': <product.Products.Bread object at 0x10e2df668>},{'1_3_2012': <product.Products.Displayer object at 0x10e2df390>, '4_1_2019': <product.Products.Beer object at 0x10e2df320>, '2_1_2019': <product.Products.Bread object at 0x10e2df668>},19,None
+[2019-07-25 22:47:35,212][test_cart.py:79][INFO][4603483584] cart total price: 1964.00
+[2019-07-25 22:47:35,220][test_cart.py:85][INFO][4603483584] completed test test_cart_with_ava_coupon success
+[2019-07-25 22:47:35,220][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.010129928588867188
+[2019-07-25 22:47:36,224][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:37,227][test_cart.py:89][INFO][4603483584] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 22:47:37,228][test_cart.py:93][DEBUG][4603483584] Beers:<product.Products.Vegetable object at 0x10e307f28>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 22:47:37,228][test_cart.py:94][INFO][4603483584] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 22:47:37,228][test_cart.py:99][DEBUG][4603483584] Beers:<product.Products.Napkin object at 0x10e307fd0>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 22:47:37,229][test_cart.py:100][INFO][4603483584] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 22:47:37,229][test_cart.py:109][INFO][4603483584] completed test test_cart_with_invaild_coupon success
+[2019-07-25 22:47:37,230][test_cart.py:112][INFO][4603483584] test end for case, cost time:0.002199888229370117
+[2019-07-25 22:47:38,235][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:39,240][test_cart.py:112][INFO][4603483584] test end for case, cost time:6.818771362304688e-05
+[2019-07-25 22:47:40,245][test_cart.py:21][INFO][4603483584] start for case
+[2019-07-25 22:47:41,245][test_cart.py:112][INFO][4603483584] test end for case, cost time:6.008148193359375e-05
+[2019-07-25 22:47:42,247][test_cart.py:118][INFO][4603483584] completed test for cart
+[2019-07-25 23:09:44,112][test_cart.py:17][INFO][4582462912] start for cart
+[2019-07-25 23:09:44,113][test_cart.py:21][INFO][4582462912] start for case
+[2019-07-25 23:09:45,119][test_cart.py:37][INFO][4582462912] Start test Case: test_cart_del
+[2019-07-25 23:09:45,122][test_cart.py:42][DEBUG][4582462912] display:<product.Products.Displayer object at 0x1091d73c8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:09:45,122][test_cart.py:43][INFO][4582462912] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:09:45,122][test_cart.py:202][INFO][4582462912] test end for case, cost time:0.003348827362060547
+[2019-07-25 23:09:46,130][test_cart.py:208][INFO][4582462912] completed test for cart
+[2019-07-25 23:10:03,433][test_cart.py:17][INFO][4587505088] start for cart
+[2019-07-25 23:10:03,434][test_cart.py:21][INFO][4587505088] start for case
+[2019-07-25 23:10:04,439][test_cart.py:37][INFO][4587505088] Start test Case: test_cart_del
+[2019-07-25 23:10:04,440][test_cart.py:42][DEBUG][4587505088] display:<product.Products.Displayer object at 0x108c25470>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:10:04,440][test_cart.py:43][INFO][4587505088] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:10:04,440][test_cart.py:202][INFO][4587505088] test end for case, cost time:0.001461029052734375
+[2019-07-25 23:10:05,445][test_cart.py:208][INFO][4587505088] completed test for cart
+[2019-07-25 23:10:39,278][test_cart.py:17][INFO][4665144768] start for cart
+[2019-07-25 23:10:39,279][test_cart.py:21][INFO][4665144768] start for case
+[2019-07-25 23:10:40,283][test_cart.py:37][INFO][4665144768] Start test Case: test_cart_del
+[2019-07-25 23:10:40,283][test_cart.py:42][DEBUG][4665144768] display:<product.Products.Displayer object at 0x10aacd390>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:10:40,284][test_cart.py:43][INFO][4665144768] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:10:40,284][test_cart.py:202][INFO][4665144768] test end for case, cost time:0.001180887222290039
+[2019-07-25 23:10:41,291][test_cart.py:208][INFO][4665144768] completed test for cart
+[2019-07-25 23:10:57,380][test_cart.py:17][INFO][4395783616] start for cart
+[2019-07-25 23:10:57,380][test_cart.py:21][INFO][4395783616] start for case
+[2019-07-25 23:10:58,384][test_cart.py:37][INFO][4395783616] Start test Case: test_cart_del
+[2019-07-25 23:10:58,384][test_cart.py:42][DEBUG][4395783616] display:<product.Products.Displayer object at 0x10215f390>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:10:58,385][test_cart.py:43][INFO][4395783616] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:10:58,385][test_cart.py:202][INFO][4395783616] test end for case, cost time:0.0009899139404296875
+[2019-07-25 23:10:59,392][test_cart.py:208][INFO][4395783616] completed test for cart
+[2019-07-25 23:11:24,463][test_cart.py:17][INFO][4689847744] start for cart
+[2019-07-25 23:11:24,464][test_cart.py:21][INFO][4689847744] start for case
+[2019-07-25 23:11:25,465][test_cart.py:37][INFO][4689847744] Start test Case: test_cart_del
+[2019-07-25 23:11:25,465][test_cart.py:42][DEBUG][4689847744] display:<product.Products.Displayer object at 0x10d83f438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:11:25,466][test_cart.py:43][INFO][4689847744] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:11:25,466][test_cart.py:56][INFO][4689847744] completed test test_cart_del success
+[2019-07-25 23:11:25,467][test_cart.py:202][INFO][4689847744] test end for case, cost time:0.002328157424926758
+[2019-07-25 23:11:26,473][test_cart.py:208][INFO][4689847744] completed test for cart
+[2019-07-25 23:11:55,769][test_cart.py:17][INFO][4699735488] start for cart
+[2019-07-25 23:11:55,770][test_cart.py:21][INFO][4699735488] start for case
+[2019-07-25 23:11:56,774][test_cart.py:37][INFO][4699735488] Start test Case: test_cart_del
+[2019-07-25 23:11:56,774][test_cart.py:42][DEBUG][4699735488] display:<product.Products.Displayer object at 0x10bc79390>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:11:56,775][test_cart.py:43][INFO][4699735488] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:11:56,775][test_cart.py:56][INFO][4699735488] completed test test_cart_del success
+[2019-07-25 23:11:56,775][test_cart.py:202][INFO][4699735488] test end for case, cost time:0.00080108642578125
+[2019-07-25 23:11:57,775][test_cart.py:208][INFO][4699735488] completed test for cart
+[2019-07-25 23:13:02,176][test_cart.py:17][INFO][4347381184] start for cart
+[2019-07-25 23:13:02,177][test_cart.py:21][INFO][4347381184] start for case
+[2019-07-25 23:13:03,180][test_cart.py:34][INFO][4347381184] Start test Case: test_cart_sum_price
+[2019-07-25 23:13:03,181][test_cart.py:39][DEBUG][4347381184] display:<product.Products.Displayer object at 0x1018c6438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:13:03,181][test_cart.py:40][INFO][4347381184] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:13:03,181][test_cart.py:47][INFO][4347381184] completed test test_cart_sum_price success
+[2019-07-25 23:13:03,182][test_cart.py:217][INFO][4347381184] test end for case, cost time:0.001567840576171875
+[2019-07-25 23:13:04,186][test_cart.py:223][INFO][4347381184] completed test for cart
+[2019-07-25 23:13:40,461][test_cart.py:17][INFO][4749002176] start for cart
+[2019-07-25 23:13:40,462][test_cart.py:21][INFO][4749002176] start for case
+[2019-07-25 23:13:41,464][test_cart.py:31][INFO][4749002176] Start test Case: test_cart_sum_num
+[2019-07-25 23:13:41,465][test_cart.py:36][DEBUG][4749002176] display:<product.Products.Displayer object at 0x10bac2358>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:13:41,465][test_cart.py:37][INFO][4749002176] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:13:41,465][test_cart.py:44][INFO][4749002176] completed test test_cart_sum_num success
+[2019-07-25 23:13:41,466][test_cart.py:232][INFO][4749002176] test end for case, cost time:0.0021619796752929688
+[2019-07-25 23:13:42,471][test_cart.py:238][INFO][4749002176] completed test for cart
+[2019-07-25 23:15:20,851][test_cart.py:17][INFO][4635428288] start for cart
+[2019-07-25 23:15:20,852][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:21,856][test_cart.py:231][INFO][4635428288] test end for case, cost time:8.082389831542969e-05
+[2019-07-25 23:15:22,862][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:23,864][test_cart.py:91][INFO][4635428288] Start test Case: test_cart_clear
+[2019-07-25 23:15:23,864][test_cart.py:96][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105a15630>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:23,864][test_cart.py:97][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:23,865][test_cart.py:110][INFO][4635428288] completed test test_cart_clear success
+[2019-07-25 23:15:23,865][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.0012469291687011719
+[2019-07-25 23:15:24,869][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:25,875][test_cart.py:67][INFO][4635428288] Start test Case: test_cart_del
+[2019-07-25 23:15:25,875][test_cart.py:72][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105a15518>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:25,876][test_cart.py:73][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:25,876][test_cart.py:86][INFO][4635428288] completed test test_cart_del success
+[2019-07-25 23:15:25,876][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.0012211799621582031
+[2019-07-25 23:15:26,881][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:27,885][test_cart.py:31][INFO][4635428288] Start test Case: test_cart_sum_num
+[2019-07-25 23:15:27,886][test_cart.py:36][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105a15128>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:27,886][test_cart.py:37][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:27,886][test_cart.py:44][INFO][4635428288] completed test test_cart_sum_num success
+[2019-07-25 23:15:27,886][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.0012390613555908203
+[2019-07-25 23:15:28,889][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:29,893][test_cart.py:49][INFO][4635428288] Start test Case: test_cart_sum_price
+[2019-07-25 23:15:29,893][test_cart.py:54][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105a15160>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:29,894][test_cart.py:55][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:29,894][test_cart.py:62][INFO][4635428288] completed test test_cart_sum_price success
+[2019-07-25 23:15:29,894][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.001252889633178711
+[2019-07-25 23:15:30,895][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:31,898][test_cart.py:161][INFO][4635428288] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:15:31,898][test_cart.py:165][DEBUG][4635428288] ipads:<product.Products.Ipad object at 0x105a15198>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:15:31,898][test_cart.py:166][INFO][4635428288] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:15:31,898][test_cart.py:171][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105a151d0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:31,899][test_cart.py:172][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:31,899][test_cart.py:177][DEBUG][4635428288] Beers:<product.Products.Beer object at 0x105a15160>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:15:31,899][test_cart.py:178][INFO][4635428288] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:15:31,899][test_cart.py:183][DEBUG][4635428288] Beers:<product.Products.Bread object at 0x105a154a8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:15:31,899][test_cart.py:184][INFO][4635428288] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:15:31,899][test_cart.py:191][DEBUG][4635428288] cart:{'1_3_2012': <product.Products.Displayer object at 0x105a151d0>, '4_1_2019': <product.Products.Beer object at 0x105a15160>, '2_1_2019': <product.Products.Bread object at 0x105a154a8>},{'1_3_2012': <product.Products.Displayer object at 0x105a151d0>, '4_1_2019': <product.Products.Beer object at 0x105a15160>, '2_1_2019': <product.Products.Bread object at 0x105a154a8>},19,None
+[2019-07-25 23:15:31,899][test_cart.py:192][INFO][4635428288] cart total price: 2144.00
+[2019-07-25 23:15:31,900][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.002315044403076172
+[2019-07-25 23:15:32,906][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:33,911][test_cart.py:208][INFO][4635428288] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:15:33,911][test_cart.py:212][DEBUG][4635428288] Beers:<product.Products.Vegetable object at 0x105a156a0>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:15:33,911][test_cart.py:213][INFO][4635428288] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:15:33,912][test_cart.py:218][DEBUG][4635428288] Beers:<product.Products.Napkin object at 0x105a15828>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:15:33,912][test_cart.py:219][INFO][4635428288] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:15:33,921][test_cart.py:228][INFO][4635428288] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:15:33,922][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.011076927185058594
+[2019-07-25 23:15:34,923][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:35,928][test_cart.py:114][INFO][4635428288] Start test Case: test_coupon_availe
+[2019-07-25 23:15:35,928][test_cart.py:122][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105aaafd0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:35,929][test_cart.py:123][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:35,930][test_cart.py:136][INFO][4635428288] completed test test_coupon_availe success
+[2019-07-25 23:15:35,930][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.0020341873168945312
+[2019-07-25 23:15:36,934][test_cart.py:21][INFO][4635428288] start for case
+[2019-07-25 23:15:37,938][test_cart.py:140][INFO][4635428288] Start test Case: test_coupon_invaild
+[2019-07-25 23:15:37,939][test_cart.py:145][DEBUG][4635428288] display:<product.Products.Displayer object at 0x105aaae80>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:15:37,939][test_cart.py:146][INFO][4635428288] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:15:37,940][test_cart.py:157][INFO][4635428288] completed test test_coupon_invaild success
+[2019-07-25 23:15:37,940][test_cart.py:231][INFO][4635428288] test end for case, cost time:0.0018000602722167969
+[2019-07-25 23:15:38,943][test_cart.py:237][INFO][4635428288] completed test for cart
+[2019-07-25 23:17:47,859][test_cart.py:17][INFO][4662425024] start for cart
+[2019-07-25 23:17:47,859][test_cart.py:21][INFO][4662425024] start for case
+[2019-07-25 23:17:48,861][test_cart.py:161][INFO][4662425024] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:17:48,861][test_cart.py:165][DEBUG][4662425024] ipads:<product.Products.Ipad object at 0x10a93c3c8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:17:48,861][test_cart.py:166][INFO][4662425024] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:17:48,861][test_cart.py:171][DEBUG][4662425024] display:<product.Products.Displayer object at 0x10a93c438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:17:48,862][test_cart.py:172][INFO][4662425024] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:17:48,862][test_cart.py:177][DEBUG][4662425024] Beers:<product.Products.Beer object at 0x10a93c320>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:17:48,862][test_cart.py:178][INFO][4662425024] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:17:48,862][test_cart.py:183][DEBUG][4662425024] Beers:<product.Products.Bread object at 0x10a93c470>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:17:48,862][test_cart.py:184][INFO][4662425024] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:17:48,862][test_cart.py:185][INFO][4662425024] cart total price: 0.00
+[2019-07-25 23:17:48,862][test_cart.py:191][DEBUG][4662425024] cart:{'1_3_2012': <product.Products.Displayer object at 0x10a93c438>, '4_1_2019': <product.Products.Beer object at 0x10a93c320>, '2_1_2019': <product.Products.Bread object at 0x10a93c470>},{'1_3_2012': <product.Products.Displayer object at 0x10a93c438>, '4_1_2019': <product.Products.Beer object at 0x10a93c320>, '2_1_2019': <product.Products.Bread object at 0x10a93c470>},19,None
+[2019-07-25 23:17:48,863][test_cart.py:192][INFO][4662425024] cart total price: 2144.00
+[2019-07-25 23:17:48,863][test_cart.py:231][INFO][4662425024] test end for case, cost time:0.0021698474884033203
+[2019-07-25 23:17:49,866][test_cart.py:237][INFO][4662425024] completed test for cart
+[2019-07-25 23:18:04,177][test_cart.py:17][INFO][4470646208] start for cart
+[2019-07-25 23:18:04,177][test_cart.py:21][INFO][4470646208] start for case
+[2019-07-25 23:18:05,181][test_cart.py:161][INFO][4470646208] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:18:05,181][test_cart.py:165][DEBUG][4470646208] ipads:<product.Products.Ipad object at 0x102a68358>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:18:05,182][test_cart.py:166][INFO][4470646208] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:18:05,182][test_cart.py:171][DEBUG][4470646208] display:<product.Products.Displayer object at 0x102a683c8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:18:05,182][test_cart.py:172][INFO][4470646208] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:18:05,182][test_cart.py:177][DEBUG][4470646208] Beers:<product.Products.Beer object at 0x102a682b0>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:18:05,182][test_cart.py:178][INFO][4470646208] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:18:05,182][test_cart.py:183][DEBUG][4470646208] Beers:<product.Products.Bread object at 0x102a68400>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:18:05,182][test_cart.py:184][INFO][4470646208] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:18:05,183][test_cart.py:185][INFO][4470646208] cart total price1: 0.00
+[2019-07-25 23:18:05,183][test_cart.py:191][DEBUG][4470646208] cart:{'1_3_2012': <product.Products.Displayer object at 0x102a683c8>, '4_1_2019': <product.Products.Beer object at 0x102a682b0>, '2_1_2019': <product.Products.Bread object at 0x102a68400>},{'1_3_2012': <product.Products.Displayer object at 0x102a683c8>, '4_1_2019': <product.Products.Beer object at 0x102a682b0>, '2_1_2019': <product.Products.Bread object at 0x102a68400>},19,None
+[2019-07-25 23:18:05,183][test_cart.py:192][INFO][4470646208] cart total price: 2144.00
+[2019-07-25 23:18:05,183][test_cart.py:231][INFO][4470646208] test end for case, cost time:0.0022690296173095703
+[2019-07-25 23:18:06,187][test_cart.py:237][INFO][4470646208] completed test for cart
+[2019-07-25 23:20:06,621][test_cart.py:17][INFO][4719113664] start for cart
+[2019-07-25 23:20:06,623][test_cart.py:21][INFO][4719113664] start for case
+[2019-07-25 23:20:07,627][test_cart.py:161][INFO][4719113664] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:20:07,628][test_cart.py:165][DEBUG][4719113664] ipads:<product.Products.Ipad object at 0x10dcb13c8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:20:07,628][test_cart.py:166][INFO][4719113664] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:20:07,628][test_cart.py:171][DEBUG][4719113664] display:<product.Products.Displayer object at 0x10dcb1438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:07,628][test_cart.py:172][INFO][4719113664] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:07,629][test_cart.py:177][DEBUG][4719113664] Beers:<product.Products.Beer object at 0x10dbae780>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:20:07,629][test_cart.py:178][INFO][4719113664] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:20:07,629][test_cart.py:183][DEBUG][4719113664] Beers:<product.Products.Bread object at 0x10dcb1320>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:20:07,629][test_cart.py:184][INFO][4719113664] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:20:07,629][test_cart.py:185][INFO][4719113664] cart total price1: 0.00
+[2019-07-25 23:20:07,629][test_cart.py:190][DEBUG][4719113664] cart:{'1_1_2012': <product.Products.Ipad object at 0x10dcb13c8>, '1_3_2012': <product.Products.Displayer object at 0x10dcb1438>, '4_1_2019': <product.Products.Beer object at 0x10dbae780>, '2_1_2019': <product.Products.Bread object at 0x10dcb1320>},{'1_1_2012': <product.Products.Ipad object at 0x10dcb13c8>, '1_3_2012': <product.Products.Displayer object at 0x10dcb1438>, '4_1_2019': <product.Products.Beer object at 0x10dbae780>, '2_1_2019': <product.Products.Bread object at 0x10dcb1320>},19
+[2019-07-25 23:20:07,629][test_cart.py:191][INFO][4719113664] cart total price: 4543.00
+[2019-07-25 23:20:07,640][test_cart.py:203][INFO][4719113664] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:20:07,640][test_cart.py:230][INFO][4719113664] test end for case, cost time:0.012515068054199219
+[2019-07-25 23:20:08,646][test_cart.py:236][INFO][4719113664] completed test for cart
+[2019-07-25 23:20:16,770][test_cart.py:17][INFO][4714509760] start for cart
+[2019-07-25 23:20:16,770][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:17,774][test_cart.py:230][INFO][4714509760] test end for case, cost time:7.796287536621094e-05
+[2019-07-25 23:20:18,781][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:19,781][test_cart.py:91][INFO][4714509760] Start test Case: test_cart_clear
+[2019-07-25 23:20:19,782][test_cart.py:96][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10daa16d8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:19,782][test_cart.py:97][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:19,782][test_cart.py:110][INFO][4714509760] completed test test_cart_clear success
+[2019-07-25 23:20:19,782][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0012788772583007812
+[2019-07-25 23:20:20,787][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:21,788][test_cart.py:67][INFO][4714509760] Start test Case: test_cart_del
+[2019-07-25 23:20:21,789][test_cart.py:72][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10daa15c0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:21,789][test_cart.py:73][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:21,789][test_cart.py:86][INFO][4714509760] completed test test_cart_del success
+[2019-07-25 23:20:21,789][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0012726783752441406
+[2019-07-25 23:20:22,795][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:23,798][test_cart.py:31][INFO][4714509760] Start test Case: test_cart_sum_num
+[2019-07-25 23:20:23,799][test_cart.py:36][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10daa11d0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:23,799][test_cart.py:37][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:23,799][test_cart.py:44][INFO][4714509760] completed test test_cart_sum_num success
+[2019-07-25 23:20:23,799][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0012927055358886719
+[2019-07-25 23:20:24,801][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:25,802][test_cart.py:49][INFO][4714509760] Start test Case: test_cart_sum_price
+[2019-07-25 23:20:25,803][test_cart.py:54][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10daa1208>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:25,803][test_cart.py:55][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:25,803][test_cart.py:62][INFO][4714509760] completed test test_cart_sum_price success
+[2019-07-25 23:20:25,803][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.001239776611328125
+[2019-07-25 23:20:26,807][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:27,811][test_cart.py:161][INFO][4714509760] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:20:27,812][test_cart.py:165][DEBUG][4714509760] ipads:<product.Products.Ipad object at 0x10daa1240>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:20:27,812][test_cart.py:166][INFO][4714509760] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:20:27,813][test_cart.py:171][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10daa1278>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:27,813][test_cart.py:172][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:27,813][test_cart.py:177][DEBUG][4714509760] Beers:<product.Products.Beer object at 0x10daa1208>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:20:27,813][test_cart.py:178][INFO][4714509760] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:20:27,813][test_cart.py:183][DEBUG][4714509760] Beers:<product.Products.Bread object at 0x10daa1550>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:20:27,814][test_cart.py:184][INFO][4714509760] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:20:27,814][test_cart.py:185][INFO][4714509760] cart total price1: 0.00
+[2019-07-25 23:20:27,814][test_cart.py:190][DEBUG][4714509760] cart:{'1_1_2012': <product.Products.Ipad object at 0x10daa1240>, '1_3_2012': <product.Products.Displayer object at 0x10daa1278>, '4_1_2019': <product.Products.Beer object at 0x10daa1208>, '2_1_2019': <product.Products.Bread object at 0x10daa1550>},{'1_1_2012': <product.Products.Ipad object at 0x10daa1240>, '1_3_2012': <product.Products.Displayer object at 0x10daa1278>, '4_1_2019': <product.Products.Beer object at 0x10daa1208>, '2_1_2019': <product.Products.Bread object at 0x10daa1550>},19
+[2019-07-25 23:20:27,814][test_cart.py:191][INFO][4714509760] cart total price: 4543.00
+[2019-07-25 23:20:27,819][test_cart.py:203][INFO][4714509760] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:20:27,819][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.008599042892456055
+[2019-07-25 23:20:28,823][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:29,828][test_cart.py:207][INFO][4714509760] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:20:29,828][test_cart.py:211][DEBUG][4714509760] Beers:<product.Products.Vegetable object at 0x10dacde48>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:20:29,829][test_cart.py:212][INFO][4714509760] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:20:29,829][test_cart.py:217][DEBUG][4714509760] Beers:<product.Products.Napkin object at 0x10dacdef0>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:20:29,829][test_cart.py:218][INFO][4714509760] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:20:29,830][test_cart.py:227][INFO][4714509760] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:20:29,830][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0021009445190429688
+[2019-07-25 23:20:30,833][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:31,834][test_cart.py:114][INFO][4714509760] Start test Case: test_coupon_availe
+[2019-07-25 23:20:31,835][test_cart.py:122][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10dacdc88>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:31,835][test_cart.py:123][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:31,836][test_cart.py:136][INFO][4714509760] completed test test_coupon_availe success
+[2019-07-25 23:20:31,836][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0020470619201660156
+[2019-07-25 23:20:32,838][test_cart.py:21][INFO][4714509760] start for case
+[2019-07-25 23:20:33,842][test_cart.py:140][INFO][4714509760] Start test Case: test_coupon_invaild
+[2019-07-25 23:20:33,843][test_cart.py:145][DEBUG][4714509760] display:<product.Products.Displayer object at 0x10dacdf60>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:20:33,843][test_cart.py:146][INFO][4714509760] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:20:33,844][test_cart.py:157][INFO][4714509760] completed test test_coupon_invaild success
+[2019-07-25 23:20:33,844][test_cart.py:230][INFO][4714509760] test end for case, cost time:0.0018470287322998047
+[2019-07-25 23:20:34,848][test_cart.py:236][INFO][4714509760] completed test for cart
+[2019-07-25 23:25:40,314][test_cart.py:17][INFO][4545615296] start for cart
+[2019-07-25 23:25:40,316][test_cart.py:21][INFO][4545615296] start for case
+[2019-07-25 23:25:41,318][test_cart.py:161][INFO][4545615296] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:25:41,319][test_cart.py:165][DEBUG][4545615296] ipads:<product.Products.Ipad object at 0x109a732e8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:25:41,319][test_cart.py:166][INFO][4545615296] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:25:41,319][test_cart.py:171][DEBUG][4545615296] display:<product.Products.Displayer object at 0x109a73358>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:25:41,319][test_cart.py:172][INFO][4545615296] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:25:41,319][test_cart.py:177][DEBUG][4545615296] Beers:<product.Products.Beer object at 0x109a73240>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:25:41,319][test_cart.py:178][INFO][4545615296] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:25:41,320][test_cart.py:183][DEBUG][4545615296] Beers:<product.Products.Bread object at 0x109a73390>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:25:41,320][test_cart.py:184][INFO][4545615296] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:25:41,320][test_cart.py:185][INFO][4545615296] cart total price1: 0.00
+[2019-07-25 23:25:41,320][test_cart.py:190][DEBUG][4545615296] cart:{'1_1_2012': <product.Products.Ipad object at 0x109a732e8>, '1_3_2012': <product.Products.Displayer object at 0x109a73358>, '4_1_2019': <product.Products.Beer object at 0x109a73240>, '2_1_2019': <product.Products.Bread object at 0x109a73390>},{'1_1_2012': <product.Products.Ipad object at 0x109a732e8>, '1_3_2012': <product.Products.Displayer object at 0x109a73358>, '4_1_2019': <product.Products.Beer object at 0x109a73240>, '2_1_2019': <product.Products.Bread object at 0x109a73390>},19
+[2019-07-25 23:25:41,320][test_cart.py:191][INFO][4545615296] cart total price: 4543.00
+[2019-07-25 23:25:41,330][test_cart.py:200][INFO][4545615296] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:25:41,330][test_cart.py:203][INFO][4545615296] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:25:41,330][test_cart.py:230][INFO][4545615296] test end for case, cost time:0.0120849609375
+[2019-07-25 23:25:42,334][test_cart.py:236][INFO][4545615296] completed test for cart
+[2019-07-25 23:27:04,658][test_cart.py:17][INFO][4567881152] start for cart
+[2019-07-25 23:27:04,659][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:05,662][test_cart.py:230][INFO][4567881152] test end for case, cost time:9.202957153320312e-05
+[2019-07-25 23:27:06,668][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:07,672][test_cart.py:91][INFO][4567881152] Start test Case: test_cart_clear
+[2019-07-25 23:27:07,672][test_cart.py:96][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a46d4a8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:07,672][test_cart.py:97][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:07,672][test_cart.py:110][INFO][4567881152] completed test test_cart_clear success
+[2019-07-25 23:27:07,673][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0011518001556396484
+[2019-07-25 23:27:08,678][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:09,683][test_cart.py:67][INFO][4567881152] Start test Case: test_cart_del
+[2019-07-25 23:27:09,683][test_cart.py:72][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a46d240>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:09,683][test_cart.py:73][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:09,684][test_cart.py:86][INFO][4567881152] completed test test_cart_del success
+[2019-07-25 23:27:09,684][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0015680789947509766
+[2019-07-25 23:27:10,686][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:11,692][test_cart.py:31][INFO][4567881152] Start test Case: test_cart_sum_num
+[2019-07-25 23:27:11,692][test_cart.py:36][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a46d278>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:11,692][test_cart.py:37][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:11,692][test_cart.py:44][INFO][4567881152] completed test test_cart_sum_num success
+[2019-07-25 23:27:11,693][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0011539459228515625
+[2019-07-25 23:27:12,696][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:13,701][test_cart.py:49][INFO][4567881152] Start test Case: test_cart_sum_price
+[2019-07-25 23:27:13,702][test_cart.py:54][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a46d2b0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:13,702][test_cart.py:55][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:13,702][test_cart.py:62][INFO][4567881152] completed test test_cart_sum_price success
+[2019-07-25 23:27:13,702][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0011909008026123047
+[2019-07-25 23:27:14,707][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:15,713][test_cart.py:161][INFO][4567881152] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:27:15,713][test_cart.py:165][DEBUG][4567881152] ipads:<product.Products.Ipad object at 0x10a46d2e8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:27:15,713][test_cart.py:166][INFO][4567881152] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:27:15,714][test_cart.py:171][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a46d5f8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:15,714][test_cart.py:172][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:15,714][test_cart.py:177][DEBUG][4567881152] Beers:<product.Products.Beer object at 0x10a46d710>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:27:15,714][test_cart.py:178][INFO][4567881152] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:27:15,714][test_cart.py:183][DEBUG][4567881152] Beers:<product.Products.Bread object at 0x10a46d278>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:27:15,714][test_cart.py:184][INFO][4567881152] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:27:15,715][test_cart.py:185][INFO][4567881152] cart total price1: 0.00
+[2019-07-25 23:27:15,715][test_cart.py:190][DEBUG][4567881152] cart:{'1_1_2012': <product.Products.Ipad object at 0x10a46d2e8>, '1_3_2012': <product.Products.Displayer object at 0x10a46d5f8>, '4_1_2019': <product.Products.Beer object at 0x10a46d710>, '2_1_2019': <product.Products.Bread object at 0x10a46d278>},{'1_1_2012': <product.Products.Ipad object at 0x10a46d2e8>, '1_3_2012': <product.Products.Displayer object at 0x10a46d5f8>, '4_1_2019': <product.Products.Beer object at 0x10a46d710>, '2_1_2019': <product.Products.Bread object at 0x10a46d278>},19
+[2019-07-25 23:27:15,715][test_cart.py:191][INFO][4567881152] cart total price: 4543.00
+[2019-07-25 23:27:15,724][test_cart.py:200][INFO][4567881152] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:27:15,724][test_cart.py:203][INFO][4567881152] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:27:15,724][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.011451244354248047
+[2019-07-25 23:27:16,729][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:17,734][test_cart.py:207][INFO][4567881152] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:27:17,734][test_cart.py:211][DEBUG][4567881152] Beers:<product.Products.Vegetable object at 0x10a497dd8>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:27:17,735][test_cart.py:212][INFO][4567881152] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:27:17,735][test_cart.py:217][DEBUG][4567881152] Beers:<product.Products.Napkin object at 0x10a497f98>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:27:17,735][test_cart.py:218][INFO][4567881152] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:27:17,736][test_cart.py:227][INFO][4567881152] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:27:17,736][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0020759105682373047
+[2019-07-25 23:27:18,742][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:19,747][test_cart.py:114][INFO][4567881152] Start test Case: test_coupon_availe
+[2019-07-25 23:27:19,748][test_cart.py:122][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a497eb8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:19,748][test_cart.py:123][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:19,749][test_cart.py:136][INFO][4567881152] completed test test_coupon_availe success
+[2019-07-25 23:27:19,749][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0020699501037597656
+[2019-07-25 23:27:20,752][test_cart.py:21][INFO][4567881152] start for case
+[2019-07-25 23:27:21,755][test_cart.py:140][INFO][4567881152] Start test Case: test_coupon_invaild
+[2019-07-25 23:27:21,756][test_cart.py:145][DEBUG][4567881152] display:<product.Products.Displayer object at 0x10a497ef0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:21,756][test_cart.py:146][INFO][4567881152] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:21,756][test_cart.py:157][INFO][4567881152] completed test test_coupon_invaild success
+[2019-07-25 23:27:21,757][test_cart.py:230][INFO][4567881152] test end for case, cost time:0.0018610954284667969
+[2019-07-25 23:27:22,759][test_cart.py:236][INFO][4567881152] completed test for cart
+[2019-07-25 23:27:45,822][test_cart.py:17][INFO][4457244096] start for cart
+[2019-07-25 23:27:45,823][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:46,825][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0001227855682373047
+[2019-07-25 23:27:47,834][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:48,840][test_cart.py:91][INFO][4457244096] Start test Case: test_cart_clear
+[2019-07-25 23:27:48,840][test_cart.py:96][DEBUG][4457244096] display:<product.Products.Displayer object at 0x10235b710>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:48,840][test_cart.py:97][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:48,841][test_cart.py:110][INFO][4457244096] completed test test_cart_clear success
+[2019-07-25 23:27:48,841][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0014429092407226562
+[2019-07-25 23:27:49,845][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:50,848][test_cart.py:67][INFO][4457244096] Start test Case: test_cart_del
+[2019-07-25 23:27:50,849][test_cart.py:72][DEBUG][4457244096] display:<product.Products.Displayer object at 0x10235b5c0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:50,849][test_cart.py:73][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:50,849][test_cart.py:86][INFO][4457244096] completed test test_cart_del success
+[2019-07-25 23:27:50,850][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0012111663818359375
+[2019-07-25 23:27:51,852][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:52,854][test_cart.py:31][INFO][4457244096] Start test Case: test_cart_sum_num
+[2019-07-25 23:27:52,854][test_cart.py:36][DEBUG][4457244096] display:<product.Products.Displayer object at 0x10235b5f8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:52,854][test_cart.py:37][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:52,855][test_cart.py:44][INFO][4457244096] completed test test_cart_sum_num success
+[2019-07-25 23:27:52,855][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0007009506225585938
+[2019-07-25 23:27:53,857][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:54,858][test_cart.py:49][INFO][4457244096] Start test Case: test_cart_sum_price
+[2019-07-25 23:27:54,859][test_cart.py:54][DEBUG][4457244096] display:<product.Products.Displayer object at 0x10235b278>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:54,859][test_cart.py:55][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:54,859][test_cart.py:62][INFO][4457244096] completed test test_cart_sum_price success
+[2019-07-25 23:27:54,859][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0009090900421142578
+[2019-07-25 23:27:55,863][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:56,868][test_cart.py:161][INFO][4457244096] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:27:56,868][test_cart.py:165][DEBUG][4457244096] ipads:<product.Products.Ipad object at 0x10235b2b0>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:27:56,868][test_cart.py:166][INFO][4457244096] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:27:56,869][test_cart.py:171][DEBUG][4457244096] display:<product.Products.Displayer object at 0x10235b6a0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:27:56,869][test_cart.py:172][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:27:56,869][test_cart.py:177][DEBUG][4457244096] Beers:<product.Products.Beer object at 0x10235b7b8>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:27:56,869][test_cart.py:178][INFO][4457244096] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:27:56,869][test_cart.py:183][DEBUG][4457244096] Beers:<product.Products.Bread object at 0x10235b5f8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:27:56,869][test_cart.py:184][INFO][4457244096] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:27:56,869][test_cart.py:185][INFO][4457244096] cart total price1: 0.00
+[2019-07-25 23:27:56,869][test_cart.py:190][DEBUG][4457244096] cart:{'1_1_2012': <product.Products.Ipad object at 0x10235b2b0>, '1_3_2012': <product.Products.Displayer object at 0x10235b6a0>, '4_1_2019': <product.Products.Beer object at 0x10235b7b8>, '2_1_2019': <product.Products.Bread object at 0x10235b5f8>},{'1_1_2012': <product.Products.Ipad object at 0x10235b2b0>, '1_3_2012': <product.Products.Displayer object at 0x10235b6a0>, '4_1_2019': <product.Products.Beer object at 0x10235b7b8>, '2_1_2019': <product.Products.Bread object at 0x10235b5f8>},19
+[2019-07-25 23:27:56,870][test_cart.py:191][INFO][4457244096] cart total price: 4543.00
+[2019-07-25 23:27:56,875][test_cart.py:200][INFO][4457244096] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:27:56,875][test_cart.py:203][INFO][4457244096] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:27:56,875][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.007122993469238281
+[2019-07-25 23:27:57,877][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:27:58,880][test_cart.py:207][INFO][4457244096] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:27:58,880][test_cart.py:211][DEBUG][4457244096] Beers:<product.Products.Vegetable object at 0x1023e6da0>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:27:58,880][test_cart.py:212][INFO][4457244096] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:27:58,881][test_cart.py:217][DEBUG][4457244096] Beers:<product.Products.Napkin object at 0x1023e6f28>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:27:58,881][test_cart.py:218][INFO][4457244096] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:27:58,882][test_cart.py:227][INFO][4457244096] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:27:58,882][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0023632049560546875
+[2019-07-25 23:27:59,888][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:28:00,893][test_cart.py:114][INFO][4457244096] Start test Case: test_coupon_availe
+[2019-07-25 23:28:00,894][test_cart.py:122][DEBUG][4457244096] display:<product.Products.Displayer object at 0x1023e6d30>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:28:00,894][test_cart.py:123][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:28:00,895][test_cart.py:136][INFO][4457244096] completed test test_coupon_availe success
+[2019-07-25 23:28:00,895][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0019903182983398438
+[2019-07-25 23:28:01,897][test_cart.py:21][INFO][4457244096] start for case
+[2019-07-25 23:28:02,902][test_cart.py:140][INFO][4457244096] Start test Case: test_coupon_invaild
+[2019-07-25 23:28:02,902][test_cart.py:145][DEBUG][4457244096] display:<product.Products.Displayer object at 0x1023e6f98>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:28:02,902][test_cart.py:146][INFO][4457244096] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:28:02,903][test_cart.py:157][INFO][4457244096] completed test test_coupon_invaild success
+[2019-07-25 23:28:02,903][test_cart.py:230][INFO][4457244096] test end for case, cost time:0.0018210411071777344
+[2019-07-25 23:28:03,907][test_cart.py:236][INFO][4457244096] completed test for cart
+[2019-07-25 23:31:32,932][test_module.py:17][INFO][4501444032] start for cart
+[2019-07-25 23:31:32,934][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:33,938][test_module.py:230][INFO][4501444032] test end for case, cost time:0.00034117698669433594
+[2019-07-25 23:31:34,943][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:35,945][test_module.py:91][INFO][4501444032] Start test Case: test_cart_clear
+[2019-07-25 23:31:35,946][test_module.py:96][DEBUG][4501444032] display:<product.Products.Displayer object at 0x103f98518>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:35,946][test_module.py:97][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:35,946][test_module.py:110][INFO][4501444032] completed test test_cart_clear success
+[2019-07-25 23:31:35,947][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0012807846069335938
+[2019-07-25 23:31:36,951][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:37,957][test_module.py:67][INFO][4501444032] Start test Case: test_cart_del
+[2019-07-25 23:31:37,957][test_module.py:72][DEBUG][4501444032] display:<product.Products.Displayer object at 0x103f985f8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:37,958][test_module.py:73][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:37,958][test_module.py:86][INFO][4501444032] completed test test_cart_del success
+[2019-07-25 23:31:37,958][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0012440681457519531
+[2019-07-25 23:31:38,962][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:39,965][test_module.py:31][INFO][4501444032] Start test Case: test_cart_sum_num
+[2019-07-25 23:31:39,966][test_module.py:36][DEBUG][4501444032] display:<product.Products.Displayer object at 0x103f983c8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:39,966][test_module.py:37][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:39,966][test_module.py:44][INFO][4501444032] completed test test_cart_sum_num success
+[2019-07-25 23:31:39,966][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0008890628814697266
+[2019-07-25 23:31:40,971][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:41,974][test_module.py:49][INFO][4501444032] Start test Case: test_cart_sum_price
+[2019-07-25 23:31:41,976][test_module.py:54][DEBUG][4501444032] display:<product.Products.Displayer object at 0x103f980f0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:41,976][test_module.py:55][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:41,976][test_module.py:62][INFO][4501444032] completed test test_cart_sum_price success
+[2019-07-25 23:31:41,977][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0034379959106445312
+[2019-07-25 23:31:42,983][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:43,987][test_module.py:161][INFO][4501444032] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:31:43,988][test_module.py:165][DEBUG][4501444032] ipads:<product.Products.Ipad object at 0x103f98128>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:31:43,988][test_module.py:166][INFO][4501444032] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:31:43,988][test_module.py:171][DEBUG][4501444032] display:<product.Products.Displayer object at 0x103f98160>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:43,988][test_module.py:172][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:43,989][test_module.py:177][DEBUG][4501444032] Beers:<product.Products.Beer object at 0x103f980f0>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:31:43,989][test_module.py:178][INFO][4501444032] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:31:43,989][test_module.py:183][DEBUG][4501444032] Beers:<product.Products.Bread object at 0x103f985c0>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:31:43,989][test_module.py:184][INFO][4501444032] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:31:43,989][test_module.py:185][INFO][4501444032] cart total price1: 0.00
+[2019-07-25 23:31:43,990][test_module.py:190][DEBUG][4501444032] cart:{'1_1_2012': <product.Products.Ipad object at 0x103f98128>, '1_3_2012': <product.Products.Displayer object at 0x103f98160>, '4_1_2019': <product.Products.Beer object at 0x103f980f0>, '2_1_2019': <product.Products.Bread object at 0x103f985c0>},{'1_1_2012': <product.Products.Ipad object at 0x103f98128>, '1_3_2012': <product.Products.Displayer object at 0x103f98160>, '4_1_2019': <product.Products.Beer object at 0x103f980f0>, '2_1_2019': <product.Products.Bread object at 0x103f985c0>},19
+[2019-07-25 23:31:43,990][test_module.py:191][INFO][4501444032] cart total price: 4543.00
+[2019-07-25 23:31:44,000][test_module.py:200][INFO][4501444032] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:31:44,000][test_module.py:203][INFO][4501444032] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:31:44,000][test_module.py:230][INFO][4501444032] test end for case, cost time:0.013275861740112305
+[2019-07-25 23:31:45,005][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:46,011][test_module.py:207][INFO][4501444032] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:31:46,012][test_module.py:211][DEBUG][4501444032] Beers:<product.Products.Vegetable object at 0x104088ba8>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:31:46,012][test_module.py:212][INFO][4501444032] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:31:46,012][test_module.py:217][DEBUG][4501444032] Beers:<product.Products.Napkin object at 0x104088da0>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:31:46,012][test_module.py:218][INFO][4501444032] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:31:46,013][test_module.py:227][INFO][4501444032] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:31:46,013][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0016131401062011719
+[2019-07-25 23:31:47,017][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:48,022][test_module.py:114][INFO][4501444032] Start test Case: test_coupon_availe
+[2019-07-25 23:31:48,023][test_module.py:122][DEBUG][4501444032] display:<product.Products.Displayer object at 0x104088b38>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:48,023][test_module.py:123][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:48,024][test_module.py:136][INFO][4501444032] completed test test_coupon_availe success
+[2019-07-25 23:31:48,024][test_module.py:230][INFO][4501444032] test end for case, cost time:0.002045869827270508
+[2019-07-25 23:31:49,028][test_module.py:21][INFO][4501444032] start for case
+[2019-07-25 23:31:50,032][test_module.py:140][INFO][4501444032] Start test Case: test_coupon_invaild
+[2019-07-25 23:31:50,032][test_module.py:145][DEBUG][4501444032] display:<product.Products.Displayer object at 0x104088e10>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:31:50,032][test_module.py:146][INFO][4501444032] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:31:50,033][test_module.py:157][INFO][4501444032] completed test test_coupon_invaild success
+[2019-07-25 23:31:50,033][test_module.py:230][INFO][4501444032] test end for case, cost time:0.0009429454803466797
+[2019-07-25 23:31:51,038][test_module.py:236][INFO][4501444032] completed test for cart
+[2019-07-25 23:32:13,674][test_module.py:17][INFO][4312810944] start for cart
+[2019-07-25 23:32:13,675][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:14,677][test_module.py:230][INFO][4312810944] test end for case, cost time:8.606910705566406e-05
+[2019-07-25 23:32:15,683][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:16,690][test_module.py:91][INFO][4312810944] Start test Case: test_cart_clear
+[2019-07-25 23:32:16,690][test_module.py:96][DEBUG][4312810944] display:<product.Products.Displayer object at 0x101708550>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:16,691][test_module.py:97][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:16,691][test_module.py:110][INFO][4312810944] completed test test_cart_clear success
+[2019-07-25 23:32:16,691][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0012688636779785156
+[2019-07-25 23:32:17,696][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:18,699][test_module.py:67][INFO][4312810944] Start test Case: test_cart_del
+[2019-07-25 23:32:18,700][test_module.py:72][DEBUG][4312810944] display:<product.Products.Displayer object at 0x101708470>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:18,700][test_module.py:73][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:18,700][test_module.py:86][INFO][4312810944] completed test test_cart_del success
+[2019-07-25 23:32:18,700][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0012900829315185547
+[2019-07-25 23:32:19,705][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:20,711][test_module.py:31][INFO][4312810944] Start test Case: test_cart_sum_num
+[2019-07-25 23:32:20,711][test_module.py:36][DEBUG][4312810944] display:<product.Products.Displayer object at 0x1017084a8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:20,711][test_module.py:37][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:20,712][test_module.py:44][INFO][4312810944] completed test test_cart_sum_num success
+[2019-07-25 23:32:20,712][test_module.py:230][INFO][4312810944] test end for case, cost time:0.001416921615600586
+[2019-07-25 23:32:21,717][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:22,721][test_module.py:49][INFO][4312810944] Start test Case: test_cart_sum_price
+[2019-07-25 23:32:22,722][test_module.py:54][DEBUG][4312810944] display:<product.Products.Displayer object at 0x101708160>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:22,722][test_module.py:55][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:22,722][test_module.py:62][INFO][4312810944] completed test test_cart_sum_price success
+[2019-07-25 23:32:22,722][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0012278556823730469
+[2019-07-25 23:32:23,727][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:24,731][test_module.py:161][INFO][4312810944] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:32:24,731][test_module.py:165][DEBUG][4312810944] ipads:<product.Products.Ipad object at 0x101708198>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:32:24,732][test_module.py:166][INFO][4312810944] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:32:24,732][test_module.py:171][DEBUG][4312810944] display:<product.Products.Displayer object at 0x1017081d0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:24,732][test_module.py:172][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:24,732][test_module.py:177][DEBUG][4312810944] Beers:<product.Products.Beer object at 0x101708160>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:32:24,732][test_module.py:178][INFO][4312810944] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:32:24,732][test_module.py:183][DEBUG][4312810944] Beers:<product.Products.Bread object at 0x101708588>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:32:24,733][test_module.py:184][INFO][4312810944] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:32:24,733][test_module.py:185][INFO][4312810944] cart total price1: 0.00
+[2019-07-25 23:32:24,733][test_module.py:190][DEBUG][4312810944] cart:{'1_1_2012': <product.Products.Ipad object at 0x101708198>, '1_3_2012': <product.Products.Displayer object at 0x1017081d0>, '4_1_2019': <product.Products.Beer object at 0x101708160>, '2_1_2019': <product.Products.Bread object at 0x101708588>},{'1_1_2012': <product.Products.Ipad object at 0x101708198>, '1_3_2012': <product.Products.Displayer object at 0x1017081d0>, '4_1_2019': <product.Products.Beer object at 0x101708160>, '2_1_2019': <product.Products.Bread object at 0x101708588>},19
+[2019-07-25 23:32:24,733][test_module.py:191][INFO][4312810944] cart total price: 4543.00
+[2019-07-25 23:32:24,738][test_module.py:200][INFO][4312810944] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:32:24,738][test_module.py:203][INFO][4312810944] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:32:24,738][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0074880123138427734
+[2019-07-25 23:32:25,739][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:26,740][test_module.py:207][INFO][4312810944] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:32:26,741][test_module.py:211][DEBUG][4312810944] Beers:<product.Products.Vegetable object at 0x101792cf8>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:32:26,741][test_module.py:212][INFO][4312810944] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:32:26,741][test_module.py:217][DEBUG][4312810944] Beers:<product.Products.Napkin object at 0x101792c88>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:32:26,742][test_module.py:218][INFO][4312810944] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:32:26,742][test_module.py:227][INFO][4312810944] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:32:26,743][test_module.py:230][INFO][4312810944] test end for case, cost time:0.002164125442504883
+[2019-07-25 23:32:27,748][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:28,750][test_module.py:114][INFO][4312810944] Start test Case: test_coupon_availe
+[2019-07-25 23:32:28,751][test_module.py:122][DEBUG][4312810944] display:<product.Products.Displayer object at 0x101792b00>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:28,751][test_module.py:123][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:28,752][test_module.py:136][INFO][4312810944] completed test test_coupon_availe success
+[2019-07-25 23:32:28,752][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0020160675048828125
+[2019-07-25 23:32:29,757][test_module.py:21][INFO][4312810944] start for case
+[2019-07-25 23:32:30,758][test_module.py:140][INFO][4312810944] Start test Case: test_coupon_invaild
+[2019-07-25 23:32:30,759][test_module.py:145][DEBUG][4312810944] display:<product.Products.Displayer object at 0x101792da0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:32:30,759][test_module.py:146][INFO][4312810944] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:32:30,760][test_module.py:157][INFO][4312810944] completed test test_coupon_invaild success
+[2019-07-25 23:32:30,760][test_module.py:230][INFO][4312810944] test end for case, cost time:0.0019297599792480469
+[2019-07-25 23:32:31,765][test_module.py:236][INFO][4312810944] completed test for cart
+[2019-07-25 23:36:01,077][test_module.py:17][INFO][4510860736] start for test cart
+[2019-07-25 23:36:01,080][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:02,085][test_module.py:28][INFO][4510860736] Start test Case: test_cart_add
+[2019-07-25 23:36:02,086][test_module.py:36][INFO][4510860736] completed test test_cart_add success
+[2019-07-25 23:36:02,086][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0011179447174072266
+[2019-07-25 23:36:03,090][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:04,093][test_module.py:100][INFO][4510860736] Start test Case: test_cart_clear
+[2019-07-25 23:36:04,094][test_module.py:105][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108934550>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:04,094][test_module.py:106][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:04,094][test_module.py:119][INFO][4510860736] completed test test_cart_clear success
+[2019-07-25 23:36:04,094][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0012159347534179688
+[2019-07-25 23:36:05,099][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:06,104][test_module.py:76][INFO][4510860736] Start test Case: test_cart_del
+[2019-07-25 23:36:06,104][test_module.py:81][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108934438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:06,104][test_module.py:82][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:06,105][test_module.py:95][INFO][4510860736] completed test test_cart_del success
+[2019-07-25 23:36:06,105][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0013301372528076172
+[2019-07-25 23:36:07,108][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:08,111][test_module.py:40][INFO][4510860736] Start test Case: test_cart_sum_num
+[2019-07-25 23:36:08,111][test_module.py:45][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108934048>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:08,111][test_module.py:46][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:08,111][test_module.py:53][INFO][4510860736] completed test test_cart_sum_num success
+[2019-07-25 23:36:08,112][test_module.py:239][INFO][4510860736] test end for case, cost time:0.001210927963256836
+[2019-07-25 23:36:09,117][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:10,120][test_module.py:58][INFO][4510860736] Start test Case: test_cart_sum_price
+[2019-07-25 23:36:10,121][test_module.py:63][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108934080>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:10,121][test_module.py:64][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:10,121][test_module.py:71][INFO][4510860736] completed test test_cart_sum_price success
+[2019-07-25 23:36:10,122][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0012559890747070312
+[2019-07-25 23:36:11,124][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:12,125][test_module.py:170][INFO][4510860736] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:36:12,125][test_module.py:174][DEBUG][4510860736] ipads:<product.Products.Ipad object at 0x1089340b8>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:36:12,126][test_module.py:175][INFO][4510860736] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:36:12,126][test_module.py:180][DEBUG][4510860736] display:<product.Products.Displayer object at 0x1089340f0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:12,126][test_module.py:181][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:12,126][test_module.py:186][DEBUG][4510860736] Beers:<product.Products.Beer object at 0x108934080>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:36:12,126][test_module.py:187][INFO][4510860736] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:36:12,126][test_module.py:192][DEBUG][4510860736] Beers:<product.Products.Bread object at 0x1089343c8>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:36:12,126][test_module.py:193][INFO][4510860736] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:36:12,126][test_module.py:194][INFO][4510860736] cart total price1: 0.00
+[2019-07-25 23:36:12,127][test_module.py:199][DEBUG][4510860736] cart:{'1_1_2012': <product.Products.Ipad object at 0x1089340b8>, '1_3_2012': <product.Products.Displayer object at 0x1089340f0>, '4_1_2019': <product.Products.Beer object at 0x108934080>, '2_1_2019': <product.Products.Bread object at 0x1089343c8>},{'1_1_2012': <product.Products.Ipad object at 0x1089340b8>, '1_3_2012': <product.Products.Displayer object at 0x1089340f0>, '4_1_2019': <product.Products.Beer object at 0x108934080>, '2_1_2019': <product.Products.Bread object at 0x1089343c8>},19
+[2019-07-25 23:36:12,127][test_module.py:200][INFO][4510860736] cart total price: 4543.00
+[2019-07-25 23:36:12,135][test_module.py:209][INFO][4510860736] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:36:12,135][test_module.py:212][INFO][4510860736] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:36:12,135][test_module.py:239][INFO][4510860736] test end for case, cost time:0.010202169418334961
+[2019-07-25 23:36:13,141][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:14,142][test_module.py:216][INFO][4510860736] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:36:14,142][test_module.py:220][DEBUG][4510860736] Beers:<product.Products.Vegetable object at 0x108964b38>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:36:14,142][test_module.py:221][INFO][4510860736] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:36:14,143][test_module.py:226][DEBUG][4510860736] Beers:<product.Products.Napkin object at 0x108964d30>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:36:14,143][test_module.py:227][INFO][4510860736] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:36:14,144][test_module.py:236][INFO][4510860736] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:36:14,144][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0019598007202148438
+[2019-07-25 23:36:15,148][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:16,155][test_module.py:123][INFO][4510860736] Start test Case: test_coupon_availe
+[2019-07-25 23:36:16,156][test_module.py:131][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108964ac8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:16,156][test_module.py:132][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:16,157][test_module.py:145][INFO][4510860736] completed test test_coupon_availe success
+[2019-07-25 23:36:16,157][test_module.py:239][INFO][4510860736] test end for case, cost time:0.002031087875366211
+[2019-07-25 23:36:17,162][test_module.py:21][INFO][4510860736] start for case
+[2019-07-25 23:36:18,165][test_module.py:149][INFO][4510860736] Start test Case: test_coupon_invaild
+[2019-07-25 23:36:18,166][test_module.py:154][DEBUG][4510860736] display:<product.Products.Displayer object at 0x108964da0>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:36:18,166][test_module.py:155][INFO][4510860736] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:36:18,167][test_module.py:166][INFO][4510860736] completed test test_coupon_invaild success
+[2019-07-25 23:36:18,167][test_module.py:239][INFO][4510860736] test end for case, cost time:0.0021278858184814453
+[2019-07-25 23:36:19,171][test_module.py:245][INFO][4510860736] completed test for cart
+[2019-07-25 23:38:32,301][test_module.py:17][INFO][4707792320] start for test cart
+[2019-07-25 23:38:32,302][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:33,304][test_module.py:28][INFO][4707792320] Start test Case: test_cart_add
+[2019-07-25 23:38:33,305][test_module.py:36][INFO][4707792320] completed test test_cart_add success
+[2019-07-25 23:38:33,305][test_module.py:239][INFO][4707792320] test end for case, cost time:0.0010077953338623047
+[2019-07-25 23:38:34,310][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:35,315][test_module.py:100][INFO][4707792320] Start test Case: test_cart_clear
+[2019-07-25 23:38:35,315][test_module.py:105][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f1dc550>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:35,316][test_module.py:106][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:35,316][test_module.py:119][INFO][4707792320] completed test test_cart_clear success
+[2019-07-25 23:38:35,316][test_module.py:239][INFO][4707792320] test end for case, cost time:0.0018041133880615234
+[2019-07-25 23:38:36,320][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:37,325][test_module.py:76][INFO][4707792320] Start test Case: test_cart_del
+[2019-07-25 23:38:37,326][test_module.py:81][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f1dc438>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:37,326][test_module.py:82][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:37,326][test_module.py:95][INFO][4707792320] completed test test_cart_del success
+[2019-07-25 23:38:37,326][test_module.py:239][INFO][4707792320] test end for case, cost time:0.001049041748046875
+[2019-07-25 23:38:38,332][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:39,337][test_module.py:40][INFO][4707792320] Start test Case: test_cart_sum_num
+[2019-07-25 23:38:39,337][test_module.py:45][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f1dc080>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:39,337][test_module.py:46][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:39,338][test_module.py:53][INFO][4707792320] completed test test_cart_sum_num success
+[2019-07-25 23:38:39,338][test_module.py:239][INFO][4707792320] test end for case, cost time:0.0012958049774169922
+[2019-07-25 23:38:40,344][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:41,346][test_module.py:58][INFO][4707792320] Start test Case: test_cart_sum_price
+[2019-07-25 23:38:41,346][test_module.py:63][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f1dc0b8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:41,347][test_module.py:64][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:41,347][test_module.py:71][INFO][4707792320] completed test test_cart_sum_price success
+[2019-07-25 23:38:41,347][test_module.py:239][INFO][4707792320] test end for case, cost time:0.001644134521484375
+[2019-07-25 23:38:42,352][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:43,354][test_module.py:170][INFO][4707792320] Start test Case: test_cart_with_ava_coupon
+[2019-07-25 23:38:43,354][test_module.py:174][DEBUG][4707792320] ipads:<product.Products.Ipad object at 0x10f1dc0f0>, {'unq_id': '1_1_2012', 'product_name': 'ipad_2012', 'price': 2399, 'numbers': 1}
+[2019-07-25 23:38:43,355][test_module.py:175][INFO][4707792320] 1 * 名称: 苹果平板电脑 型号: ipad_2012  2399.00
+[2019-07-25 23:38:43,355][test_module.py:180][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f1dc128>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:43,355][test_module.py:181][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:43,355][test_module.py:186][DEBUG][4707792320] Beers:<product.Products.Beer object at 0x10f1dc0b8>, {'unq_id': '4_1_2019', 'product_name': 'Beer_0722', 'price': 25, 'numbers': 12}
+[2019-07-25 23:38:43,356][test_module.py:187][INFO][4707792320] 12 * 啤酒 型号: Beer_0722  25.00
+[2019-07-25 23:38:43,357][test_module.py:192][DEBUG][4707792320] Beers:<product.Products.Bread object at 0x10f1dc320>, {'unq_id': '2_1_2019', 'product_name': 'bread_0722', 'price': 9, 'numbers': 5}
+[2019-07-25 23:38:43,358][test_module.py:193][INFO][4707792320] 5 * 面包 型号: bread_0722  9.00
+[2019-07-25 23:38:43,358][test_module.py:194][INFO][4707792320] cart total price1: 0.00
+[2019-07-25 23:38:43,358][test_module.py:199][DEBUG][4707792320] cart:{'1_1_2012': <product.Products.Ipad object at 0x10f1dc0f0>, '1_3_2012': <product.Products.Displayer object at 0x10f1dc128>, '4_1_2019': <product.Products.Beer object at 0x10f1dc0b8>, '2_1_2019': <product.Products.Bread object at 0x10f1dc320>},{'1_1_2012': <product.Products.Ipad object at 0x10f1dc0f0>, '1_3_2012': <product.Products.Displayer object at 0x10f1dc128>, '4_1_2019': <product.Products.Beer object at 0x10f1dc0b8>, '2_1_2019': <product.Products.Bread object at 0x10f1dc320>},19
+[2019-07-25 23:38:43,358][test_module.py:200][INFO][4707792320] cart total price: 4543.00
+[2019-07-25 23:38:43,369][test_module.py:209][INFO][4707792320] 购物车包含19 个物品，总共价格 4543.00 元, 使用优惠券后4343.00元
+[2019-07-25 23:38:43,370][test_module.py:212][INFO][4707792320] completed test test_cart_with_ava_coupon success
+[2019-07-25 23:38:43,370][test_module.py:239][INFO][4707792320] test end for case, cost time:0.01585102081298828
+[2019-07-25 23:38:44,375][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:45,375][test_module.py:216][INFO][4707792320] Start test Case: test_cart_with_invaild_coupon
+[2019-07-25 23:38:45,376][test_module.py:220][DEBUG][4707792320] Beers:<product.Products.Vegetable object at 0x10f208d68>, {'unq_id': '2_6_2019', 'product_name': 'vegetable_0722', 'price': 5.98, 'numbers': 3}
+[2019-07-25 23:38:45,376][test_module.py:221][INFO][4707792320] 3 * 蔬菜 型号: vegetable_0722  5.98
+[2019-07-25 23:38:45,376][test_module.py:226][DEBUG][4707792320] Beers:<product.Products.Napkin object at 0x10f208d30>, {'unq_id': '3_1_2019', 'product_name': 'napkin_0722', 'price': 3.2, 'numbers': 8}
+[2019-07-25 23:38:45,377][test_module.py:227][INFO][4707792320] 8 * 餐巾纸 型号: napkin_0722  3.20
+[2019-07-25 23:38:45,378][test_module.py:236][INFO][4707792320] completed test test_cart_with_invaild_coupon success
+[2019-07-25 23:38:45,378][test_module.py:239][INFO][4707792320] test end for case, cost time:0.002373218536376953
+[2019-07-25 23:38:46,380][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:47,383][test_module.py:123][INFO][4707792320] Start test Case: test_coupon_availe
+[2019-07-25 23:38:47,384][test_module.py:131][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f208ba8>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:47,384][test_module.py:132][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:47,385][test_module.py:145][INFO][4707792320] completed test test_coupon_availe success
+[2019-07-25 23:38:47,385][test_module.py:239][INFO][4707792320] test end for case, cost time:0.0018610954284667969
+[2019-07-25 23:38:48,386][test_module.py:21][INFO][4707792320] start for case
+[2019-07-25 23:38:49,388][test_module.py:149][INFO][4707792320] Start test Case: test_coupon_invaild
+[2019-07-25 23:38:49,389][test_module.py:154][DEBUG][4707792320] display:<product.Products.Displayer object at 0x10f208e80>, {'unq_id': '1_3_2012', 'product_name': 'displayer_2019', 'price': 1799, 'numbers': 1}
+[2019-07-25 23:38:49,389][test_module.py:155][INFO][4707792320] 1 * 显示器 型号: displayer_2019  1799.00
+[2019-07-25 23:38:49,390][test_module.py:166][INFO][4707792320] completed test test_coupon_invaild success
+[2019-07-25 23:38:49,390][test_module.py:239][INFO][4707792320] test end for case, cost time:0.0019030570983886719
+[2019-07-25 23:38:50,392][test_module.py:245][INFO][4707792320] completed test for cart

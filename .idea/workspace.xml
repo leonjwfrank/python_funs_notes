@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34f918f-57ec-4806-8726-d51785521c34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2019-08-14-normal_distribution_cdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-08-14-normal_distribution_rankint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_ccdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_ccdf_xlog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_ccdf_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_ccdf_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_cdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_cdf_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_cdf_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exponential_distribution_list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_ccdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_ccdf_xlog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_ccdf_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_ccdf_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_cdf_xlog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_cdf_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_distribution_cdf_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_probability_relay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pareto_distribution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pareto_distribution_complement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pareto_distribution_complement_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pareto_distribution_complement_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pareto_distribution_xylog.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/py_stats_continuous(连续分布).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_stats_continuous(连续分布).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibull_distribution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibull_distribution_complement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibull_distribution_complement_xylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibull_distribution_complement_ylog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibull_distribution_xylog.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="295">
-                <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+              <first_editor relative-caret-position="175">
+                <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -379,8 +350,8 @@
     <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="295">
-            <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+          <first_editor relative-caret-position="175">
+            <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>

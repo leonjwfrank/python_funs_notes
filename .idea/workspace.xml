@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34f918f-57ec-4806-8726-d51785521c34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/2019_7_25.log.25.debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/2019_7_25.log.25.info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/2019_7_26.log.26.debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/2019_7_26.log.26.info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/test_log_2019_7_25.log.25.debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/log/test_log_2019_7_25.log.25.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_flow/cart_edu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work_flow/cart_edu/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +24,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="270">
                 <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work_flow/cart_edu/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,18 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="148" column="13" lean-forward="true" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_base_math.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -176,6 +171,7 @@
         <option value="$PROJECT_DIR$/CNN之问.md" />
         <option value="$PROJECT_DIR$/py_stats_empirical(经验分布).md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/work_flow/cart_edu/README.md" />
       </list>
     </option>
   </component>
@@ -207,13 +203,6 @@
               <item name="notes" type="462c0819:PsiDirectoryNode" />
               <item name="work_flow" type="462c0819:PsiDirectoryNode" />
               <item name="cart_edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="work_flow" type="462c0819:PsiDirectoryNode" />
-              <item name="cart_edu" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,6 +246,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="124" width="1440" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22269204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,14 +287,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work_flow/huaw_deSucrity/the_sucrity.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work_flow/cart_edu/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work_flow/cart_edu/product/Products.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -476,6 +458,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
             <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_flow/cart_edu/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>

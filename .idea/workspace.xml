@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34f918f-57ec-4806-8726-d51785521c34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base_math.md" beforeDir="false" afterPath="$PROJECT_DIR$/data_base_math.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_distribution_operation(分布的运算).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_distribution_operation(分布的运算).md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_stats_continuous(连续分布).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_stats_continuous(连续分布).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_stats_empirical(经验分布).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_stats_empirical(经验分布).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_stats_probability(概率).md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +21,74 @@
         <entry file="file://$PROJECT_DIR$/py_stats_empirical(经验分布).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="246">
-                <caret line="155" column="3" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
+              <first_editor relative-caret-position="-787">
+                <caret line="98" selection-start-line="98" selection-end-line="98" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-6801">
+                <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_change_(极坐标与笛卡尔坐标).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-529">
+                <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dispersion_func_values(离散度和函数值域).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="293">
+                <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_senior_hypothesis_testing(假设检验).md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
+        <entry file="file://$PROJECT_DIR$/CNN的广泛应用.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="152" column="51" lean-forward="true" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_base_math.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
+              <first_editor relative-caret-position="276">
+                <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,36 +96,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscriPng/normal-distribution-standard-scores.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscriPng/normal_distribution_standardizing.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscriPng/lgncdf4_sigma_diff.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscriPng/lgnpdf4_sigma_diff.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscriPng/Exponential_distribution_cdf.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_stats_probability(概率).md">
+        <entry file="file://$PROJECT_DIR$/py_senior_correlation(相关性).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1365">
-                <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_stats_probability(概率的问题).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="206">
+                <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,20 +121,8 @@
         <entry file="file://$PROJECT_DIR$/py_distribution_operation(分布的运算).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="471">
-                <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_base_math.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <first_editor relative-caret-position="1863">
+                <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,10 +140,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PMF</find>
       <find>一次频词</find>
       <find>CDF</find>
       <find>PDF</find>
+      <find>尾</find>
+      <find>PMF</find>
+      <find>null hypothesis</find>
+      <find>鲁棒</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,11 +159,22 @@
         <option value="$PROJECT_DIR$/py_stats.py" />
         <option value="$PROJECT_DIR$/py_stats.md" />
         <option value="$PROJECT_DIR$/py_stats_continuous(连续分布).py" />
+        <option value="$PROJECT_DIR$/other.md" />
+        <option value="$PROJECT_DIR$/py_estimate_Statistical_hypothesis_testing.md" />
+        <option value="$PROJECT_DIR$/image_change_(极坐标与笛卡尔坐标).md" />
+        <option value="$PROJECT_DIR$/py_estimate_statistical_hypothesis_test.md" />
         <option value="$PROJECT_DIR$/data_base_math.md" />
         <option value="$PROJECT_DIR$/py_stats_probability(概率).md" />
+        <option value="$PROJECT_DIR$/py_estimate_statistical_hypothesis_test(检验和估计).md" />
+        <option value="$PROJECT_DIR$/py_stats_probability(概率的问题).md" />
+        <option value="$PROJECT_DIR$/py_estimate_statistical_hypothesis_test(高级运算检验和估计).md" />
+        <option value="$PROJECT_DIR$/py_stats_continuous(连续分布).md" />
+        <option value="$PROJECT_DIR$/py_hypothesis_test(高级运算_假设检验).md" />
         <option value="$PROJECT_DIR$/py_stats_empirical(经验分布).md" />
         <option value="$PROJECT_DIR$/py_distribution_operation(分布的运算).md" />
-        <option value="$PROJECT_DIR$/py_stats_continuous(连续分布).md" />
+        <option value="$PROJECT_DIR$/py_senior_hypothesis_testing(假设检验).md" />
+        <option value="$PROJECT_DIR$/DNN之问.md" />
+        <option value="$PROJECT_DIR$/CNN之问.md" />
       </list>
     </option>
   </component>
@@ -149,11 +195,6 @@
             <path>
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscriPng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +240,7 @@
     <frame x="0" y="124" width="1440" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23114869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22269204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,40 +302,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_diff_two_three.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="6270">
-            <caret line="418" selection-start-line="418" selection-end-line="418" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work_flow/cart_edu/cart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_stats_probability(概率).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1365">
-            <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_base_math.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -307,11 +318,107 @@
     <entry file="file://$PROJECT_DIR$/DiscriPng/Exponential_distribution_ccdf.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/DiscriPng/lgncdf4_sigma_diff.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscriPng/lgnppf4_cdf.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscriPng/lgnpdf4_sigma_diff.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscriPng/normal-distribution-standard-scores.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscriPng/normal_distribution_standardizing.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_diff_two_three.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-13">
+            <caret line="394" column="8" selection-start-line="394" selection-start-column="8" selection-end-line="394" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_senior_estimate_statistical(估计).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_distribution_operation(分布的运算).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1863">
+            <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_base_math.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_senior_correlation(相关性).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dispersion_func_values(离散度和函数值域).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="293">
+            <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_change_(极坐标与笛卡尔坐标).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-529">
+            <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-6801">
+            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_stats_empirical(经验分布).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="246">
-            <caret line="155" column="3" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
+          <first_editor relative-caret-position="-787">
+            <caret line="98" selection-start-line="98" selection-end-line="98" />
           </first_editor>
           <second_editor />
         </state>
@@ -322,43 +429,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_distribution_operation(分布的运算).md">
+    <entry file="file://$PROJECT_DIR$/py_stats_probability(概率的问题).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="471">
-            <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
+          <first_editor relative-caret-position="206">
+            <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiscriPng/lgncdf4_sigma_diff.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscriPng/lgnppf4_cdf.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscriPng/lgnpdf4_sigma_diff.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscriPng/normal_distribution_standardizing.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscriPng/normal-distribution-standard-scores.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_stats_continuous(连续分布).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/py_senior_hypothesis_testing(假设检验).md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN的广泛应用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="152" column="51" lean-forward="true" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
         </state>
       </provider>
     </entry>

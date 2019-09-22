@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34f918f-57ec-4806-8726-d51785521c34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structure/py_scientific_computing_achieve_structure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mathematical_modeling_建模.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mathematical_modeling_建模.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_senior_correlation(相关性).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_senior_correlation(相关性).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_senior_estimate_statistical(估计).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_senior_estimate_statistical(估计).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_stats_empirical(经验分布与概念).md" beforeDir="false" afterPath="$PROJECT_DIR$/py_stats_empirical(经验分布与概念).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/build_py_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/structure/build_py_structure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/py_data_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/structure/py_data_structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_senior_estimate_statistical(估计).md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1455">
-                <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_base_math.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -67,12 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/structure/py_scientific_computing_achieve_structure.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="191">
-                <caret line="249" column="4" lean-forward="true" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+              <first_editor relative-caret-position="83">
+                <caret line="335" column="16" lean-forward="true" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -204,7 +197,6 @@
         <option value="$PROJECT_DIR$/DNN之问.md" />
         <option value="$PROJECT_DIR$/CNN之问.md" />
         <option value="$PROJECT_DIR$/work_flow/cart_edu/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dispersion_func_values(离散度和函数值域).md" />
         <option value="$PROJECT_DIR$/work_flow/find_job.md" />
         <option value="$PROJECT_DIR$/work_flow/find_job.txt" />
@@ -226,6 +218,7 @@
         <option value="$PROJECT_DIR$/structure/py_achieve_structure.md" />
         <option value="$PROJECT_DIR$/Mathematical_modeling_建模.md" />
         <option value="$PROJECT_DIR$/structure/py_scientific_computing_achieve_structure.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -429,16 +422,6 @@
     <entry file="file://$PROJECT_DIR$/structure/map_structure.xline">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_change_(极坐标与笛卡尔坐标).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -610,8 +593,18 @@
     <entry file="file://$PROJECT_DIR$/structure/py_scientific_computing_achieve_structure.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="191">
-            <caret line="249" column="4" lean-forward="true" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+          <first_editor relative-caret-position="83">
+            <caret line="335" column="16" lean-forward="true" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>

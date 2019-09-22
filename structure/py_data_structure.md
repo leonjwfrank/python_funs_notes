@@ -2414,11 +2414,104 @@
                          ^
          step_4，匹配成功，这里只移动了两次就匹配成功，效率较高。
          
-### 附1
-    递归，迭代，循环，遍历
-    循环（loop），指的是在满足条件的情况下，重复执行同一段代码。比如，while语句。
+### 附 递归，迭代，循环，遍历
+    
+####    循环（loop）
+    指的是在满足条件的情况下，重复执行同一段代码。比如，while语句。
+        while n < 10:
+            print(n+1)
     迭代（iterate），指的是按照某种顺序逐个访问列表中的每一项。比如，for语句。
-    遍历（traversal），指的是按照一定的规则访问树形结构中的每个节点，而且每个节点都只访问一次。
-    递归（recursion），指的是一个函数不断调用自身的行为。比如，以编程方式输出著名的斐波纳契数列
+    自动迭代的一种更优雅的方法是使用for循环。使用此方法，我们可以迭代可以返回迭代器的任何对象，例如列表，字符串，文件等
+        1,关键字 yield
+            def iter_yie(n):
+                while n:
+                    n -= 1
+                    yield n
+            ite_100 = iter_yie(100)
+            >>> next(ite_100)
+                99
+                
+        2, 循环设计
+        ite = iter(range(10)
+        next(ite)
+        for i in ite:
+            print(i+1)
+        自定义迭代类型
+        class PowIter:
+        """Class to implement an iterator of powers of iter"""
+
+            def __init__(self, max = 0):
+                self.max = max
+
+            def __iter__(self):
+                self.n = 0
+                return self
+
+            def __next__(self):
+                if self.n <= self.max:
+                    result = 2 ** self.n
+                    self.n += 1
+                    return result
+                else:
+                    raise StopIteration
+        a = PowIter(4)
+        >>> i = iter(a)
+        >>> next(i)
+            1
+####    遍历（traversal）
+    可迭代对象都可以被遍历
+    指的是按照一定的规则访问树形结构中的每个节点，而且每个节点都只访问一次。
+    1, 简单列表遍历
+    for i in list(range(100)):
+        print(i)
+    
+    ```python
+        class Node:
+        def __init__(self,data):
+            self.left = None
+            self.right = None
+            self.data = data
+
+        def inOrder(root):
+            if root:
+                inOrder(root.left)
+                print (root.data)
+                inOrder(root.right)
+
+        def preOrder(root):
+            if root:
+                print (root.data)
+                preOrder(root.left)
+                preOrder(root.right)
+
+        def postOrder(root):
+            if root:
+                postOrder(root.left)
+                postOrder(root.right)
+                print (root.data)
+
+    #making the tree 
+    root = Node(1)
+    root.left = Node(2)
+    root.right = Node(3)
+    root.left.left = Node(4)
+    root.left.right = Node(5)
+
+    print inOrder(root)
+    #4 2 5 1 3
+    print preOrder(root)
+    #1 2 4 5 3
+    print postOrder(root)
+    #4 5 2 3 1
+        
+####    递归（recursion）
+    指的是一个函数不断调用自身的行为。比如，以编程方式输出著名的斐波纳契数列
+    #  递归， 默认最多1000层
+    @functools.lru_cache(maxsize=None)   # 计算性能
+    def fb(n):  # 第几个fbnc数
+	    if n <= 2:
+		    return 1
+	    else:
+		    return fb(n-1) + fb(n-2)
     实例见code        
          

@@ -264,4 +264,46 @@
 ### 点估计 point estimate
     用单一的值估计某个参数
 
-### 区间估计    
+### 区间估计  
+
+### 确定系数(coefficient of determination)
+    衡量模型你和结果好坏的指标
+
+### 对照组(control group)
+    对照试验中没有受到处理的组，或受到已知效应处理的组
+
+### 相关性(correlation)
+    对两个变量关系的一种描述
+
+### 协方差(covariance)
+    衡量两个变量变化方向是否一致的统计量
+    
+### 因变量(dependent variable)
+    我们想要解释或预测的变量
+    
+### 自变量(independent variable)
+    用于预测因变量的变量，也称解释变量
+    
+### 最小二乘拟合(least squares fit)
+    最小化残差平方和的数据拟合方法
+
+### 自然试验(natural experiment)
+    一种试验设计的方法，就是利用自然形成的界限将受试者分成几个分组，并且大致上使得分组结果接近随机分组
+
+### 归一化(normalize)
+    将一组数据进行转换，使其均值为0， 方差为1
+
+### 随机对照试验(randomized controlled trial)
+    一种试验设计方法，将受试者随机分成几个分组，并对不同分组实施不同处理
+    
+### 秩 rank
+    一个序列按大小排序后，序列中讴歌元素所处的位置
+
+### 残差 residual 
+    衡量模型预测结果与真实值离差的值
+
+### 标准分数 standard score
+    归一化后的值
+
+### 处理 treatment
+    对照试验中，对一个分组所做的干预或改变  

@@ -1,3 +1,6 @@
+# README
+knowledge set
+
 # 统计学相关review
     正态分布和标准正态的转换
     不同坐标的转换方法

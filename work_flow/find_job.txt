@@ -1,10 +1,8 @@
 
 # 1, 为Pluralsight创建Python课程
     1,kass-coleman@pluralsight.com
-    Python的强大背景（你可能看到了一个即将到来）。
-    教授他人技术技能的经验。
-    一个清晰简洁地表达问题形式的想法的人才。
-    强大的英语语言能力以及使用它来编写具有正确拼写和语法的问题的能力。
+    Python的强大背景（你可能看到了一个未来)。
+    招讲课的。
     
 # 2, 高级数据处理工程师
     jobs@creativecommons.org

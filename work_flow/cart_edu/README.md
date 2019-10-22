@@ -7,7 +7,7 @@
 
 ## 结构
     .
-    ├── cart_demo  # 存放整个项目
+    ├── cart_edu  # 存放整个项目
     │   ├── apps  # 存放应用模块包
     │   │   ├── cart  # 购物车模块
     │   │   │   ├── __init__.py  # 创建cart应用蓝图
@@ -23,7 +23,7 @@
     │   │   │   ├── urls.py
     │   │   │   └── views.py
     │   │   ├── __init__.py
-    │   │   ├── order
+    │   │   ├── coupon
     │   │   │   ├── __init__.py
     │   │   │   ├── models.py
     │   │   │   ├── urls.py
@@ -34,12 +34,11 @@
     │   │       ├── urls.py
     │   │       └── views.py
     │   ├── __init__.py  # 创建flask应用文件（工厂函数）
-    │   ├── libs  # 存放一些第三方源码包（方便我们对其修改）
     │   ├── static  # 静态文件存储目录
     │   ├── templates  # 模板目录
-    │   └── utils  # 存放全局共用文件包
+    │   └── tools  # 存放全局共用文件包
     │       ├── __init__.py
     │       └──  user.py  # 用户应用所需函数
     ├── config.py  # 配置文件
-    ├── logs  # 日志文件
-    └── manage.py  # 启动文件
+    ├── logs  # 日志文件目录
+    └── cart_manage.py  # 启动文件

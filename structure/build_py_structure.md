@@ -111,3 +111,7 @@
     Delete Item             O(1)                       O(n)
     Iteration[2]            O(n)                       O(n)
     
+
+
+
+

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b0a4cc0-7aa9-4216-b5ff-219d0a09bed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structure/base_code/chapter_four/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/base_code/rec_mc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_mathematics_matrix/base_scatter.md" beforeDir="false" afterPath="$PROJECT_DIR$/py_mathematics_matrix/base_scatter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/base_structure/绘图练习3-0412-多个参数关系.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/structure/base_structure/绘图练习3-0412-多个参数关系.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/base_structure/绘图练习一.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/structure/base_structure/绘图练习一.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/build_py_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/structure/build_py_structure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/py_build_structure(py实现数据结构).md" beforeDir="false" afterPath="$PROJECT_DIR$/structure/py_build_structure(py实现数据结构).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/py_scientific_computing(建模).md" beforeDir="false" afterPath="$PROJECT_DIR$/structure/py_scientific_computing(建模).md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,12 +46,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_mathematics_matrix/base_scatter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="517">
-                <caret line="328" column="31" selection-start-line="328" selection-start-column="31" selection-end-line="328" selection-end-column="31" />
+              <first_editor relative-caret-position="565">
+                <caret line="335" column="4" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -127,6 +133,7 @@
         <option value="$PROJECT_DIR$/structure/py_build_structure(py实现数据结构).md" />
         <option value="$PROJECT_DIR$/structure/py_scientific_computing(建模).md" />
         <option value="$PROJECT_DIR$/py_mathematics_matrix/base_scatter.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -278,13 +285,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code_demo_flow/cart_edu/apps/coupon/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code_demo_flow/cart_edu/apps/coupon/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -685,8 +685,18 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="517">
-            <caret line="328" column="31" selection-start-line="328" selection-start-column="31" selection-end-line="328" selection-end-column="31" />
+          <first_editor relative-caret-position="565">
+            <caret line="335" column="4" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,4 +1,8 @@
-h2. 字典 dict
+##  字典 dict
+    特征: 
+        key 必须可哈希(即需要为不可变类型如:整数，浮点数，复数，字符串，逻辑值，元祖
+                     不能是 可变类型如:列表，字典，集合)
+        value 可以是任何类型
     h3. 操作特性
         创建 = {}, 
             dict([['a','b'],['a1','b1']])={'a': 'b', 'a1': 'b1'}, {}.fromkeys(('k1','k2'), 'v')={'k2': 'v', 'k1': 'v'}
@@ -96,7 +100,7 @@ h2. 字典 dict
         sorted(dic5.values(), key=repeats, reverse=True)
         ['January', 'February', 'March', 'April', 'May']
         
-## 字典操作，高级排序        
+### 字典操作，高级排序        
     h3. ** 字典高级排序
         现在，我们有一个字典来跟踪这些月中每个月的班级学生人数，例如
         trans = dict(January=33, February=30, March=24, April=0, May=7)
@@ -128,12 +132,14 @@ h2. 字典 dict
         key 必须是可哈希的不可变对象: 字符串,数值, 元组
         e.g: dic1 = {'(2,3,4)':1}
         
-h2. 集合 set
-    h3. 无序排列,元素必须可哈希,一组key集合, 所有值唯一不可重复
+##  集合 set
+    
+    h3. 无序排列,元素必须可哈希(即不可变类型),一组key集合, 所有值唯一不可重复
         如: s1 = set((12,3,123,123,12,3)), 
         s1 set([123, 3, 12])
-    h3. 功能:
-        成员关系测试,删除重复元素
+    h3. 功能和用途:
+        1，成员关系测试,删除重复元素
+        2，判断数据是否在数据集，比list 列表的 in 方法性能更强
     h3. 分类:
         set 可变集合
         frozenset 不可变集合
@@ -147,25 +153,39 @@ h2. 集合 set
         s2 = frozenset('abcasdasdasdasdasd')
         s2 frozenset(['a', 'c', 'b', 's', 'd'])
     h3. 操作符:
-        标准类型: in /not in, <,<=,>,>=,!=,==
-        集合类型:
+        标准类型: in /not in,
+            <,<=,>,>=,!=,==  (对应数学上概念: 真子集， 子集，真超集，超集，不等，等价)
+        集合操作类型:
             s1 frozenset(['a', 'c', 'b', 's', 'd'])
             s2 set(['a', 'c', 'b', 'e', 'd', 's'])
+            
             并集 OR   # 包含所有set1 和set2的
                 set1 | set2
-                set1.union(set2)
+                新集合方法 set1.union(set2)
+                更新原集合 update
             交集 AND  # 同时包含在set1 和set2的
                 set1 & set2
                 set1.intersection(set2)
+                更新原集合 intersection_update
+                
+                判断交集是否为空
+                s1 = {1,2,3,4}
+                s2 = {4,5,6}
+                s3 = {6,7,8}
+                s1.isdisjoint(s2)  # s1,s2交集不为空 False
+                s1.isdisjoint(s3)  # s1,s3交集为空 True
+            
             差补 C    # 包含在set1 中且不在set2
                 set1 - set2
                 set1.difference(set2)
+                更新原集合 difference_update
             对称差分 XOR  # 两个集合差别项
                 set1 ^ set2
                 s1.symmetric_difference(s2)
                     frozenset(['e'])
                 s2.symmetric_difference(s1)
                     set(['e'])
+                更新原集合 symmetric_difference_update
     h3. 常用BIF:
         添加元素: set.add(key)
         扩展元素: set.update(seq)

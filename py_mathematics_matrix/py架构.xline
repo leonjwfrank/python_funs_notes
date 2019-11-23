@@ -18,7 +18,7 @@
 	<key>displayAlertWhenDeleting</key>
 	<integer>1</integer>
 	<key>objectIDCounter</key>
-	<integer>71</integer>
+	<integer>113</integer>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -109,13 +109,142 @@
 					<key>toItem</key>
 					<integer>1</integer>
 				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2067.8000000000002</real>
+						<key>y</key>
+						<real>2039</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2056.3000000000002</real>
+						<key>y</key>
+						<real>1973</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>0</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>72</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>71</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2032</real>
+						<key>y</key>
+						<real>1989.7</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1841</real>
+						<key>y</key>
+						<real>2003.7</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>0</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>77</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>76</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1981.45</real>
+						<key>y</key>
+						<real>1998.4000000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1819.45</real>
+						<key>y</key>
+						<real>2196.9000000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>0</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>92</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>91</integer>
+				</dict>
 			</array>
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2048</real>
+				<real>2041</real>
 				<key>y</key>
-				<real>2048</real>
+				<real>2047</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -270,9 +399,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2282</real>
+				<real>2275</real>
 				<key>y</key>
-				<real>1987</real>
+				<real>1605.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -427,9 +556,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2490.5</real>
+				<real>2483.5</real>
 				<key>y</key>
-				<real>1663.5</real>
+				<real>1282</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -497,9 +626,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2817.5</real>
+				<real>2810.5</real>
 				<key>y</key>
-				<real>1493</real>
+				<real>1111.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -740,9 +869,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2644.5</real>
+				<real>2637.5</real>
 				<key>y</key>
-				<real>1680</real>
+				<real>1298.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -810,9 +939,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2986.5</real>
+				<real>2979.5</real>
 				<key>y</key>
-				<real>1533.5</real>
+				<real>1152</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -924,9 +1053,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2804</real>
+				<real>2797</real>
 				<key>y</key>
-				<real>1573.5</real>
+				<real>1192</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -994,9 +1123,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3129.5</real>
+				<real>3122.5</real>
 				<key>y</key>
-				<real>1573.5</real>
+				<real>1192</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1237,9 +1366,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2799.5</real>
+				<real>2792.5</real>
 				<key>y</key>
-				<real>1681.5</real>
+				<real>1300</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1307,9 +1436,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3004.5</real>
+				<real>2997.5</real>
 				<key>y</key>
-				<real>1612.5</real>
+				<real>1231</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1377,9 +1506,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3078.5</real>
+				<real>3071.5</real>
 				<key>y</key>
-				<real>1650.5</real>
+				<real>1269</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1447,9 +1576,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3187</real>
+				<real>3180</real>
 				<key>y</key>
-				<real>1688.5</real>
+				<real>1307</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1517,9 +1646,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3132</real>
+				<real>3125</real>
 				<key>y</key>
-				<real>1726.5</real>
+				<real>1345</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1631,9 +1760,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2811.5</real>
+				<real>2804.5</real>
 				<key>y</key>
-				<real>1772</real>
+				<real>1390.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1701,9 +1830,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3156.5</real>
+				<real>3149.5</real>
 				<key>y</key>
-				<real>1772</real>
+				<real>1390.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -1988,9 +2117,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2507</real>
+				<real>2500</real>
 				<key>y</key>
-				<real>2138</real>
+				<real>1756.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2188,9 +2317,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2708</real>
+				<real>2701</real>
 				<key>y</key>
-				<real>1858.5</real>
+				<real>1477</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2258,9 +2387,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2865.5</real>
+				<real>2858.5</real>
 				<key>y</key>
-				<real>1818.5</real>
+				<real>1437</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2328,9 +2457,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2870.5</real>
+				<real>2863.5</real>
 				<key>y</key>
-				<real>1858.5</real>
+				<real>1477</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2398,9 +2527,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2883.5</real>
+				<real>2876.5</real>
 				<key>y</key>
-				<real>1898.5</real>
+				<real>1517</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2684,9 +2813,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2676</real>
+				<real>2669</real>
 				<key>y</key>
-				<real>2174.5</real>
+				<real>1793</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2754,9 +2883,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2972.5</real>
+				<real>2965.5</real>
 				<key>y</key>
-				<real>2056</real>
+				<real>1674.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2824,9 +2953,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2925</real>
+				<real>2918</real>
 				<key>y</key>
-				<real>2103.5</real>
+				<real>1722</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2895,9 +3024,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2957</real>
+				<real>2950</real>
 				<key>y</key>
-				<real>2237.5</real>
+				<real>1856</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2967,9 +3096,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2934.5</real>
+				<real>2927.5</real>
 				<key>y</key>
-				<real>2293</real>
+				<real>1911.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3037,9 +3166,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>3002.5</real>
+				<real>2995.5</real>
 				<key>y</key>
-				<real>2166.5</real>
+				<real>1785</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3196,9 +3325,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2676</real>
+				<real>2669</real>
 				<key>y</key>
-				<real>1958.5</real>
+				<real>1577</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3266,9 +3395,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2866</real>
+				<real>2859</real>
 				<key>y</key>
-				<real>1938.5</real>
+				<real>1557</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3336,9 +3465,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2914.5</real>
+				<real>2907.5</real>
 				<key>y</key>
-				<real>1978.5</real>
+				<real>1597</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3493,9 +3622,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2655</real>
+				<real>2648</real>
 				<key>y</key>
-				<real>2353</real>
+				<real>1971.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3563,9 +3692,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2820</real>
+				<real>2813</real>
 				<key>y</key>
-				<real>2332</real>
+				<real>1950.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3633,9 +3762,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2835</real>
+				<real>2828</real>
 				<key>y</key>
-				<real>2370</real>
+				<real>1988.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3833,9 +3962,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2658</real>
+				<real>2651</real>
 				<key>y</key>
-				<real>2479</real>
+				<real>2097.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3903,9 +4032,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2819</real>
+				<real>2812</real>
 				<key>y</key>
-				<real>2428</real>
+				<real>2046.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3973,9 +4102,9 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2824.5</real>
+				<real>2817.5</real>
 				<key>y</key>
-				<real>2468</real>
+				<real>2086.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -4043,14 +4172,2175 @@ wrapper
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<real>2848</real>
+				<real>2841</real>
 				<key>y</key>
-				<real>2508</real>
+				<real>2126.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
 			<key>text</key>
 			<string>strace系统调用跟踪</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>24</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>71</integer>
+			<key>outboundLinks</key>
+			<array>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1851.6500000000001</real>
+						<key>y</key>
+						<real>2091.9499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1998.1500000000001</real>
+						<key>y</key>
+						<real>2046.45</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>71</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>74</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>73</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1606.4000000000001</real>
+						<key>y</key>
+						<real>1935.5</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1526.4000000000001</real>
+						<key>y</key>
+						<real>2077.5</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>71</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>89</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>88</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1792.45</real>
+						<key>y</key>
+						<real>1832.3499999999999</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1486.95</real>
+						<key>y</key>
+						<real>1960.8499999999999</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>71</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>98</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>97</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1778.8</real>
+						<key>y</key>
+						<real>1787.55</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1567.3</real>
+						<key>y</key>
+						<real>1961.55</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>71</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>106</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>105</integer>
+				</dict>
+			</array>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1831</real>
+				<key>y</key>
+				<real>1851</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>异步高并发</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>73</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1501.5</real>
+				<key>y</key>
+				<real>1713</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>PreForking异步模型：
+PreForking 机制和事件轮询异步读写结合起来 </string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>24</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>76</integer>
+			<key>outboundLinks</key>
+			<array>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1797</real>
+						<key>y</key>
+						<real>2102.4499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1758.5</real>
+						<key>y</key>
+						<real>2087.4499999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>79</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1797</real>
+						<key>y</key>
+						<real>2102.4499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1758.5</real>
+						<key>y</key>
+						<real>2087.4499999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>81</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>80</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1797</real>
+						<key>y</key>
+						<real>2102.4499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1758.5</real>
+						<key>y</key>
+						<real>2087.4499999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>83</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>82</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1797</real>
+						<key>y</key>
+						<real>2102.4499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1758.5</real>
+						<key>y</key>
+						<real>2087.4499999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>85</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>84</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1797</real>
+						<key>y</key>
+						<real>2102.4499999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1758.5</real>
+						<key>y</key>
+						<real>2087.4499999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>87</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>86</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1824.1500000000001</real>
+						<key>y</key>
+						<real>2117.5500000000002</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1607.6500000000001</real>
+						<key>y</key>
+						<real>1997.05</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>76</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>100</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>99</integer>
+				</dict>
+			</array>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1788</real>
+				<key>y</key>
+				<real>2201</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>单进程异步</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>78</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1602</real>
+				<key>y</key>
+				<real>2022</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>非阻塞IO</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>80</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1602</real>
+				<key>y</key>
+				<real>2067</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>事件轮询</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>82</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1559</real>
+				<key>y</key>
+				<real>2112</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>用户进程读写缓冲区</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>84</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1602</real>
+				<key>y</key>
+				<real>2157</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>StringIO</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>86</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1564.5</real>
+				<key>y</key>
+				<real>2202</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>asyncore 异步IO库</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>88</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1316</real>
+				<key>y</key>
+				<real>1828</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>PreForking模型可以对子进程数量进行限制。
+通过预先产生多个子进程，
+共同对服务器套接字进行竞争性accept
+当一个连接到来时，每个子进程都有机会拿到这个进程，
+但是最终只会有一个进程能accept
+</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>24</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>91</integer>
+			<key>outboundLinks</key>
+			<array>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2318.0500000000002</real>
+						<key>y</key>
+						<real>2413.9000000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2041.05</real>
+						<key>y</key>
+						<real>2160.4000000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>91</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>94</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>93</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2318.0500000000002</real>
+						<key>y</key>
+						<real>2424.8499999999999</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2077.5500000000002</real>
+						<key>y</key>
+						<real>2171.3499999999999</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>91</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>96</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>95</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2278.9000000000001</real>
+						<key>y</key>
+						<real>2435.8000000000002</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2074.9000000000001</real>
+						<key>y</key>
+						<real>2312.8000000000002</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>91</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>108</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>107</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2267.9499999999998</real>
+						<key>y</key>
+						<real>2536.1500000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2398.4499999999998</real>
+						<key>y</key>
+						<real>2449.6500000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>91</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>110</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>109</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>2267.9499999999998</real>
+						<key>y</key>
+						<real>2592.6999999999998</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>2586.9499999999998</real>
+						<key>y</key>
+						<real>2506.1999999999998</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>91</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>112</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>111</integer>
+				</dict>
+			</array>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2242</real>
+				<key>y</key>
+				<real>2497</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>协程</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>93</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2626</real>
+				<key>y</key>
+				<real>2202.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>协程和线程性能各有千秋，不同的情况协程性能不一定比线程低
+协程，英文Coroutines，是一种比线程更加轻量级的存在。
+正如一个进程可以拥有多个线程一样，一个线程也可以拥有多个协程
+</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>95</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2687.5</real>
+				<key>y</key>
+				<real>2327</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>用户态线程有两个必须要处理的问题：一是碰着阻塞式I\O会导致整个进程被挂起；
+二是由于缺乏时钟阻塞，进程需要自己拥有调度线程的能力。
+如果一种实现使得每个线程需要自己通过调用某个方法，主动交出控制权。
+那么我们就称这种用户态线程是协作式的，即是协程
+</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>97</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1637</real>
+				<key>y</key>
+				<real>1932</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>accept竞争</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>99</integer>
+			<key>outboundLinks</key>
+			<array>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1658.9000000000001</real>
+						<key>y</key>
+						<real>2266</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1635.4000000000001</real>
+						<key>y</key>
+						<real>2053</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>99</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>102</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>101</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1652.75</real>
+						<key>y</key>
+						<real>2162.8000000000002</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1278.75</real>
+						<key>y</key>
+						<real>1970.3</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>99</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>104</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>103</integer>
+				</dict>
+			</array>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1595</real>
+				<key>y</key>
+				<real>2293.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>同步和异步</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>14</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>101</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1247</real>
+				<key>y</key>
+				<real>2261.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>同步和异步的差别就好比卡车和摩托车一样，如果遇到了交通堵塞，
+卡车只能继续等待堵塞缓解才可以继续前进。
+但是摩托车不一样，它可以切换到其它小路不停地往前开</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>14</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>103</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1259</real>
+				<key>y</key>
+				<real>2327.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>prefork 在服务器套接字启用监听队列之后进行，
+这样每个子进程都可以使用服务器套接字来获取新连接进行处理。</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>105</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1638</real>
+				<key>y</key>
+				<real>1977</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>进程间通信</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>107</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2655</real>
+				<key>y</key>
+				<real>2515</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>对操作系统来说，线程是最小的执行单元，进程是最小的资源管理单元
+同步并发的问题
+1.涉及到同步锁。
+2.涉及到线程阻塞状态和可运行状态之间的切换。
+3.涉及到线程上下文的切换。
+
+以上涉及到的任何一点，都是非常耗费性能的操作</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>109</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2678</real>
+				<key>y</key>
+				<real>2665</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>协程不是被操作系统内核所管理，而完全是由程序所控制（也就是在用户态执行)
+协程的暂停完全由程序控制，线程的阻塞状态是由操作系统内核来进行切换
+协程的开销远远小于线程的开销
+</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>18</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>4</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>111</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>2756</real>
+				<key>y</key>
+				<real>2754.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>python可以通过 yield/send 的方式实现协程。
+在python 3.5以后，async/await 成为了更好的替代方案</string>
 			<key>textColor</key>
 			<dict>
 				<key>a</key>

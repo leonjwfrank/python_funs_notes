@@ -1,269 +1,4 @@
-"""
-~~~ 查找策略
-    顺序（无序，有序）
-    二分查找(有序)，迭代和非迭代实现
-    二叉查找树
-    二叉平衡树
-"""
-
-
-def binarySearch(alist, item):
-    """二分查找的非递归实现"""
-    first = 0
-    last = len(alist) - 1
-    found = False
-    iter_t = 0
-    while first <= last and not found:
-        iter_t += 1
-
-        midpoint = (first + last) // 2
-        if alist[midpoint] == item:
-            found = True
-        else:
-            if item < alist[midpoint]:
-                last = midpoint - 1
-            else:
-                first = midpoint + 1
-    print(f'search times:{iter_t}')
-    return found
-
-
-def recursionSearch(alist, item, rec_t=0):
-    """二分查找的递归实现"""
-    rec_t += 1
-    if len(alist) == 0:
-        return False  # 结束条件
-    else:
-        midpoint = len(alist) // 2
-        if alist[midpoint] == item:
-            return True
-        else:
-            if item < alist[midpoint]:  # 缩小规模
-                print('now search rec_t:{}'.format(rec_t))
-                return recursionSearch(alist[:midpoint], item)  # 调用自身
-            else:
-                print('now search rec_t:{}'.format(rec_t))
-                return recursionSearch(alist[midpoint + 1:], item)  # 调用自身
-
-
-def bubbleSort(alist, x=0):
-    """冒泡排序"""
-    exchange = True  # 用于检测冒泡排序是否发生交换
-    for passnum in range(len(alist) - 1, 0, -1):
-        if exchange:
-            exchange = False
-            for i in range(passnum):  # n-1 趟
-                x += 1
-                if alist[i] > alist[i + 1]:
-                    exchange = True
-                    print(f'是否发生交换:{exchange}')
-                    """
-                    # 序错，交换开始
-                    temp = alist[i]
-                    alist[i] = alist[i+1]
-                    alist[i+1] = temp
-                    # 序错，交换结束
-                    """
-                    alist[i], alist[i + 1] = alist[i + 1], alist[i]
-    print('sort times:{}'.format(x))
-    return alist
-
-
-def shortBubbleSort(alist, n=0):
-    """冒泡性能改进
-    """
-    exchanges = True
-    passnum = len(alist) - 1
-    while passnum > 0 and exchanges:
-        exchanges = False
-
-        for i in range(passnum):
-            if alist[i] > alist[i + 1]:
-                n += 1  # 排序多少次
-                exchanges = True
-                # temp = alist[i]
-                alist[i], alist[i + 1] = alist[i + 1], alist[i]
-        passnum = passnum - 1
-    print(f'共排序{n}次')
-    return alist
-
-
-def selectionSorting(alist, n=0):
-    """选择排序"""
-    for fill in range(len(alist) - 1, 0, -1):
-        positionOfMax = 0
-        for local in range(1, fill + 1):
-
-            if alist[local] > alist[positionOfMax]:
-                n += 1
-                positionOfMax = local
-
-        # 选择排序是在每一次内存循环完成后才进行的
-        alist[fill], alist[positionOfMax] = alist[positionOfMax], alist[fill]  # 交换位置
-    print(f'select sort n:{n}')
-    return alist
-
-
-def insertionSort(alist, n=0):
-    """插入排序
-    移动操作仅包含一次赋值，是交换操作的1/3，所以插入排序性能会好一些"""
-    for index in range(1, len(alist)):
-        currentvalue = alist[index]  # 新项/插入项
-        position = index
-        while position > 0 and alist[position - 1] > currentvalue:  # 如果大于当前项进入循环
-            n += 1
-            alist[position] = alist[position - 1]  # 对比，移动
-            position = position - 1
-
-        alist[position] = currentvalue  # 插入新项
-    print('插入排序比对次数{}'.format(n))
-    return alist
-
-
-def shellSort(alist):
-    """谢尔排序, gap 取值1，3，5，7，9... 2k-1
-    O(N**(3/2))"""
-    sublistcount = len(alist) // 2  # 间隔设定
-    while sublistcount > 0:
-        for startposition in range(sublistcount):  # 子列表排序
-            gapInsertionSort(alist, startposition, sublistcount)
-        print("After increment of size:{}, \n The list:{} ".format(sublistcount, alist))
-
-        sublistcount = sublistcount // 2  # 间隔缩小
-
-    return alist
-
-
-def gapInsertionSort(alist, start, gap):
-    """间隔插入排序"""
-    for i in range(start + gap, len(alist), gap):
-        currentvalue = alist[i]
-        position = 1
-
-        while position >= gap and alist[position - gap] > currentvalue:
-            alist[position] = alist[position - gap]
-            position = position - gap
-    pass
-
-
-def mergeSort(alist, n=0):
-    """归并排序"""
-    print('split:{}'.format(alist))
-    if len(alist) > 1:
-        mid = len(alist) // 2  # 基本结束条件
-        lefthalf = alist[:mid]
-        rightalf = alist[mid:]
-
-        mergeSort(lefthalf)  # 递归调用左半部分,排序左部分
-        mergeSort(rightalf)  # 递归调用右半部分，排序右部分
-        print(f'left{lefthalf}')
-        print(f'right{rightalf}')
-
-        i = j = k = 0
-        while i < len(lefthalf) and j > len(rightalf):
-
-            if lefthalf[i] < rightalf[j]:
-                # 交错把左右半部从小到大归并到结果列表中
-                alist[k] = lefthalf[i]
-                i += 1
-                print(f"merga times:i{i},j{j},k{k}, alist:{alist}")
-            else:
-                alist[k] = rightalf[j]
-                j += 1
-                print(f"merga times:i{i},j{j},k{k}, alist:{alist}")
-            k += 1
-
-        while i < len(lefthalf):
-            # 归并左半部
-            alist[k] = lefthalf[i]
-            i += 1
-            k += 1
-            print(f"merga times:i{i},j{j},k{k}, alist:{alist}")
-        while j < len(rightalf):
-            # 归并右半部
-            alist[k] = rightalf[j]
-            j += 1
-            k += 1
-            print(f"merga times:i{i},j{j},k{k}, alist:{alist}")
-        # return alist
-
-
-def merge_sort(lst, n=0):
-    """pythonic 的归并排序"""
-    if len(lst) <= 1:
-        return lst
-    # 分解问题，递归调用解决
-    midd = len(lst) // 2
-    left = merge_sort(lst[:midd])  # 左部排好序
-    right = merge_sort(lst[midd:])  # 右部排好序
-
-    # 合并左右半部，完成排序
-    merged = []
-    while left and right:
-        n += 1
-        if left[0] <= right[0]:
-            merged.append(left.pop(0))
-        else:
-            merged.append(right.pop(0))
-    merged.extend(right if right else left)
-    print(f'pythonic 归并排序{n}次:{merged}')
-    return merged
-
-
-class QuickSort(object):
-
-    @staticmethod
-    def quickSort(alist):
-        QuickSort.quickSortHelper(alist, 0, len(alist) - 1)
-        return alist
-
-    @staticmethod
-    def quickSortHelper(alist, first, last, n=0):
-        if first < last:  # 基本结束条件，如果first 还大于等于last，则继续分裂
-            n += 1
-            splitpoint = QuickSort.partition(alist, first, last)  # 分裂
-
-            QuickSort.quickSortHelper(alist, first, splitpoint - 1)  # 递归调用快速排序
-            QuickSort.quickSortHelper(alist, splitpoint + 1, last)
-
-            print(f"快速排序{n}次，{alist}")
-        return alist
-
-    @staticmethod
-    def partition(alist, first, last):
-        """快速排序的分裂函数"""
-        pivotvalue = alist[first]  # 选择中值
-        leftmark = first + 1
-        rightmark = last  # 左右标初值
-
-        done = False
-        while not done:
-            while leftmark <= rightmark and alist[leftmark] <= pivotvalue:
-                # 左标向右移
-                leftmark = leftmark + 1
-            while alist[rightmark] >= pivotvalue and rightmark >= leftmark:
-                # 右标向左移
-                rightmark = rightmark - 1
-            if rightmark < leftmark:
-                # 左右标相错则结束
-                done = True
-            else:
-
-                # # 左右标值交换
-                alist[leftmark], alist[rightmark] = alist[rightmark], alist[leftmark]
-                """
-                #或者经典写法:
-                temp = alist[leftmark]
-                alist[leftmark] = alist[rightmark]
-                alist[rightmark] = temp
-                #"""
-        # 中值就位
-        temp = alist[first]
-        alist[first] = alist[rightmark]
-        alist[rightmark] = temp
-
-        return rightmark  # 返回中值点，分裂点
-
+# coding:utf-8
 
 class BinarySearchTree(object):
     """二叉搜索树是红黑树的基础
@@ -271,6 +6,7 @@ class BinarySearchTree(object):
     树中的每个结点增加了一个用于存储颜色的标志域；
     树中没有一条路径比其他任何路径长出两倍，整棵树要接近于“平衡”的状态。
     """
+
     def __init__(self):
         self.root = None
         self.size = 0
@@ -291,13 +27,15 @@ class BinarySearchTree(object):
                 self._put(key, val, currentNode.leftChild)  # 递归左子树
             else:
                 currentNode.leftChild = TreeNode(key, val, parent=currentNode)  # 树的节点
-                # self.updateBalance(currentNode.leftChild)  # 调整因子
+                if currentNode.balanceFactor:
+                    self.updateBalance(currentNode.leftChild)  # 调整因子
         else:  # 如果key 等于大于 当前节点key，进入树的右子树进行递归插入
-            if currentNode.hasLeftChild():
+            if currentNode.hasRightChild():
                 self._put(key, val, currentNode.rightChild)  # 递归右子树
             else:
                 currentNode.rightChild = TreeNode(key, val, parent=currentNode)
-                # self.updateBalance(currentNode.rightChild)  # 调整因子
+                if currentNode.balanceFactor:
+                    self.updateBalance(currentNode.rightChild)  # 调整因子
 
     def put(self, key, val):
         """BST高度 log_2 N ,如果key列表随机分布，大于小于根节点key的键值大致相等。性能在于二叉树的高度(最大层次),高度也受数据项key插入顺序影响
@@ -492,8 +230,113 @@ class BinarySearchTree(object):
         newRoot.balanceFactor = newRoot.balanceFactor + 1 + max(rotRoot.balanceFactor, 0)
 
 
+class AVLTree(BinarySearchTree):
+    '''
+    Author:  Brad Miller
+    Date:  1/15/2005
+    Description:  Imlement a binary search tree with the following interface
+                  functions:
+                  __contains__(y) <==> y in x
+                  __getitem__(y) <==> x[y]
+                  __init__()
+                  __len__() <==> len(x)
+                  __setitem__(k,v) <==> x[k] = v
+                  clear()
+                  get(k)
+                  has_key(k)
+                  items()
+                  keys()
+                  values()
+                  put(k,v)
+    '''
+
+
+    def _put(self,key,val,currentNode):
+        if key < currentNode.key:
+            if currentNode.hasLeftChild():
+                self._put(key,val,currentNode.leftChild)
+            else:
+                currentNode.leftChild = TreeNode(key,val,parent=currentNode)
+                self.updateBalance(currentNode.leftChild)
+        else:
+            if currentNode.hasRightChild():
+                self._put(key,val,currentNode.rightChild)
+            else:
+                currentNode.rightChild = TreeNode(key,val,parent=currentNode)
+                self.updateBalance(currentNode.rightChild)
+
+    def updateBalance(self,node):
+        """更新平衡树"""
+        if node.balanceFactor > 1 or node.balanceFactor < -1:
+            self.rebalance(node)
+            return
+        if node.parent != None:
+            if node.isLeftChild():
+                node.parent.balanceFactor += 1
+            elif node.isRightChild():
+                node.parent.balanceFactor -= 1
+
+            if node.parent.balanceFactor != 0:
+                self.updateBalance(node.parent)
+
+    def rebalance(self,node):
+        if node.balanceFactor < 0:
+            if node.rightChild.balanceFactor > 0:
+                # Do an LR Rotation
+                self.rotateRight(node.rightChild)
+                self.rotateLeft(node)
+            else:
+                # single left
+                self.rotateLeft(node)
+        elif node.balanceFactor > 0:
+            if node.leftChild.balanceFactor < 0:
+                # Do an RL Rotation
+                self.rotateLeft(node.leftChild)
+                self.rotateRight(node)
+            else:
+                # single right
+                self.rotateRight(node)
+
+    def rotateLeft(self,rotRoot):
+        newRoot = rotRoot.rightChild
+        rotRoot.rightChild = newRoot.leftChild
+        if newRoot.leftChild != None:
+            newRoot.leftChild.parent = rotRoot
+        newRoot.parent = rotRoot.parent
+        if rotRoot.isRoot():
+            self.root = newRoot
+        else:
+            if rotRoot.isLeftChild():
+                rotRoot.parent.leftChild = newRoot
+            else:
+                rotRoot.parent.rightChild = newRoot
+        newRoot.leftChild = rotRoot
+        rotRoot.parent = newRoot
+        rotRoot.balanceFactor = rotRoot.balanceFactor + 1 - min(newRoot.balanceFactor, 0)
+        newRoot.balanceFactor = newRoot.balanceFactor + 1 + max(rotRoot.balanceFactor, 0)
+
+
+    def rotateRight(self,rotRoot):
+        newRoot = rotRoot.leftChild
+        rotRoot.leftChild = newRoot.rightChild
+        if newRoot.rightChild != None:
+            newRoot.rightChild.parent = rotRoot
+        newRoot.parent = rotRoot.parent
+        if rotRoot.isRoot():
+            self.root = newRoot
+        else:
+            if rotRoot.isRightChild():
+                rotRoot.parent.rightChild = newRoot
+            else:
+                rotRoot.parent.leftChild = newRoot
+        newRoot.rightChild = rotRoot
+        rotRoot.parent = newRoot
+        rotRoot.balanceFactor = rotRoot.balanceFactor - 1 - max(newRoot.balanceFactor, 0)
+        newRoot.balanceFactor = newRoot.balanceFactor - 1 + min(rotRoot.balanceFactor, 0)
+
 class TreeNode(object):
     """二叉搜索树节点"""
+
     def __init__(self, key, val, left=None, right=None, parent=None):
         self.key = key  # 键值
         self.payload = val  # 数据项
@@ -530,14 +373,14 @@ class TreeNode(object):
         """迭代器函数用来for函数，实际上递归函数yield是对每次迭代的返回值，
         中序遍历的迭代
         BST类中的 __iter__方法直接调用了TreeNode中同名方法"""
-        if self:   # 根不为空，基本结束条件
+        if self:  # 根不为空，基本结束条件
             if self.hasLeftChild():  # 左子树不为空
                 for elem in self.leftChild:  # 遍历左子树
-                    yield elem      # 生成器，返回左子树一个元素
-            yield self.key          # 生成器，返回根
-            if self.hasRightChild():    # 右子树不为空
+                    yield elem  # 生成器，返回左子树一个元素
+            yield self.key  # 生成器，返回根
+            if self.hasRightChild():  # 右子树不为空
                 for elem in self.rightChild:  # 遍历右子树
-                    yield elem      # 生成器，返回右子树一个元素
+                    yield elem  # 生成器，返回右子树一个元素
 
     def replaceNodeData(self, key, value, lc, rc):
         self.key = key
@@ -591,12 +434,13 @@ class TreeNode(object):
             current = current.leftChild
         return current
 
+
 ################################TESTCASE#########################################################
 import unittest
 import time
 
-class TreeTestCase(unittest.TestCase):
 
+class TreeTestCase(unittest.TestCase):
 
     def setUp(self):
         self.bst = BinarySearchTree()
@@ -680,19 +524,33 @@ class TreeTestCase(unittest.TestCase):
         print(f'root left child have non-child: {self.bst.root.leftChild.hasAnyChildren()}')
 
 
-
 if __name__ == '__main__':
     import time
 
     lis1 = [1, 12, 3, 32, 14, 21, 35, 21, 12, 123, 42, 21, 32, 42]
     bst1 = BinarySearchTree()
+    bst1.put(56, '')
 
+    print(f'only root tree', bst1.root.key, bst1.length(), bst1.size, bst1.root.key)
+    bst1.put(111, 'a1')
+    print(f'have right child', bst1.root.key, bst1.size)
+    print(f'have any children', bst1.root.hasAnyChildren, bst1.root.rightChild.key, bst1.root.rightChild.payload)
+
+    bst1.put(112, 'a12')
+    bst1.put(11, 'a11')
+    print(f'have right child', bst1.root.rightChild.key, bst1.size)
+    print(f'have right child', bst1.root.rightChild.rightChild.key, bst1.size)
+
+    print(f'have left child', bst1.root.leftChild.key, bst1.size)
+    print(112 in bst1)
+    print(113 in bst1)
+
+    # print(bst1.root.leftChild.hasRightChild())
     # print(f'bsr1 root root-left-right:{bst1.get(10), bst1.root.leftChild.rightChild.key, bst1.root.leftChild.rightChild.payload, bst1.length()}')
     #
     # print(f'root左侧为None:{bst1.root.leftChild}, 第二个10应该在 右侧: {bst1.root.rightChild.key, bst1.root.rightChild.payload}')
 
-    unittest.main()
-
+    # unittest.main()
 
     """
     testlist = [0,1,2,3,7,8,13,25,258,1992,]
@@ -707,7 +565,7 @@ if __name__ == '__main__':
     t2 = time.clock()
     print(recursionSearch(testlist, 258))
     print('timeit3:{}'.format(time.clock() - t2))
-     
+
     t3 = time.clock()
     alist = [1, 3, 45, 3, 43434, 3, 2, 3, 43, 23, 534]
     print(bubbleSort([1, 3, 45, 3, 43434, 3, 2, 3, 43, 23, 534]))

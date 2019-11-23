@@ -18,7 +18,7 @@
 	<key>displayAlertWhenDeleting</key>
 	<integer>1</integer>
 	<key>objectIDCounter</key>
-	<integer>391</integer>
+	<integer>397</integer>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -1934,7 +1934,7 @@
 				<key>x</key>
 				<real>1928</real>
 				<key>y</key>
-				<real>258.5</real>
+				<real>156</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2076,7 +2076,7 @@
 				<key>x</key>
 				<real>1629</real>
 				<key>y</key>
-				<real>-225</real>
+				<real>-327.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2148,7 +2148,7 @@
 				<key>x</key>
 				<real>1489.5</real>
 				<key>y</key>
-				<real>-10.5</real>
+				<real>-113</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2220,7 +2220,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1489</real>
 				<key>y</key>
-				<real>-93</real>
+				<real>-195.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2293,7 +2293,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1594</real>
 				<key>y</key>
-				<real>-159</real>
+				<real>-261.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2493,7 +2493,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>110</real>
+				<real>7.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2563,7 +2563,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1551.5</real>
 				<key>y</key>
-				<real>46.5</real>
+				<real>-56</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2633,7 +2633,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1549.5</real>
 				<key>y</key>
-				<real>86.5</real>
+				<real>-16</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2703,7 +2703,7 @@ c语言，苹果公司曾经发生过一件事，c语言源代码因为书写缩
 				<key>x</key>
 				<real>1545.5</real>
 				<key>y</key>
-				<real>142</real>
+				<real>39.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2862,7 +2862,7 @@ f(n)_=O(g(n)), f(n) = 𝛀(g(n))</string>
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>408.5</real>
+				<real>306</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -2932,7 +2932,7 @@ f(n)_=O(g(n)), f(n) = 𝛀(g(n))</string>
 				<key>x</key>
 				<real>1526.5</real>
 				<key>y</key>
-				<real>213</real>
+				<real>110.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3177,7 +3177,7 @@ heart,earth, python 和typhon
 				<key>x</key>
 				<real>1463.5</real>
 				<key>y</key>
-				<real>440</real>
+				<real>337.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3248,7 +3248,7 @@ heart,earth, python 和typhon
 				<key>x</key>
 				<real>1034.5</real>
 				<key>y</key>
-				<real>267.5</real>
+				<real>165</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3318,7 +3318,7 @@ heart,earth, python 和typhon
 				<key>x</key>
 				<real>904.5</real>
 				<key>y</key>
-				<real>327</real>
+				<real>224.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3391,7 +3391,7 @@ heart,earth, python 和typhon
 				<key>x</key>
 				<real>792</real>
 				<key>y</key>
-				<real>423.5</real>
+				<real>321</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -3466,7 +3466,7 @@ heart,earth, python 和typhon
 				<key>x</key>
 				<real>909.5</real>
 				<key>y</key>
-				<real>598.5</real>
+				<real>496</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -5997,7 +5997,7 @@ Numpy数组
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>850</real>
+				<real>747.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6283,7 +6283,7 @@ Numpy数组
 				<key>x</key>
 				<real>1630.5</real>
 				<key>y</key>
-				<real>773.5</real>
+				<real>671</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6353,7 +6353,7 @@ Numpy数组
 				<key>x</key>
 				<real>1486.5</real>
 				<key>y</key>
-				<real>681.5</real>
+				<real>579</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6423,7 +6423,7 @@ Numpy数组
 				<key>x</key>
 				<real>1486.5</real>
 				<key>y</key>
-				<real>719.5</real>
+				<real>617</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6493,7 +6493,7 @@ Numpy数组
 				<key>x</key>
 				<real>1480.5</real>
 				<key>y</key>
-				<real>757.5</real>
+				<real>655</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6563,7 +6563,7 @@ Numpy数组
 				<key>x</key>
 				<real>1468.5</real>
 				<key>y</key>
-				<real>795.5</real>
+				<real>693</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6633,7 +6633,7 @@ Numpy数组
 				<key>x</key>
 				<real>1486.5</real>
 				<key>y</key>
-				<real>833.5</real>
+				<real>731</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6833,7 +6833,7 @@ Numpy数组
 				<key>x</key>
 				<real>1625.5</real>
 				<key>y</key>
-				<real>925</real>
+				<real>822.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6903,7 +6903,7 @@ Numpy数组
 				<key>x</key>
 				<real>1460.5</real>
 				<key>y</key>
-				<real>871.5</real>
+				<real>769</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -6973,7 +6973,7 @@ Numpy数组
 				<key>x</key>
 				<real>1469</real>
 				<key>y</key>
-				<real>909.5</real>
+				<real>807</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7043,7 +7043,7 @@ Numpy数组
 				<key>x</key>
 				<real>1409</real>
 				<key>y</key>
-				<real>955</real>
+				<real>852.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7416,7 +7416,7 @@ Numpy数组
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>1207</real>
+				<real>1104.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7486,7 +7486,7 @@ Numpy数组
 				<key>x</key>
 				<real>1505.5</real>
 				<key>y</key>
-				<real>1024.5</real>
+				<real>922</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7559,7 +7559,7 @@ Numpy数组
 				<key>x</key>
 				<real>1625.5</real>
 				<key>y</key>
-				<real>1103</real>
+				<real>1000.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7631,7 +7631,7 @@ Numpy数组
 				<key>x</key>
 				<real>1487.5</real>
 				<key>y</key>
-				<real>1181.5</real>
+				<real>1079</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7704,7 +7704,7 @@ Numpy数组
 				<key>x</key>
 				<real>1644.5</real>
 				<key>y</key>
-				<real>1244.5</real>
+				<real>1142</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7774,7 +7774,7 @@ Numpy数组
 				<key>x</key>
 				<real>1626.5</real>
 				<key>y</key>
-				<real>1284.5</real>
+				<real>1182</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7844,7 +7844,7 @@ Numpy数组
 				<key>x</key>
 				<real>1644.5</real>
 				<key>y</key>
-				<real>1324.5</real>
+				<real>1222</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -7914,7 +7914,7 @@ Numpy数组
 				<key>x</key>
 				<real>1644.5</real>
 				<key>y</key>
-				<real>1364.5</real>
+				<real>1262</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8114,7 +8114,7 @@ Numpy数组
 				<key>x</key>
 				<real>1769</real>
 				<key>y</key>
-				<real>1507.5</real>
+				<real>1405</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8184,7 +8184,7 @@ Numpy数组
 				<key>x</key>
 				<real>1512.5</real>
 				<key>y</key>
-				<real>1444</real>
+				<real>1341.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8259,7 +8259,7 @@ Numpy数组
 				<key>x</key>
 				<real>1542.5</real>
 				<key>y</key>
-				<real>1531</real>
+				<real>1428.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8330,7 +8330,7 @@ Numpy数组
 				<key>x</key>
 				<real>1566.5</real>
 				<key>y</key>
-				<real>1578.5</real>
+				<real>1476</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8487,7 +8487,7 @@ Numpy数组
 				<key>x</key>
 				<real>1741</real>
 				<key>y</key>
-				<real>1674.5</real>
+				<real>1572</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8557,7 +8557,7 @@ Numpy数组
 				<key>x</key>
 				<real>1434</real>
 				<key>y</key>
-				<real>1641.5</real>
+				<real>1539</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8760,7 +8760,7 @@ Numpy数组
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>1845.5</real>
+				<real>1743</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8830,7 +8830,7 @@ Numpy数组
 				<key>x</key>
 				<real>1385</real>
 				<key>y</key>
-				<real>1712</real>
+				<real>1609.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8901,7 +8901,7 @@ Numpy数组
 				<key>x</key>
 				<real>1345.5</real>
 				<key>y</key>
-				<real>1782.5</real>
+				<real>1680</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -8974,7 +8974,7 @@ Numpy数组
 				<key>x</key>
 				<real>1422</real>
 				<key>y</key>
-				<real>1853</real>
+				<real>1750.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9045,7 +9045,7 @@ Numpy数组
 				<key>x</key>
 				<real>1396.5</real>
 				<key>y</key>
-				<real>1908</real>
+				<real>1805.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9203,7 +9203,7 @@ Numpy数组
 				<key>x</key>
 				<real>1769</real>
 				<key>y</key>
-				<real>2002.5</real>
+				<real>1900</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9273,7 +9273,7 @@ Numpy数组
 				<key>x</key>
 				<real>1618.5</real>
 				<key>y</key>
-				<real>1963</real>
+				<real>1860.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9344,7 +9344,7 @@ Numpy数组
 				<key>x</key>
 				<real>1587.5</real>
 				<key>y</key>
-				<real>2026</real>
+				<real>1923.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9546,7 +9546,7 @@ Numpy数组
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>2129.5</real>
+				<real>2027</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9616,7 +9616,7 @@ Numpy数组
 				<key>x</key>
 				<real>1619</real>
 				<key>y</key>
-				<real>2081.5</real>
+				<real>1979</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9686,7 +9686,7 @@ Numpy数组
 				<key>x</key>
 				<real>1593</real>
 				<key>y</key>
-				<real>2121.5</real>
+				<real>2019</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -9756,7 +9756,7 @@ Numpy数组
 				<key>x</key>
 				<real>1630.5</real>
 				<key>y</key>
-				<real>2161.5</real>
+				<real>2059</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -10595,6 +10595,135 @@ Numpy数组
 					<key>toItem</key>
 					<integer>385</integer>
 				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1681.45</real>
+						<key>y</key>
+						<real>2971.4000000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1404.45</real>
+						<key>y</key>
+						<real>3279.9000000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>339</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>392</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>391</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1705.5999999999999</real>
+						<key>y</key>
+						<real>2963.9000000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1403.5999999999999</real>
+						<key>y</key>
+						<real>3191.9000000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>339</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>394</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>393</integer>
+				</dict>
+				<dict>
+					<key>color</key>
+					<dict>
+						<key>a</key>
+						<real>1</real>
+						<key>b</key>
+						<real>0.0</real>
+						<key>g</key>
+						<real>0.0</real>
+						<key>r</key>
+						<real>0.0</real>
+					</dict>
+					<key>controlPoint1</key>
+					<dict>
+						<key>x</key>
+						<real>1709.95</real>
+						<key>y</key>
+						<real>2967.6500000000001</real>
+					</dict>
+					<key>controlPoint2</key>
+					<dict>
+						<key>x</key>
+						<real>1420.45</real>
+						<key>y</key>
+						<real>3181.1500000000001</real>
+					</dict>
+					<key>dashStyle</key>
+					<integer>0</integer>
+					<key>fromItem</key>
+					<integer>339</integer>
+					<key>hasArrow</key>
+					<false/>
+					<key>kind</key>
+					<integer>0</integer>
+					<key>linkStyle</key>
+					<integer>1</integer>
+					<key>objectID</key>
+					<integer>396</integer>
+					<key>thickness</key>
+					<integer>3</integer>
+					<key>toItem</key>
+					<integer>395</integer>
+				</dict>
 			</array>
 			<key>position</key>
 			<dict>
@@ -10671,7 +10800,7 @@ Numpy数组
 				<key>x</key>
 				<real>1774</real>
 				<key>y</key>
-				<real>3780</real>
+				<real>3844</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -10741,7 +10870,7 @@ Numpy数组
 				<key>x</key>
 				<real>1340</real>
 				<key>y</key>
-				<real>2209</real>
+				<real>2106.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -10812,7 +10941,7 @@ Numpy数组
 				<key>x</key>
 				<real>1370.5</real>
 				<key>y</key>
-				<real>2287.5</real>
+				<real>2185</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -10886,7 +11015,7 @@ Numpy数组
 				<key>x</key>
 				<real>1570</real>
 				<key>y</key>
-				<real>2366</real>
+				<real>2263.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -10957,7 +11086,7 @@ Numpy数组
 				<key>x</key>
 				<real>1566</real>
 				<key>y</key>
-				<real>2429</real>
+				<real>2326.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11029,7 +11158,7 @@ Numpy数组
 				<key>x</key>
 				<real>1456</real>
 				<key>y</key>
-				<real>2492</real>
+				<real>2389.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11100,7 +11229,7 @@ Numpy数组
 				<key>x</key>
 				<real>1513</real>
 				<key>y</key>
-				<real>2547</real>
+				<real>2444.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11171,7 +11300,7 @@ Numpy数组
 				<key>x</key>
 				<real>1506</real>
 				<key>y</key>
-				<real>2602</real>
+				<real>2499.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11242,7 +11371,7 @@ Numpy数组
 				<key>x</key>
 				<real>1503</real>
 				<key>y</key>
-				<real>2657</real>
+				<real>2554.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11313,7 +11442,7 @@ Numpy数组
 				<key>x</key>
 				<real>1560.5</real>
 				<key>y</key>
-				<real>2712</real>
+				<real>2609.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11384,7 +11513,7 @@ Numpy数组
 				<key>x</key>
 				<real>1543</real>
 				<key>y</key>
-				<real>2782.5</real>
+				<real>2680</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11457,7 +11586,7 @@ Numpy数组
 				<key>x</key>
 				<real>1496</real>
 				<key>y</key>
-				<real>2853</real>
+				<real>2750.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11528,7 +11657,7 @@ Numpy数组
 				<key>x</key>
 				<real>1553.5</real>
 				<key>y</key>
-				<real>2900.5</real>
+				<real>2798</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11598,14 +11727,16 @@ Numpy数组
 				<key>x</key>
 				<real>1423</real>
 				<key>y</key>
-				<real>2956</real>
+				<real>2869</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
 			<key>text</key>
 			<string>树的递归定义：
  树是: 空集;
-或者由根节点及0或多个子树构成(其中子树也 是树)，每个子树的根到根节点具有边相连。</string>
+或者由根节点及0或多个子树构成(其中子树也 是树)，
+每个子树的根到根节点具有边相连。
+</string>
 			<key>textColor</key>
 			<dict>
 				<key>a</key>
@@ -11670,7 +11801,7 @@ Numpy数组
 				<key>x</key>
 				<real>1606.5</real>
 				<key>y</key>
-				<real>3019</real>
+				<real>2947.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11741,7 +11872,7 @@ Numpy数组
 				<key>x</key>
 				<real>1618.5</real>
 				<key>y</key>
-				<real>3066.5</real>
+				<real>2995</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -11811,7 +11942,7 @@ Numpy数组
 				<key>x</key>
 				<real>1579.5</real>
 				<key>y</key>
-				<real>3106.5</real>
+				<real>3035</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12054,7 +12185,7 @@ Numpy数组
 				<key>x</key>
 				<real>1627</real>
 				<key>y</key>
-				<real>3600.5</real>
+				<real>3529</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12124,7 +12255,7 @@ Numpy数组
 				<key>x</key>
 				<real>1375.5</real>
 				<key>y</key>
-				<real>3444</real>
+				<real>3372.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12195,7 +12326,7 @@ Numpy数组
 				<key>x</key>
 				<real>1326</real>
 				<key>y</key>
-				<real>3526.5</real>
+				<real>3455</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12270,14 +12401,13 @@ Numpy数组
 				<key>x</key>
 				<real>1268.5</real>
 				<key>y</key>
-				<real>3630.5</real>
+				<real>3559</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
 			<key>text</key>
 			<string>二叉堆:
-实现优先队列的经典方案是采用二叉堆数
-据结构
+实现优先队列的经典方案是采用二叉堆数据结构
 二叉堆能够将优先队列的入队和出队复杂度都保 持在O(log n)
 ❖ 二叉堆的有趣之处在于，其逻辑结构上象 二叉树，却是用非嵌套的列表来实现的</string>
 			<key>textColor</key>
@@ -12344,14 +12474,13 @@ Numpy数组
 				<key>x</key>
 				<real>1362</real>
 				<key>y</key>
-				<real>3719</real>
+				<real>3640</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
 			<key>text</key>
 			<string>二叉堆:
-最小key排在队首的称为“最小堆min
-heap”
+最小key排在队首的称为“最小堆min heap”
 反之，最大key排在队首的是“最大堆max heap”</string>
 			<key>textColor</key>
 			<dict>
@@ -12504,7 +12633,7 @@ heap”
 				<key>x</key>
 				<real>1610</real>
 				<key>y</key>
-				<real>3276</real>
+				<real>3204.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12574,7 +12703,7 @@ heap”
 				<key>x</key>
 				<real>1205</real>
 				<key>y</key>
-				<real>3182.5</real>
+				<real>3111</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12649,7 +12778,7 @@ heap”
 				<key>x</key>
 				<real>1167</real>
 				<key>y</key>
-				<real>3328</real>
+				<real>3256.5</real>
 			</dict>
 			<key>shape</key>
 			<integer>2</integer>
@@ -12664,6 +12793,218 @@ heap”
 抗冲突性:已知原数据和指纹，要找到相同指纹的数据(伪造)是非常困难的
 
 </string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>13</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>391</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1646.5</real>
+				<key>y</key>
+				<real>3693.5</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>二叉查找树</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>13</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>393</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1584.5</real>
+				<key>y</key>
+				<real>3741</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>二叉平衡树(
+特殊的二叉查找树，带平衡因子)</string>
+			<key>textColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.0</real>
+				<key>g</key>
+				<real>0.0</real>
+				<key>r</key>
+				<real>0.0</real>
+			</dict>
+			<key>underline</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>borderColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>0.29803922772407532</real>
+				<key>g</key>
+				<real>0.29803922772407532</real>
+				<key>r</key>
+				<real>0.29803922772407532</real>
+			</dict>
+			<key>borderThickness</key>
+			<real>1</real>
+			<key>expanded</key>
+			<true/>
+			<key>fillColor</key>
+			<dict>
+				<key>a</key>
+				<real>1</real>
+				<key>b</key>
+				<real>1</real>
+				<key>g</key>
+				<real>1</real>
+				<key>r</key>
+				<real>1</real>
+			</dict>
+			<key>fontName</key>
+			<string>HelveticaNeue</string>
+			<key>fontSize</key>
+			<real>13</real>
+			<key>hidden</key>
+			<false/>
+			<key>imagePosition</key>
+			<integer>1</integer>
+			<key>imageScale</key>
+			<real>1</real>
+			<key>layout</key>
+			<integer>5</integer>
+			<key>notes</key>
+			<string></string>
+			<key>objectID</key>
+			<integer>395</integer>
+			<key>outboundLinks</key>
+			<array/>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<real>1604</real>
+				<key>y</key>
+				<real>3796</real>
+			</dict>
+			<key>shape</key>
+			<integer>2</integer>
+			<key>text</key>
+			<string>红黑树
+(特殊的二叉查找树)</string>
 			<key>textColor</key>
 			<dict>
 				<key>a</key>

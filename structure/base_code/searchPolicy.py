@@ -691,7 +691,12 @@ if __name__ == '__main__':
     #
     # print(f'root左侧为None:{bst1.root.leftChild}, 第二个10应该在 右侧: {bst1.root.rightChild.key, bst1.root.rightChild.payload}')
 
-    unittest.main()
+    # unittest.main()
+    x = BinaryTree('a')
+    insertLeft(x, 'b')
+    insertRight(x, 'c')
+    insertRight(getRightChild(x), 'd')
+    insertLeft(getRightChild(getRightChild(x)), 'e')
 
 
     """

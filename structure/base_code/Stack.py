@@ -113,5 +113,13 @@ if __name__ == '__main__':
     print(f'散列信息2 {ht.get_base_info()}')
 
 
-
+    def func(str1):
+        s = Stack()
+        for char in str1:
+            s.push(char)
+        str2 = ''
+        while not s.isEmpty():
+            str2 += s.pop()
+        return str2
+    print(func('abcdefg'))
 

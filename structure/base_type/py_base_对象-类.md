@@ -26,10 +26,77 @@
         根据Class创建instance
         类 是对象的定义
         实例是真正的实物
-    h2. 三大特点
+    h2. 类间关系特点
+            类间关系可以分为 整体部分关系，
+            关联关系 一般不会通过语法来实现，具体应用中作为另一个类的属性，或者在方法中调用另一个类.
+            
         数据封装
+            将抽象出来的数据实现成类，一些特征行为实现成 方法，这个过程就叫封装。
         继承
+            类A继承自另一个类B，就把继承者A称为子类，被继承者称为父类，基类，超类。
+            子类拥有父类的属性，方法。提高代码复用率。
         多态
+            描述类的一些特征状态。
+            
+        其他类间关系   
+            依赖
+                A可能会遇到B，临时性的，不会经常用到。如下 Developer 依赖 Project
+                class Developer:
+	                def __init__(self,name,skills):
+		                self.name=name
+		                self.skills=skills
+	                def __repr__(self):
+		                return f'<develop:{self.name}>'
+	                def develop_project(self,project):
+		                print(f'{self.name}参与开发:{project}')
+		                
+		        class Project:
+	                def __init__(self,name,team,start_date):
+		                self.name=name
+		                self.team=team
+		                self.start_date=start_date
+	                def __repr__(self):
+		                return f'<Project:{self.name}>'
+		                
+		        d = Developer('Tom',['Python','SQL','Flask'])    
+		        project=Project('工厂','一组','昨天')   
+		        d.develop_project(project) 
+		            Tom参与开发:<Project:工厂>
+		            
+            关联与聚合
+                关联 Developer 构造时有一个字段会需要关联到 Department
+                同时构造的时候添加自己到聚合类Department 的字段  employees
+                
+                    class Department:
+                        def __init__(self,name,manager,tel):
+                            self.name=name
+                            self.manager=manager
+                            self.tel=tel
+                            self.employees=[]
+                        def __repr__(self):
+                            return f'Department:{self.name}'
+                            
+                    class Developer:
+	                def __init__(self,department, name,skills, project):
+	                    self.department=department    # 有一个字段 会关联到其他类，字段的内容是其他类
+		                self.name=name
+		                self.skills=skills
+		                self.department.employees.append(self)   # 构造的时候添加自己到 聚合类Department
+		                
+	                def __repr__(self):
+		                return f'<develop:{self.name}>'
+	                def develop_project(self,project):
+		                print(f'{self.name}参与开发:{project}')
+                
+                    
+                >>> develop_one=Department('develop_one', 'Tony', '808-888999')
+                >>> jack = Developer(develop_one, 'jack', '{python,SQL,FLask}', '工厂')
+                >>> Lucy = Developer(develop_one, 'lucy', '{Java,SQL,Maven}', '工厂1')
+                >>> develop_one.employees
+                    [<develop:jack>, <develop:lucy>]
+                >>> Lucy.department.employees[0].skills
+                    '{Java,SQL,Maven}'
+                    
     h2. 主要目的
         提高程序的重复使用
     h2.  #面向对象vs面向过程
@@ -52,6 +119,7 @@
            访问
                内部类 or 外部类
                className,classValue
+           
        h2. 实例变量
            定义在[方法]中
            只作用与当前实例的类
@@ -131,16 +199,28 @@
 
     h2. 访问限制
        h2. 私有变量
-            变量名以_开头
+            变量名以__开头
             内部属性不能被外部访问
+            
        h2. 私有变量的改变和访问
             h2. 获得内部属性
                 增加方法
                     def get_name(self):
-                        return self._name
-                直接访问 object.className._attrName
+                        return self.__name
+                直接访问 object.className.__attrName
             h2. 允许外部代码访问
                 增加方法 保证对参数进行检查,避免传入无效参数
+            h2. 私有变量的改变
+                class A:
+	                __a='a'
+	                a1 = 'a1'
+	                _a2='a2'
+	                def ret_p(self):
+		                return self.__a
+		        ab = A()
+		        ab._A.__a = 3     # 改变私有变量的方式
+		        ab.ret_p()
+		            3
        h2. 实例变量 定义在方法中的变量, 只作用于当前实例的类
        h2. 特殊属性
             可以访问 特殊变量      __x__ 
@@ -239,3 +319,31 @@
             h2.  h2.  #开放原则
                 对扩展开放  父类的子类,允许新建
                 对修改封闭  继承父类的元素不需要修改
+    
+    h2. 自定义对象的排序
+        根据__lt__定义排序
+        __lt__
+        def __lt__(self,y)
+        # 内置排序方法
+        定义其他比较符
+        __gt__
+        
+    class Student(object):
+
+	    def __init__(self, n, grade):
+		    self.name, self.grade = n, grade
+	    # 内置sort函数引用
+	    def __lt__(self,other):
+		    # 成绩比other高的，排在它前面
+		    return self.grade > other.grade
+		    
+		# Student的易读字符表示
+	    def __str__(self):
+		    print('i am sa str')
+		    return [self.name, self.grade]
+	    
+	    # 该Student类的正式字符串表示，让它与易读表示相同
+	    __repr__ = __str__
+    
+    
+    

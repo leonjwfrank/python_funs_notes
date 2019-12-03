@@ -15,8 +15,8 @@
                      a+  #文件指针在文件尾部
                 返回 file 对象
         h4. 内建方法
-            输入: file.read(size)  #size 为字节数, 无参数时, 一次性读取
-                readline()/readlines()
+            输入: file.read(size)  #size 为字节数, 无参数时, 一次性读取所有到内存。
+                readline()/readlines()   #返回一行/返回所有行，列数为列表对象。
                 xreadlines()  #每次读取一块, 减少内存占用
             输出:  write(), writelines()
             字节偏移量文件定位: file.seek(0) #移到文件指针
@@ -67,3 +67,28 @@
                 os.pardie   # 父目录    '_'
 
 
+    h3. 持久化 
+        /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/shelve.py
+         pickle
+            任意Python对象格式化和解格式化 
+         dbm
+            实现一个可通过键访问的文件系统，以存储字节串
+         shelve 
+            按照键把pickle处理后的对象存储到一个文件中
+            shelve模块 提供基本的存储操作，通过构造一个简单的数据库，
+            像操作字典一样按照键存储和获取本地的Python对 象，使其可以跨程序运行而保持持久化
+            键 必须是字符串，且是唯一的
+            值 任何类型的Python对象
+         与字典类型的区别 一开始必须打开shelve，并且在修改后需要关闭它
+         数据处理 不支持类似SQL的查询工具，但只要通过键获取到保存在文件的对象
+         
+         d = shelve.open(filename)
+            open函数在调用时返回一个shelf对象，通过该对象可 以存储内容
+         类似字典形式访问，可读可写 d[key] = data
+          value = d[key]
+          del d[key]
+         操作完成后，记得关闭文件 d.close()
+        
+         flag = key in d
+         klist = list(d.keys())
+        

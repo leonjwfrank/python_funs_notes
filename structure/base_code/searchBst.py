@@ -27,15 +27,11 @@ class BinarySearchTree(object):
                 self._put(key, val, currentNode.leftChild)  # 递归左子树
             else:
                 currentNode.leftChild = TreeNode(key, val, parent=currentNode)  # 树的节点
-                if currentNode.balanceFactor:
-                    self.updateBalance(currentNode.leftChild)  # 调整因子
         else:  # 如果key 等于大于 当前节点key，进入树的右子树进行递归插入
             if currentNode.hasRightChild():
                 self._put(key, val, currentNode.rightChild)  # 递归右子树
             else:
                 currentNode.rightChild = TreeNode(key, val, parent=currentNode)
-                if currentNode.balanceFactor:
-                    self.updateBalance(currentNode.rightChild)  # 调整因子
 
     def put(self, key, val):
         """BST高度 log_2 N ,如果key列表随机分布，大于小于根节点key的键值大致相等。性能在于二叉树的高度(最大层次),高度也受数据项key插入顺序影响
@@ -250,7 +246,6 @@ class AVLTree(BinarySearchTree):
                   put(k,v)
     '''
 
-
     def _put(self,key,val,currentNode):
         if key < currentNode.key:
             if currentNode.hasLeftChild():
@@ -265,7 +260,7 @@ class AVLTree(BinarySearchTree):
                 currentNode.rightChild = TreeNode(key,val,parent=currentNode)
                 self.updateBalance(currentNode.rightChild)
 
-    def updateBalance(self,node):
+    def updateBalance(self, node):
         """更新平衡树"""
         if node.balanceFactor > 1 or node.balanceFactor < -1:
             self.rebalance(node)
@@ -279,16 +274,16 @@ class AVLTree(BinarySearchTree):
             if node.parent.balanceFactor != 0:
                 self.updateBalance(node.parent)
 
-    def rebalance(self,node):
-        if node.balanceFactor < 0:
-            if node.rightChild.balanceFactor > 0:
-                # Do an LR Rotation
+    def rebalance(self, node):
+        if node.balanceFactor < 0:  # 右重
+            if node.rightChild.balanceFactor > 0:   # 右子树平衡因子大于0，右子树左重， 从左向右旋
+                # Do an LR Rotation       #
                 self.rotateRight(node.rightChild)
                 self.rotateLeft(node)
-            else:
+            else:                                   # 右子树平衡因子小于等于0，右子树右重或平衡，
                 # single left
                 self.rotateLeft(node)
-        elif node.balanceFactor > 0:
+        elif node.balanceFactor > 0:  # 左重
             if node.leftChild.balanceFactor < 0:
                 # Do an RL Rotation
                 self.rotateLeft(node.leftChild)
@@ -524,33 +519,125 @@ class TreeTestCase(unittest.TestCase):
         print(f'root left child have non-child: {self.bst.root.leftChild.hasAnyChildren()}')
 
 
+class AVLTreeTest(unittest.TestCase):
+    """"""
+
+    def setUp(self):
+        self.avl = AVLTree()
+
+    def test_only_root(self):
+        self.avl.put(51, 'avroot')
+        print(self.avl.root.key, self.avl.root.payload, self.avl.root.balanceFactor, self.avl.size)
+        assert self.avl.root.key == 51
+        assert self.avl.root.payload == 'avroot'
+        assert self.avl.root.balanceFactor == 0
+        assert self.avl.root.size == 1
+
+    def test_root_balanceFactor_1(self):
+        self.avl.put(51, 'avlroot')
+        self.avl.put(41, 'avl_left')
+        print(self.avl.root.key, self.avl.root.payload, self.avl.root.leftChild.key, self.avl.size)
+        assert self.avl.root.key == 51
+        assert self.avl.root.balanceFactor == 1
+        assert self.avl.root.leftChild.key == 41
+        assert self.avl.root.leftChild.payload == 'avl_left'
+        assert self.avl.root.leftChild.balanceFactor == 0
+
+        # test_root_balanceFactor_0(self):
+        self.avl.put(71, 'avl_right')
+        print(self.avl.root.key, self.avl.root.rightChild.key, self.avl.root.rightChild.payload, self.avl.size)
+
+        assert self.avl.root.balanceFactor == 0
+        assert self.avl.root.rightChild.key == 71
+        assert self.avl.root.rightChild.balanceFactor == 0
+        assert self.avl.root.rightChild.payload == 'avl_right'
+
+        self.avl.put(81, 'avl_right_right')
+        assert self.avl.root.balanceFactor == -1
+        assert self.avl.root.rightChild.key == 71
+        assert self.avl.root.rightChild.rightChild.key == 81
+        assert self.avl.root.rightChild.rightChild.payload == 'avl_right_right'
+        assert self.avl.root.rightChild.rightChild.balanceFactor == 0
+
+        self.avl.put(91, 'avl_right_right_right')
+        print(f'after put 91:', self.avl.root.key, self.avl.root.payload)
+        print(self.avl.root.leftChild.key)
+        print(self.avl.root.leftChild.leftChild)
+        print(self.avl.root.rightChild.balanceFactor)
+        print(self.avl.root.rightChild.key, self.avl.root.rightChild.rightChild.key, self.avl.root.rightChild.rightChild.balanceFactor)
+
+        assert self.avl.root.key == 51
+        assert self.avl.root.leftChild.key == 41
+        assert self.avl.root.rightChild.key == 81
+        assert self.avl.root.rightChild.balanceFactor == 0
+        assert self.avl.root.rightChild.rightChild.key == 91
+        assert self.avl.root.rightChild.rightChild.payload == 'avl_right_right_right'
+        assert self.avl.root.rightChild.leftChild.key == 71
+
+        assert self.avl.root.balanceFactor == -1
+
+
+
 if __name__ == '__main__':
     import time
-
+    """
+    # 二叉查找树
     lis1 = [1, 12, 3, 32, 14, 21, 35, 21, 12, 123, 42, 21, 32, 42]
     bst1 = BinarySearchTree()
     bst1.put(56, '')
 
     print(f'only root tree', bst1.root.key, bst1.length(), bst1.size, bst1.root.key)
-    bst1.put(111, 'a1')
+    bst1.put(111, 'b1')
     print(f'have right child', bst1.root.key, bst1.size)
     print(f'have any children', bst1.root.hasAnyChildren, bst1.root.rightChild.key, bst1.root.rightChild.payload)
 
-    bst1.put(112, 'a12')
+    bst1.put(112, 'b12')
     bst1.put(11, 'a11')
+    bst1.put(61, 'b61')
     print(f'have right child', bst1.root.rightChild.key, bst1.size)
     print(f'have right child', bst1.root.rightChild.rightChild.key, bst1.size)
 
     print(f'have left child', bst1.root.leftChild.key, bst1.size)
     print(112 in bst1)
     print(113 in bst1)
+    del bst1[56]
+    print(bst1.root.key, bst1.root.payload, bst1.root.hasAnyChildren)
+    """
 
+    # 二叉平衡树
+    avl1 = AVLTree()
+    avl1.put(51, 'avroot')
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+
+    avl1.put(40, 'avl_left')
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+    print(avl1.root.leftChild.key, avl1.root.leftChild.payload, avl1.root.leftChild.balanceFactor, avl1.size)
+
+    avl1.put(60, 'avl_right')
+    avl1.put(70, 'avl_right_right')
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+    print(avl1.root.rightChild.key, avl1.root.rightChild.payload, avl1.root.rightChild.balanceFactor, avl1.size)
+    print(avl1.root.rightChild.rightChild.key, avl1.root.rightChild.rightChild.payload, avl1.root.rightChild.rightChild.balanceFactor, avl1.size)
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+
+    avl1.put(62, 'avl_right-left')
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+    print(avl1.root.rightChild.key, avl1.root.rightChild.payload, avl1.root.rightChild.balanceFactor, avl1.size)
+    print(avl1.root.rightChild.leftChild.key, avl1.root.rightChild.leftChild.payload, avl1.root.rightChild.leftChild.balanceFactor, avl1.size)
+    print(avl1.root.leftChild.key, avl1.root.leftChild.payload, avl1.root.leftChild.balanceFactor, avl1.size)
+
+    avl1.put(65, 'avl')
+    print(avl1.root.key, avl1.root.payload, avl1.root.balanceFactor, avl1.size)
+    print(avl1.root.leftChild.key, avl1.root.leftChild.payload, avl1.root.leftChild.balanceFactor, avl1.size)
+    print(avl1.root.leftChild.leftChild.key, avl1.root.leftChild.leftChild.payload, avl1.root.leftChild.leftChild.balanceFactor, avl1.size)
+    print(avl1.root.rightChild.key, avl1.root.rightChild.payload, avl1.root.rightChild.balanceFactor)
+    print(avl1.root.rightChild.leftChild.key)
+    print(avl1.root.rightChild.rightChild.key)
     # print(bst1.root.leftChild.hasRightChild())
     # print(f'bsr1 root root-left-right:{bst1.get(10), bst1.root.leftChild.rightChild.key, bst1.root.leftChild.rightChild.payload, bst1.length()}')
     #
     # print(f'root左侧为None:{bst1.root.leftChild}, 第二个10应该在 右侧: {bst1.root.rightChild.key, bst1.root.rightChild.payload}')
-
-    # unittest.main()
+    unittest.main()
 
     """
     testlist = [0,1,2,3,7,8,13,25,258,1992,]

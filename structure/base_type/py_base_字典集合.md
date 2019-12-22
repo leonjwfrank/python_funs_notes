@@ -199,4 +199,25 @@
         tuple 有序, 不可变
 
 
-
+# 各种推导式
+    列表，字典，集合，生成器推导式
+    # 字典推导式 0～9 所有偶数和奇数做值 键对
+    {x+1:x for x in range(10) if x%2==0}
+    
+    # 列表推导式 0~9 所有偶数组成的列表
+    [x for x in range(10) if x%2==0]
+    [x.upper() for x in [1,'abc','xyz',True] if isinstance(x,str)]  # 如果没有if，在遇到没有upper方法的时候会报错
+    
+    
+    # 集合推导式 0~9 所有偶数组成对集合
+    {x for x in range(10) if x%2==0}
+    {x+y for x in range(10) for y in range(10)}
+    
+    # 生成器推导式
+    在只需要用到元素对时候才生成，可以极大节省内存
+    agen = (x*x for x in range(10))
+    list(agen)
+    [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+    
+    
+    

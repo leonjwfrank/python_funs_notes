@@ -118,4 +118,14 @@
         获取异常信息:
             sys.exc_info()
 
-
+## 4, 控制流程分类
+    if 条件分支
+    循环控制流程
+        for  循环
+        while 条件循环
+    异常处理控制流程
+        try
+        except
+        else
+        finally
+        

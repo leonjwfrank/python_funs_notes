@@ -122,7 +122,7 @@ class BinarySearchTree(object):
             else:
                 for path in path:
                     path_str += str(path) + connect_str
-            print(path_str[:-len(connect_str)])
+                print(path_str[:-len(connect_str)])
 
 
 class TreeNode(object):
@@ -134,8 +134,6 @@ class TreeNode(object):
         self.leftChild = left  # 左子节点
         self.rightChild = right  # 右子节点
         self.parent = parent  # 父节点
-        self.balanceFactor = 0  # 平衡因子
-        self.path_lis = []
 
     def hasLeftChild(self):
         return self.leftChild
@@ -173,60 +171,27 @@ class TreeNode(object):
             if self.hasRightChild():  # 右子树不为空
                 for elem in self.rightChild:  # 遍历右子树
                     yield elem  # 生成器，返回右子树一个元素
-    ''''
-    def replaceNodeData(self, key, value, lc, rc):
-        self.key = key
-        self.payload = value
-        self.leftchild = lc
-        self.rightChild = rc
-        if self.hasLeftChild():
-            self.leftChild.parent = self
-        if self.hasRightChild():
-            self.rightChild.parent = self
 
-    def spliceOut(self):
-        """摘出节点"""
-        if self.isLeaf():  # 挑出叶子节点
-            if self.isLeftChild():
-                self.parent.leftChild = None
-            else:
-                self.parent.rightChild = None  # 同时有两个左右子树，有左下角的情况，不会执行该代码
-        elif self.hasAnyChildren():
-            if self.hasLeftChild():  # 挑出左子节点
-                if self.isLeftChild():  # 这一块if-else,在同时有两个左右子树，有左下角的情况，不会执行该代码
-                    self.parent.leftChild = self.leftChild
-                else:
-                    self.parent.rightChild = self.leftChild
-            else:  # 挑出带右子节点的节点
-                if self.isLeftChild():
-                    self.parent.leftChild = self.rightChild
-                else:
-                    self.parent.rightChild = self.rightChild  # 摘出带右子节点的节点
-                self.rightChild.parent = self.parent
 
-    def findSuccessor(self):
-        """寻找后继节点"""
-        succ = None
-        if self.hasRightChild():
-            succ = self.rightChild.findMin()
-        else:
-            if self.parent:  # 教材中的代码，处理的是情况是，该节点没有右子树，需要去其他地方找后继，但是在本例中，前提就是当前节点同时有左右子树
-                if self.isLeftChild():
-                    succ = self.parent
-                else:
-                    self.parent.rightChild = None
-                    succ = self.parent.findSuccessor()
-                    self.parent.rightChild = self
-        return succ
+def build_bst(strs):
+    bst1 = BinarySearchTree()
+    lis_str = strs.split(' ')
+    # print(f'give strs:{lis_str}')
+    for item in lis_str:
+        bst1.put(item, 0)
+    # bst1.put(2, 0)
+    # bst1.put(6, 0)
+    # bst1.put(1, 0)
+    # bst1.put(3, 0)
+    # bst1.put(7, 0)
+    # bst1.put(4, 0)
+    # bst1.put(-5, 0)
+    # bst1.put(-3, 0)
+    # bst1.put(-6, 0)
+    # bst1.put(16, 0)
+    # bst1.put(5.8, 0)
+    return bst1
 
-    def findMin(self):
-        """当前节点的左子树的最左下角的值"""
-        current = self
-        while current.hasLeftChild():  # 直到找到最左下角的值，就是直接后继
-            current = current.leftChild
-        return current
-
-    '''
 
 if __name__ == '__main__':
     """输入样例：
@@ -237,26 +202,12 @@ if __name__ == '__main__':
     5->6->7
 
     """
-    def build_bst():
-        bst1 = BinarySearchTree()
-        bst1.put(5, 0)
-        bst1.put(2, 0)
-        bst1.put(6, 0)
-        bst1.put(1, 0)
-        bst1.put(3, 0)
-        bst1.put(7, 0)
-        bst1.put(4, 0)
-        # bst1.put(-5, 0)
-        # bst1.put(-3, 0)
-        # bst1.put(-6, 0)
-        # bst1.put(16, 0)
-        # bst1.put(5.8, 0)
-        return bst1
-    bst1 = build_bst()
-    print(bst1.size)
-    print(bst1.root.key)
-    print(bst1.root.findMin().key)
-    bst1.path.sort()
-    print(bst1.path)
-    print(bst1.print_path_lis())
+    input_str = input('please input number with space gap:')
+    # print(f'input str:{input_str}')
+    bst1 = build_bst(input_str)
+    # print(bst1.size)
+    # print(bst1.root.key)
+    # bst1.path.sort()
+    # print(bst1.path)
+    bst1.print_path_lis()
 

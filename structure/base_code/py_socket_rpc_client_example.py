@@ -168,8 +168,43 @@ class ExecCase(unittest.TestCase):
                 'Test Case {} api Done! case used_time {}, start: {}'.format(self.__class__.__name__, used_time,
                                                                              self.t_t0))
             self.logger.info("===== Teardown Section of %s =====" % self.__class__.__name__)
-        except AttributeError, msg:
+        except AttributeError as msg:
             print("===== Teardown Section of %s, msg %s=====" % (self.__class__.__name__, msg))
+
+
+from concurrent.futures import ProcessPoolExecutor
+import asyncio
+import random
+from subprocess import PIPE,Popen
+page = "https://www.learning.gov.cn/leader.php?event=1"
+
+
+async def tasks(op_port):
+    tasks = [
+        loop.run_in_executor(executor, start_browser, *(op_port, page)),
+        # loop.run_in_executor(executor, start_ff_brow, *(op_port, page)),
+        loop.run_in_executor(executor, product_page_start, op_port)
+    ]
+    await asyncio.gather(*tasks)
+
+# @staticmethod
+def renew_listen_port():
+    """find a port to listen"""
+    while True:
+        rand_port = random.choice(range(1000, 10000))
+        if win_platform():
+            cmd_port = 'netstat -an | findstr {}'.format(rand_port)
+        else:
+            cmd_port = 'netstat -an | grep {}'.format(rand_port)
+        pp = Popen(cmd_port, stdout=PIPE, stdin=PIPE, stderr=PIPE, shell=True)
+        info, err = pp.communicate()
+        if not info or info in ['', "b''", []]:
+            pp.kill()
+            return int(rand_port)
+        else:
+            pp.kill()
+            continue
+
 
 if __name__ == '__main__':
     print('Request service')
@@ -185,3 +220,11 @@ if __name__ == '__main__':
 
     request_service = RequestService(p_url, 'web')
     print(json.dumps(request_service.request(p_path, p_params)))
+
+    # =====================================ansy
+    op_port = note_operate_page.renew_listen_port()
+
+    loop = asyncio.get_event_loop()
+    executor = ProcessPoolExecutor(max_workers=2)
+    # try:
+    loop.run_until_complete(tasks(op_port))

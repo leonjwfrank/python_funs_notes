@@ -1,21 +1,20 @@
 """
     基于tornado创建restful api
 ～～～～～～～～～～～～～～～
+    @author:autocommsky@gmail.com
 
-    Tornado Web框架使用Python编写RESTful API变得容易。有多容易？
-    Tornado是一个Python Web框架和异步网络库，由于其无阻塞的网络I / O而提供了出色的可伸缩性。它还极大地促进了快速构建RESTful API的便利。这些功能是Tornado的核心，因为它是FriendFeed的Web服务器的开源版本。几周前，
-    《Tornado3》发布了，它带来了许多改进。在本文中，我将展示如何使用最新的Tornado Web框架构建RESTful API，并说明如何利用其异步功能。
+    Tornado Web框架使用Python编写RESTful API变得容易。
+    Tornado是一个Python Web框架和异步网络库，由于其无阻塞的网络I/O而提供了出色的可伸缩性。它还极大地促进了快速构建RESTful API的便利。
+    这些功能是Tornado的核心，因为它是友好的Web服务器的开源版本。
+    这里展示如何使用最新的Tornado Web框架构建RESTful API，并说明如何利用其异步功能。
 """
 
 """
-安装下载最新的稳定版本并执行pip install tornado来执行手动安装或使用pip执行自动安装。
-
-
 # 将URL模式映射到请求处理程序
 要使用Tornado构建RESTful API，必须将URL模式映射到tornado.web.RequestHandler的子类，该子类会覆盖处理URL的HTTP请求的方法。
 例如，如果要通过同步操作处理HTTP GET请求，则必须创建tornado.web.RequestHandler的新子类并定义get（）方法。然后，您在tornado.web.Application中映射URL模式。
 
-清单1显示了一个非常简单的RESTful API，该API声明了tornado.web.RequestHandler的两个子类，这些子类定义了get方法：VersionHandler和GetGameByIdHandler
+1显示了一个非常简单的RESTful API，该API声明了tornado.web.RequestHandler的两个子类，这些子类定义了get方法：VersionHandler和GetGameByIdHandler
 """
 
 # A simple RESTful API in Tornado
@@ -34,7 +33,7 @@ application.listen方法使用在指定端口上定义的规则为应用程序�
 
 当Web应用程序接收到请求时，Tornado遍历该列表并创建第一个tornado.web.RequestHandler子类的实例，该子类的关联正则表达式与请求路径匹配，
 然后调用head(),get(),post(),delete(),patch(),put()或options()方法以及基于HTTP请求的新实例的相应参数。
-例如，表1显示了一些与前面的代码中定义的正则表达式匹配的HTTP请求。
+
 """
 
 
@@ -115,6 +114,7 @@ class GetGameByIdHandler(tornado.web.RequestHandler):
 
 
 """
+例如，表1显示了一些与前面的代码中定义的正则表达式匹配的HTTP请求。
 以上两个Api 类分类实现的功能如下
 HTTP verb and request URL                       | Tuple(regexp, request_class)that matches the request path路径匹配      |  RequestHandler subclass and method that is called
 GET http://localhost:8888/getgamebyid/500       |       (r"/getgamebyid/([0-9]+)", GetGameByIdHandler)                  | GetGameByIdHandler.get
@@ -142,9 +142,9 @@ class GetFullPageAsyncHandler(tornado.web.RequestHandler):
             然后，代码调用此实例的http_client.fetch方法以异步执行请求。 fetch方法返回一个Future，其结果是HTTPResponse，如果请求返回的响应代码不是200，则引发HTTPError。
             该代码使用yield关键字从fetch方法返回的Future中检索HTTPResponse。
 
-            调用以异步执行方式从http://www.drdobbs.com/web-development检索Web开发页面。当获取操作以等于200的成功响应代码完成执行时，
+            调用以异步执行方式从http://127.0.0.1:8889/version检索Web开发页面。当获取操作以等于200的成功响应代码完成执行时，
             http_response将是一个HTTPRequest实例，其中包含在http_response.body中检索到的HTML页面的内容。该方法在调用fetch之后的行中继续执行。
-            您拥有使用@tornado.gen.coroutine装饰器在get方法中需要执行的所有代码，并且不必担心为on_fetch编写回调。
+            使用@tornado.gen.coroutine装饰器在get方法中需要执行的所有代码，并且不必担心为on_fetch编写回调。
             下一行将响应正文解码为字符串，并将“最新的高级内容”替换为“最新的内容”。
             然后，代码调用self.write方法来写入修改后的字符串，并将响应的Content-Type设置为application / html。
 
@@ -166,7 +166,7 @@ class GetFullPageAsyncHandler(tornado.web.RequestHandler):
         @tornado.web.asynchronous
         def get(self):
             http_client = tornado.httpclient.AsyncHTTPClient()
-            http_client.fetch("http://www.drdobbs.com/web-development", callback=self.on_fetch)
+            http_client.fetch("http://127.0.0.1:8889/version", callback=self.on_fetch)
  
         def on_fetch(self, http_response):
             if http_response.error: raise tornado.web.HTTPError(500)

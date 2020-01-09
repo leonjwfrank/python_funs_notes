@@ -1,7 +1,7 @@
 # Echo client
 import socket
 import sys
-
+"""
 # Create a TCP/IP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -33,3 +33,16 @@ finally:
     print('closing socket')
 
     sock.close()
+"""
+
+with open('test.txt', 'ab+') as tf:
+    tf.write(b'test1')
+
+with open('test.txt', 'r') as rf:
+    rl = rf.read()
+
+f1 = open('test.txt', 'r')
+f1.read()
+
+
+

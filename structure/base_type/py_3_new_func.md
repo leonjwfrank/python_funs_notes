@@ -238,8 +238,25 @@
     
     [await fun() for fun in funcs if await condition()]
     
-###    
-    
+### 一些经验上的区别总结
+
+####  在Python 2中， ''字符串文字是一个字节序列。在Python 3中，''字符串文字是Unicode代码点的序列
+       比如在py3
+       >>> type('a')
+	   <class 'str'>
+        >>> type(b'a')
+	    <class 'bytes'>
+        >>> type(u'a')
+    	<class 'str'>
+        
+     2，动态语言的局限
+     Python还是一种动态语言，并且有大量的不变式在编译时没有被捕获，只能在运行时发现。不管您的测试覆盖范围有多好，这些不变式都无法通过测试全部检测到。
+     这是动态语言的功能 / 局限性。多年来，我们的用户可能会在Python 3上发现很多其他错误
+     
+     3，Python 3 bytes仍然没有format()方法，因此替代方法实际上是字符串连接，这比%格式化的表现力倒退了一大步。
+     4，Python 3的最初方法反映了许多开发人员和项目所做的愚蠢行为：尝试重写而不是执行渐进式演化。对于已建立的项目，大规模重写通常效果不佳。
+     5，当我需要支持Python 2或什至更老版本的Python 3（例如3.5或3.6）时，非常难受，py37或py38更好？
+        they want strings to be Unicode and don't want users to have to spend that much energy thinking about when to use str versus bytes.
 ## cpython改进
     1，基本类型
     字典的重新实现

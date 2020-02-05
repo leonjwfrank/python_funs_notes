@@ -1,5 +1,5 @@
 # You'll need these imports in your own code
-# 您需要在自己的代码中导入这些内容
+# 您需要在自己的代码中导入这些内容, 多进程同时写一个文件
 import logging
 import logging.handlers
 import multiprocessing
@@ -8,6 +8,7 @@ import multiprocessing
 # 仅此演示的下两个导入行
 from random import choice, random
 import time
+
 
 #
 # Because you'll want to define the logging configurations for listener and workers, the
@@ -27,11 +28,16 @@ import time
 # 实际上，您可能希望在辅助进程中执行此逻辑，以避免发送事件，这些事件将在进程之间被过滤掉。
 # 减小旋转文件的大小，以便您轻松查看结果。
 def listener_configurer():
+    """
+    定义记录器和日志格式
+    :return:
+    """
     root = logging.getLogger()
-    h = logging.handlers.RotatingFileHandler('mptest.log', 'a', 300, 10)
+    h = logging.handlers.RotatingFileHandler('mult_test.log', 'a', 300, 10)
     f = logging.Formatter('%(asctime)s %(processName)-10s %(name)s %(levelname)-8s %(message)s')
     h.setFormatter(f)
     root.addHandler(h)
+
 
 # This is the listener process top-level loop: wait for logging events
 # (LogRecords)on the queue and handle them, quit when you get a None for a
@@ -51,6 +57,7 @@ def listener_process(queue, configurer):
             print('Whoops! Problem:', file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
 
+
 # Arrays used for random selections in this demo
 # 本演示中用于随机选择的数组
 
@@ -65,6 +72,7 @@ MESSAGES = [
     'Random message #3',
 ]
 
+
 # The worker configuration is done at the start of the worker process run.
 # Note that on Windows you can't rely on fork semantics, so each process
 # will run the logging configuration code when it starts.
@@ -76,6 +84,7 @@ def worker_configurer(queue):
     root.addHandler(h)
     # send all messages, for demo; no other level or filter logic applied.
     root.setLevel(logging.DEBUG)
+
 
 # This is the worker process top-level loop, which just logs ten events with
 # random intervening delays before terminating.
@@ -94,6 +103,7 @@ def worker_process(queue, configurer):
         message = choice(MESSAGES)
         logger.log(level, message)
     print('Worker finished: %s' % name)
+
 
 # Here's where the demo gets orchestrated. Create the queue, create and start
 # the listener, create ten workers and start them, wait for them to finish,
@@ -115,5 +125,37 @@ def main():
     queue.put_nowait(None)
     listener.join()
 
+
+def log_handly():
+    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                        filemode='w',
+                        filename='test.log',
+                        # format='%(asctime)s %(name)-12s %(levelname)-8s %(message)',
+                        datefmt='%Y%m-%d %H:%M%:S')
+    logging.info("this not console output 1 ")
+
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    con_formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+    console.setFormatter(con_formatter)
+    logging.getLogger('').addHandler(console)
+
+    # root logging
+    logging.debug('this is root log debug in console')
+    logging.info('this root log info in console')
+
+    logger1 = logging.getLogger('test1')
+    logger2 = logging.getLogger('test2')
+
+    logger1.debug('this is test1 debug')
+    logger1.info('this is test1 info')
+    logger2.debug('this is test2 debug')
+    logger2.info('this is test2 info')
+    logger2.error('this is test2 error')
+    logger2.warning('this is test2 warning')
+
+
 if __name__ == '__main__':
+    log_handly()
     main()

@@ -3,14 +3,15 @@ Main module of the server file
 """
 
 # 3rd party moudles
-from flask import render_template
+from flask import render_template, send_file
 import connexion
+import os
+
 """
 这使Connexion模块可用于您的程序。 Connexion模块允许Python程序使用Swagger规范。这提供了很多功能：验证往返于您的API的输入和输出数据，配置API URL端点和所需参数的简便方法，以及一个非常好的UI界面，可与创建的API一起使用并进行探索。
 
 当您创建应用程序可以访问的配置文件时，所有这些都可能发生。 Swagger站点甚至提供了一个在线配置编辑器工具，以帮助创建和/或语法检查将要创建的配置文件。
 """
-
 
 # Create the application instance
 app = connexion.App(__name__, specification_dir="./")
@@ -19,9 +20,8 @@ app = connexion.App(__name__, specification_dir="./")
 以将Connexion添加到服务器：
 """
 
-
 # Read the swagger.yml file to configure the endpoints
-app.add_api("swagger.yml")
+app.add_api("agger.yml")
 """
 您已经添加了几件事将Connexion整合到服务器中。 import connexion语句将模块添加到程序中。下一步是使用Connexion而非Flask创建应用程序实例。在内部，仍会创建Flask应用程序，但现在已添加了其他功能。
 
@@ -31,10 +31,68 @@ app.add_api（'swagger.yml'）
 
 这告诉应用程序实例从规范目录读取文件swagger.yml并配置系统以提供Connexion功能。
 
-swagger
-文件swagger.yml是YAML或JSON文件，其中包含配置服务器以提供输入参数验证，输出响应数据验证，
+agger
+文件agger.yml是YAML或JSON文件，其中包含配置服务器以提供输入参数验证，输出响应数据验证，
 URL端点定义和Swagger UI所需的所有信息。这是swagger.yml文件，用于定义REST API将提供的GET / api / people端点：
+
+
+
+class ImageForm(FlaskForm):
+    description = StringField('添加描述', validators=[InputRequired(), Length(max=160)])
+    # description = PageDownField("description for image", validators=[DataRequired()])
+    image = FileField('提示，上传的图片名称格式:字母和数字组合', validators=[FileRequired(),
+                                        FileAllowed(images, 'Images only!')])
+    submit = SubmitField('上传')
+
+
+@main.route('/add_new', methods=['GET', 'POST'])
+@login_required
+def add_new():
+    # Cannot pass in 'request.form' as this initializes the form with a specific form data, which replaces
+    # the default data attribute (FileField) with the FileStorage object
+    # form = PostForm()
+    form_image = ImageForm()
+
+    for item in request.__dict__:
+        print('request:{}, item:{}, file_name:{}'.format(type(item), item, type(item)))
+    print('file_type:{}, files:{}'.format(type(request.files), request.files))
+    print('request:{}, args:{}'.format(request.__dict__, request.args))
+    time_suff = '{}'.format(str(datetime.datetime.now())[:10])
+    if request.method == 'POST':
+        if form_image.validate_on_submit():
+            f = request.files['image']
+            print('{}, file name:{}'.format(f, f.filename))
+            f.filename = '{}-{}'.format(time_suff, str(f.filename))
+            filename = images.save(storage=f, folder=current_app.config['UPLOADED_IMAGES_DEST'])
+
+            print('filename:{}, config:{}, type:{}, des:{} '.format(filename, current_app.config,
+                                                                    type(form_image.description),
+                                                                    form_image.description))
+            url = '{}{}'.format(current_app.config['UPLOADED_IMAGES_URL'], str(f.filename))
+            img_entry = PostImg(image_string=form_image.description.data, image_filename=filename, image_url=url,
+                                image_own=current_user.username)
+            db.session.add(img_entry)
+            db.session.commit()
+            # f.save(current_app.config['UPLOADED_IMAGES_DEST'] + secure_filename(f.filename))
+            flash('The Image {} was added, url for:'.format(f.filename))
+            flash('{}'.format(url))
+            # return redirect(url_for('main.add_new'))
+        else:
+            # flash_errors(form)
+            flash('ERROR! Recipe was not added.', 'error')
+
+    return render_template('add_new.html', form=form_image)
 """
+
+
+@app.route("/menu", methods=['GET', 'POST'])
+def menu():
+    """
+    :return:
+    """
+    # return send_file(filename_or_fp='static/san_menu.png')
+    return send_file(filename_or_fp='static/san_menu.jpg')
+    # return send_from_directory(os.path.join('./', 'static/menu'), "san_menu.jpeg")
 
 
 # create a URL route in our application for "/"
@@ -43,9 +101,9 @@ def home():
     """
     This function just responds to the browser URL
     localhost:5000/
-    :return:        the rendered template "home.html"
+    :return:        the rendered template "start.html"
     """
-    return render_template("home.html")
+    return render_template("start.html")
 
 
 """

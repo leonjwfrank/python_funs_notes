@@ -48,20 +48,26 @@ def get_timestamp():
 # Data to serve with our API
 PEOPLE = {
     "Farrell": {
-        "fname": "Doug",
         "lname": "Farrell",
-        "timestamp": get_timestamp(),
+        "fname": "Ad12",
+        "price": 160,
+        # "bill": False,
+        "timestamp": get_timestamp()
     },
     "Brockman": {
-        "fname": "Kent",
         "lname": "Brockman",
-        "timestamp": get_timestamp(),
+        "fname": "ABC1",
+        "price": 210,
+        # "bill": False,
+        "timestamp": get_timestamp()
     },
     "Easter": {
-        "fname": "Bunny",
         "lname": "Easter",
-        "timestamp": get_timestamp(),
-    },
+        "fname": "CD123",
+        "price": 220,
+        # "bill": False,
+        "timestamp": get_timestamp()
+    }
 }
 
 
@@ -89,7 +95,7 @@ def read_one(lname):
     # otherwise, nope, not found
     else:
         abort(
-            404, "Person with last name {lname} not found".format(lname=lname)
+            404, "Person with name {lname} not found".format(lname=lname)
         )
 
     return person
@@ -104,12 +110,14 @@ def create(person):
     """
     lname = person.get("lname", None)
     fname = person.get("fname", None)
+    price = person.get("price", 0)
 
     # Does the person exist already?
     if lname not in PEOPLE and lname is not None:
         PEOPLE[lname] = {
             "lname": lname,
             "fname": fname,
+            "price": price,
             "timestamp": get_timestamp(),
         }
         return PEOPLE[lname], 201
@@ -118,7 +126,7 @@ def create(person):
     else:
         abort(
             406,
-            "Peron with last name {lname} already exists".format(lname=lname),
+            "Peron with name {lname} already exists".format(lname=lname),
         )
 
 
@@ -132,6 +140,7 @@ def update(lname, person):
     # Does the person exist in people?
     if lname in PEOPLE:
         PEOPLE[lname]["fname"] = person.get("fname")
+        PEOPLE[lname]["price"] = person.get("price")
         PEOPLE[lname]["timestamp"] = get_timestamp()
 
         return PEOPLE[lname]
@@ -139,7 +148,7 @@ def update(lname, person):
     # otherwise, nope, that's an error
     else:
         abort(
-            404, "Person with last name {lname} not found".format(lname=lname)
+            404, "Person with name {lname} not found".format(lname=lname)
         )
 
 
@@ -159,5 +168,5 @@ def delete(lname):
     # Otherwise, nope, person to delete not found
     else:
         abort(
-            404, "Person with last name {lname} not found".format(lname=lname)
+            404, "Person with name {lname} not found".format(lname=lname)
         )

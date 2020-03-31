@@ -205,7 +205,12 @@ class RPCServer(asyncore.dispatcher):
 
 
 if __name__ == '__main__':
-    host = sys.argv[1]
-    port = int(sys.argv[2])
+    if len(sys.argv) > 2:
+        host = sys.argv[1]
+        port = int(sys.argv[2])
+    else:
+        host = '127.0.0.1'
+        port = 8991
     RPCServer(host, port)
     asyncore.loop()  # 启动事件循环
+

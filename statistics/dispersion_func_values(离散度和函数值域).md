@@ -53,7 +53,7 @@
     
     图形如下:
   
-  ![box_img](./DiscriPng/box_four_point.png)
+  ![box_img](../DiscriPng/box_four_point.png)
   
 #### 离群值
     "离群值" 是数据里与其他数值分开的数值（"离"开其他的"群"值。
@@ -95,7 +95,7 @@
     -1 是完全负相关
     这个值显示相关有多强（并不代表线有多陡）以及相关是正相关还是负相关。
     
-   ![box_img](./DiscriPng/Correlation_dependence.png)
+   ![box_img](../DiscriPng/Correlation_dependence.png)
     
     计算过程:(可用皮尔森相关系数 CORREL() 函数， 或者 "斯皮尔曼等级相关系数"）
         设 "x" 和 "y" 为两组数据（在我们的例子，温度是 x，冰淇淋销量是 y）：
@@ -176,9 +176,9 @@
     自然数-N	 整数-Z	有理数-Q	实数-R	虚数-I	复数-C
     
     任何大于 0 的值
-   ![bigger_zero](./DiscriPng/N_bigger_than_zero.png)
+   ![bigger_zero](../DiscriPng/N_bigger_than_zero.png)
    
     任何大于 3 的实数
-   ![bigger_3](./DiscriPng/R_bigger_than_3.png)
+   ![bigger_3](../DiscriPng/R_bigger_than_3.png)
     
        

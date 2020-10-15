@@ -5,9 +5,9 @@ cart example
     A microcart based on python36 example.
     and follows best practice patterns.
 
-    :copyright: ©ydxue
-    :author: ydxue
-    :contact: autocommsky@gmail.com
+    :copyright: ©Frankxue
+    :author: Frankxue
+    :contact: fram.gaya@gmail.com
 
 for example cart coupon
 

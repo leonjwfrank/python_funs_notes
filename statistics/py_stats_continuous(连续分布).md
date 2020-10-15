@@ -18,10 +18,10 @@
     但你是随机到达哪里的，所以你可能马上看到喷发，或者在 91分钟里的任何时间看到
     
     
-   ![Uniform_distribution](./DiscriPng/Uniform_distribution.png)
+   ![Uniform_distribution](../DiscriPng/Uniform_distribution.png)
    
     均匀分布累计分布函数，一条斜率为1的直线
-   ![Uniform_distribution_CDF](./DiscriPng/Uniform_distribution_CDF.png)
+   ![Uniform_distribution_CDF](../DiscriPng/Uniform_distribution_CDF.png)
     
 #### 条件分布
     根据某个条件    
@@ -46,28 +46,28 @@
     random.expovariate(lambd=lambd)   # 函数调用生成一个服从指数分布的值   
     
     指数分布 mean = 34, lambda = 0.0307，按x轴铺开的形状
-   ![exponential](./DiscriPng/Exponential_distribution.png "5 thousands exponential distribution")  
+   ![exponential](../DiscriPng/Exponential_distribution.png "5 thousands exponential distribution")  
    
     指数分布   
-   ![exponential](./DiscriPng/Exponential_distribution_cdf.png "5 thousands exponential distribution cdf")
+   ![exponential](../DiscriPng/Exponential_distribution_cdf.png "5 thousands exponential distribution cdf")
    
     指数分布 y 取对数log  
-   ![exponential](./DiscriPng/Exponential_distribution_cdf_ylog.png "5 thousands exponential distribution cdf ylog")
+   ![exponential](../DiscriPng/Exponential_distribution_cdf_ylog.png "5 thousands exponential distribution cdf ylog")
    
      指数分布 xy 取对数log  
-   ![exponential](./DiscriPng/Exponential_distribution_cdf_xylog.png "5 thousands exponential distribution cdf xy log")
+   ![exponential](../DiscriPng/Exponential_distribution_cdf_xylog.png "5 thousands exponential distribution cdf xy log")
    
      指数分布 cdf 累计分布函数互补函数 ccdf 
-   ![exponential](./DiscriPng/Exponential_distribution_ccdf.png "5 thousands exponential distribution ccdf")
+   ![exponential](../DiscriPng/Exponential_distribution_ccdf.png "5 thousands exponential distribution ccdf")
     
      指数分布 cdf 累计分布函数互补函数 ccdf ylog
-   ![exponential](./DiscriPng/Exponential_distribution_ccdf_ylog.png "5 thousands exponential distribution ccdf ylog")
+   ![exponential](../DiscriPng/Exponential_distribution_ccdf_ylog.png "5 thousands exponential distribution ccdf ylog")
    
      指数分布 cdf 累计分布函数互补函数 ccdf xlog
-   ![exponential](./DiscriPng/Exponential_distribution_ccdf_xlog.png "5 thousands exponential distribution ccdf xlog")
+   ![exponential](../DiscriPng/Exponential_distribution_ccdf_xlog.png "5 thousands exponential distribution ccdf xlog")
    
      指数分布 cdf 累计分布函数互补函数 ccdf xylog
-   ![exponential](./DiscriPng/Exponential_distribution_ccdf_xylog.png "5 thousands exponential distribution ccdf xylog")
+   ![exponential](../DiscriPng/Exponential_distribution_ccdf_xylog.png "5 thousands exponential distribution ccdf xylog")
    
      
     
@@ -112,11 +112,11 @@
     pare_n = random.paretovariate(alpha=a)
     pare_n * x    
     
-  ![pareto](./DiscriPng/pareto_distribution.png "million pareto distribution")  
+  ![pareto](../DiscriPng/pareto_distribution.png "million pareto distribution")  
     
     pareto distribution log x y  
   
-  ![pareto](./DiscriPng/pareto_distribution_xylog.png "million pareto distribution")   
+  ![pareto](../DiscriPng/pareto_distribution_xylog.png "million pareto distribution")   
   
   
     判断一个分布是否 帕累托 分布： 两条数轴都取对数后，其CCDF 应该基本上是一条直线，如果直线画出服从帕累托分布的样本CCDF，
@@ -128,13 +128,13 @@
             在坐标几何里，一个函数或关系式与直角坐标系的 y-轴相交的点的 y-坐标，称为 y-截距，也可借此测量斜率。
             假若，一个函数的形式为 y=f(x)\,\! 。那么， f(0)\,\! 就是这函数的 y-截距
     pareto CCDF互补函数如下
-  ![pareto_complement](./DiscriPng/pareto_distribution_complement.png "million pareto 互补函数")  
+  ![pareto_complement](../DiscriPng/pareto_distribution_complement.png "million pareto 互补函数")  
     
     pareto 互补函数y值取对数log
-  ![pareto_comp_logy](./DiscriPng/pareto_distribution_complement_ylog.png "pareto complement log y")  
+  ![pareto_comp_logy](../DiscriPng/pareto_distribution_complement_ylog.png "pareto complement log y")  
   
     Pareto 互补函数x，y取对数log
-  ![pareto_comp_log_xy](./DiscriPng/pareto_distribution_complement_xylog.png "pareto complement log x and y ")
+  ![pareto_comp_log_xy](../DiscriPng/pareto_distribution_complement_xylog.png "pareto complement log x and y ")
     
     
     应用一：Zipf法则
@@ -147,20 +147,20 @@
     weibull = random.weibullvariate(alpha=a, beta=b)
     weibull     
     
-  ![weibull](./DiscriPng/weibull_distribution.png "thousand weibull distribution")  
+  ![weibull](../DiscriPng/weibull_distribution.png "thousand weibull distribution")  
     
     weibull distribution log x y  
   
-  ![weibull](./DiscriPng/weibull_distribution_xylog.png "thousands weibull distribution")    
+  ![weibull](../DiscriPng/weibull_distribution_xylog.png "thousands weibull distribution")    
   
     weibull 互补函数如下
-  ![weibull](./DiscriPng/weibull_distribution_complement.png "thousands weibull 互补函数")  
+  ![weibull](../DiscriPng/weibull_distribution_complement.png "thousands weibull 互补函数")  
     
     weibull 互补函数y值取对数log
-  ![weibull_comp_logy](./DiscriPng/weibull_distribution_complement_ylog.png "weibull complement log y")  
+  ![weibull_comp_logy](../DiscriPng/weibull_distribution_complement_ylog.png "weibull complement log y")  
   
     weibull 互补函数x，y取对数log
-  ![weibull_comp_log_xy](./DiscriPng/weibull_distribution_complement_xylog.png "weibull complement log x and y ")
+  ![weibull_comp_log_xy](../DiscriPng/weibull_distribution_complement_xylog.png "weibull complement log x and y ")
     
     
     
@@ -233,7 +233,7 @@
             这样做被称为“标准化”：
             
        
-   ![standarding_normal](./DiscriPng/normal_distribution_standarding.png "normal standarding")
+   ![standarding_normal](../DiscriPng/normal_distribution_standarding.png "normal standarding")
    
         5.2，标准化后我们可以为数据做决定， 比如老师在批改一个很难的测验，满分100
         [33.4,  25.05, 43.42, 53.44, 30.53, 58.45, 23.38, 43.42, 36.74, 28.39]
@@ -249,7 +249,7 @@
             所以理论上你比 84.1% 的人分数都高
             换言之 理论上 84.1% 的分数比你低（实际上百分比可能不同）
    
-   ![standarding_normal_lines](./DiscriPng/standard_normal_distribution_lines.png "normal standarding")
+   ![standarding_normal_lines](../DiscriPng/standard_normal_distribution_lines.png "normal standarding")
    
    
         5.4，* 实例:
@@ -268,7 +268,7 @@
                         65	         (65-38.8) / 11.4   =	+2.30
                         ...
                         
-   ![standarding_z_space](./DiscriPng/normal-distribution-standard-scores.png "normal standarding")
+   ![standarding_z_space](../DiscriPng/normal-distribution-standard-scores.png "normal standarding")
      
      
      六，* 模型形状:
@@ -283,26 +283,26 @@
         3， 画出排序后的值和第一步生成的值的散点图。     
       
     normal distribution    
-   ![normal](./DiscriPng/normal_distribution_rankint.png#thumbnail 'normal distribution rankint')
+   ![normal](../DiscriPng/normal_distribution_rankint.png#thumbnail 'normal distribution rankint')
    
      normal distribution cdf 正态分布的累计分布函数没有明确的方法，
      这里用的erf-(error function)函数(误差函数表示)，正态分布的cdf 是 s型曲线
-   ![normal_cdf](./DiscriPng/normal_distribution_cdf.png 'normal distribution rankint cdf')
+   ![normal_cdf](../DiscriPng/normal_distribution_cdf.png 'normal distribution rankint cdf')
    
      normal distribution cdf ylog  
-   ![normal_cdf_xylog](./DiscriPng/normal_distribution_cdf_ylog.png 'normal distribution rankint cdf xylog')
+   ![normal_cdf_xylog](../DiscriPng/normal_distribution_cdf_ylog.png 'normal distribution rankint cdf xylog')
    
      normal distri cdf xlog
-   ![normal_cdf_xylog](./DiscriPng/normal_distribution_cdf_xlog.png 'normal distribution rankint cdf xlog')
+   ![normal_cdf_xylog](../DiscriPng/normal_distribution_cdf_xlog.png 'normal distribution rankint cdf xlog')
    
      normal distri ccdf
-   ![normal_ccdf](./DiscriPng/normal_distribution_ccdf.png 'normal distribution rankint ccdf')
+   ![normal_ccdf](../DiscriPng/normal_distribution_ccdf.png 'normal distribution rankint ccdf')
      
      normal distri ccdf xylog
-   ![normal_cdf_xylog](./DiscriPng/normal_distribution_ccdf_xylog.png 'normal distribution rankint ccdf xylog')
+   ![normal_cdf_xylog](../DiscriPng/normal_distribution_ccdf_xylog.png 'normal distribution rankint ccdf xylog')
    
      normal distri ccdf xlog
-   ![normal_cdf_xylog](./DiscriPng/normal_distribution_ccdf_xlog.png 'normal distribution rankint ccdf xlog')
+   ![normal_cdf_xylog](../DiscriPng/normal_distribution_ccdf_xlog.png 'normal distribution rankint ccdf xlog')
   
 #### 标准正态分布表
     下表，精确度两位数，"0.1" 的值垂直排列，然后把每个 0.1 后面的 "0.01" 值水平排列
@@ -361,11 +361,11 @@
      
         log normal dis 累计分布函数 cdf
         
-   ![lognormal_cdf](./DiscriPng/lgncdf4_sigma_diff.gif)
+   ![lognormal_cdf](../DiscriPng/lgncdf4_sigma_diff.gif)
  
         log normal dis 概率密度函数 pdf
         
-   ![lognormal_ccdf](./DiscriPng/lgnpdf4_sigma_diff.gif)
+   ![lognormal_ccdf](../DiscriPng/lgnpdf4_sigma_diff.gif)
  
  
 #### 正态概率图
@@ -376,7 +376,7 @@
     使用 Pareto 模型描述的许多现象也可以使用对数法线模型来描述，或者更好。
     
      正态概率图可以表示数据集与模型之间的匹配图，图中线的曲度越大，匹配度越 小
-   ![normal_probability_relay](./DiscriPng/normal_probability_relay.png "正态概率图")
+   ![normal_probability_relay](../DiscriPng/normal_probability_relay.png "正态概率图")
     
 #### 使用模型的好处
     1， 用较少的参数 模拟 大量的数据集

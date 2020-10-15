@@ -23,7 +23,7 @@ def infixToPostfix(infixexpr):
     prec["("] = 1
     opStack = Stack()
     postfixList = []
-    tokenList = list(infixexpr) # .split()    # 解析表达式到单词列表
+    tokenList = list(infixexpr) # .split()    # 解析表达式到单词列表x
     print('tokenList:{}'.format(tokenList))
     words = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     nums = "0123456789"

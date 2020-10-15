@@ -175,18 +175,18 @@
             该指数分布和的序列 的分布，其累计分布函数CDF如下:
             可见其近似服从正态分布
             
-   ![exponential_cdf_1000](./DiscriPng/central_limit_theorem_exponential_cdf_1000_sum.png)
+   ![exponential_cdf_1000](../DiscriPng/central_limit_theorem_exponential_cdf_1000_sum.png)
         
         有对数正态分布序列(mu=0, sigma=1) 1000个，每个序列包含 1000个值
         该对数正态分布序列中，每个分布的和，构成一个 大小为1000的序列
         该分布和的序列 的分布，其累计分布函数CDF如下，近似服从正态分布:
         只有10个对数正态分布序列时，其和的序列分布情况
         
-   ![lognormal_cdf_10](./DiscriPng/central_limit_theorem_lgncdf4_10_sum.png)
+   ![lognormal_cdf_10](../DiscriPng/central_limit_theorem_lgncdf4_10_sum.png)
       
         有1000个对数正态分布序列，其和的序列分布情况
         
-   ![lognormal_cdf_1000](./DiscriPng/central_limit_theorem_lgncdf4_1000_sum.png)
+   ![lognormal_cdf_1000](../DiscriPng/central_limit_theorem_lgncdf4_1000_sum.png)
         
         有pareto分布序列(alpha = 1) 1000个，每个序列包含 1000个值
         该分布序列中，每个分布的和，构成一个 大小为1000的序列
@@ -194,15 +194,15 @@
             * 不服从正态分布，因为pareto 分布 的均值和方差不固定
         只有10个pareto分布序列时，其和的序列分布情况
    
-   ![pareto_sum_cdf_10](./DiscriPng/central_limit_theorem_pareto_cdf_10_sum.png)
+   ![pareto_sum_cdf_10](../DiscriPng/central_limit_theorem_pareto_cdf_10_sum.png)
    
         有1000个pareto分布序列，其分布的和的序列分布情况
     
-   ![pareto_sum_cdf_1000](./DiscriPng/central_limit_theorem_pareto_cdf_1000_sum.png)
+   ![pareto_sum_cdf_1000](../DiscriPng/central_limit_theorem_pareto_cdf_1000_sum.png)
    
    
         有对数正态分布序列(mu=0, sigma=1) 100个，每个序列包含 100个值
         该对数正态分布序列中，每个分布的 **乘积**，构成一个 大小为100的序列
         该分布 乘积的序列 的分布，其累计分布函数CDF如下，不服从正态分布:
         有100个分布序列时，其乘积的序列分布情况
-   ![log_normal_cdf_100](./DiscriPng/central_limit_theorem_lgncdf4_100_mutil_乘积.png)
+   ![log_normal_cdf_100](../DiscriPng/central_limit_theorem_lgncdf4_100_mutil_乘积.png)

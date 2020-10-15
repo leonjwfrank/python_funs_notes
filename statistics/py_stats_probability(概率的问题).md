@@ -275,10 +275,10 @@
     
     * 4， 求圆周
     求圆周率过程, 随机数增加，准确度提升(网络图)
-   ![monte_carlo_pi_gif](./DiscriPng/Monte_Carlo_Pi_30K.gif)
+   ![monte_carlo_pi_gif](../DiscriPng/Monte_Carlo_Pi_30K.gif)
    
     100次随机模拟结果
-   ![monte_carlo_pi_gif](./DiscriPng/2019-09-08_carlo.gif)
+   ![monte_carlo_pi_gif](../DiscriPng/2019-09-08_carlo.gif)
    
     * 5，在机器学习，强化学习中的运用
         OpenAI

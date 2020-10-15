@@ -26,8 +26,8 @@
     检验假设的方法
 
     假设的估计和多参数的相关性分析方法，比如蒙特卡罗随机场估计圆周率
-    ![monte_carlo_pi_gif](../DiscriPng/Monte_Carlo_Pi_30K.gif)
+    ![monte_carlo_pi_gif](./DiscriPng/Monte_Carlo_Pi_30K.gif)
     100次随机模拟结果
-    ![monte_carlo_pi_gif](../DiscriPng/2019-09-08_carlo.gif)
+    ![monte_carlo_pi_gif](./DiscriPng/2019-09-08_carlo.gif)
 # code
      https://github.com/passjwhub/statistics

@@ -1,0 +1,80 @@
+
+
+
+# NetWork-Bridge
+	6.5. Bridged networking
+With bridged networking, VirtualBox uses a device driver on your host system that filters data from your physical network adapter. This driver is therefore called a "net filter" driver. This allows VirtualBox to intercept data from the physical network and inject data into it, effectively creating a new network interface in software. When a guest is using such a new software interface, it looks to the host system as though the guest were physically connected to the interface using a network cable: the host can send data to the guest through that interface and receive data from it. This means that you can set up routing or bridging between the guest and the rest of your network.
+
+For this to work, VirtualBox needs a device driver on your host system. The way bridged networking works has been completely rewritten with VirtualBox 2.0 and 2.1, depending on the host operating system. From the user perspective, the main difference is that complex configuration is no longer necessary on any of the supported host operating systems.[31]
+
+Note
+Even though TAP is no longer necessary on Linux with bridged networking, you can still use TAP interfaces for certain advanced setups, since you can connect a VM to any host interface -- which could also be a TAP interface.
+
+To enable bridged networking, all you need to do is to open the Settings dialog of a virtual machine, go to the "Network" page and select "Bridged network" in the drop down list for the "Attached to" field. Finally, select desired host interface from the list at the bottom of the page, which contains the physical network interfaces of your systems. On a typical MacBook, for example, this will allow you to select between "en1: AirPort" (which is the wireless interface) and "en0: Ethernet", which represents the interface with a network cable.
+
+# zh
+通过桥接网络，VirtualBox使用主机系统上的设备驱动程序来过滤来自物理网络适配器的数据。因此，该驱动程序称为“网络过滤器”驱动程序。这使VirtualBox可以拦截来自物理网络的数据并将数据注入其中，从而有效地在软件中创建新的网络接口。当来宾用户使用这种新的软件接口时，它看起来像是使用网络电缆将来宾物理连接到主机系统的主机系统：主机可以通过该接口向来宾发送数据，并从该接口接收数据。这意味着您可以在客户机与网络的其余部分之间设置路由或桥接。
+
+为此，VirtualBox需要主机系统上的设备驱动程序。取决于主机操作系统，已使用VirtualBox 2.0和2.1完全重写了桥接网络的工作方式。从用户的角度来看，主要区别在于，在任何受支持的主机操作系统上，都不再需要复杂的配置。[31]
+
+注意
+即使在具有桥接网络的Linux上不再需要TAP，您仍可以将TAP接口用于某些高级设置，因为您可以将VM连接到任何主机接口-也可以是TAP接口。
+
+要启用桥接网络，您需要做的就是打开虚拟机的“设置”对话框，转到“网络”页面，然后在“附加到”字段的下拉列表中选择“桥接网络”。最后，从页面底部的列表中选择所需的主机接口，其中包含系统的物理网络接口。例如，在典型的MacBook上，这将允许您在“ en1：AirPort”（这是无线接口）和“ en0：Ethernet”之间进行选择，“ en0：AirPort”（代表无线网线）是通过网络电缆表示的接口。
+
+
+Note
+Bridging to a wireless interface is done differently from bridging to a wired interface, because most wireless adapters do not support promiscuous mode. All traffic has to use the MAC address of the host's wireless adapter, and therefore VirtualBox needs to replace the source MAC address in the Ethernet header of an outgoing packet to make sure the reply will be sent to the host interface. When VirtualBox sees an incoming packet with a destination IP address that belongs to one of the virtual machine adapters it replaces the destination MAC address in the Ethernet header with the VM adapter's MAC address and passes it on. VirtualBox examines ARP and DHCP packets in order to learn the IP addresses of virtual machines.
+
+Depending on your host operating system, the following limitations should be kept in mind:
+
+On Macintosh hosts, functionality is limited when using AirPort (the Mac's wireless networking) for bridged networking. Currently, VirtualBox supports only IPv4 and IPv6 over AirPort. For other protocols (such as IPX), you must choose a wired interface.
+
+On Linux hosts, functionality is limited when using wireless interfaces for bridged networking. Currently, VirtualBox supports only IPv4 and IPv6 over wireless. For other protocols (such as IPX), you must choose a wired interface.
+
+Also, setting the MTU to less than 1500 bytes on wired interfaces provided by the sky2 driver on the Marvell Yukon II EC Ultra Ethernet NIC is known to cause packet losses under certain conditions.
+
+Some adapters strip VLAN tags in hardware. This does not allow to use VLAN trunking between VM and the external network with pre-2.6.27 Linux kernels nor with host operating systems other than Linux.
+
+On Solaris hosts, there is no support for using wireless interfaces. Filtering guest traffic using IPFilter is also not completely supported due to technical restrictions of the Solaris networking subsystem. These issues would be addressed in a future release of Solaris 11.
+
+Starting with VirtualBox 4.1, on Solaris 11 hosts (build 159 and above), it is possible to use Solaris' Crossbow Virtual Network Interfaces (VNICs) directly with VirtualBox without any additional configuration other than each VNIC must be exclusive for every guest network interface.
+
+Starting with VirtualBox 2.0.4 and up to VirtualBox 4.0, VNICs can be used but with the following caveats:
+
+A VNIC cannot be shared between multiple guest network interfaces, i.e. each guest network interface must have its own, exclusive VNIC.
+
+The VNIC and the guest network interface that uses the VNIC must be assigned identical MAC addresses.
+
+When using VLAN interfaces with VirtualBox, they must be named according to the PPA-hack naming scheme (e.g. "e1000g513001"), as otherwise the guest may receive packets in an unexpected format.
+
+
+# 注意
+桥接到无线接口的方法与桥接到有线接口的方法不同，因为大多数无线适配器都不支持混杂模式。所有流量都必须使用主机无线适配器的MAC地址，因此VirtualBox需要替换传出数据包的以太网报头中的源MAC地址，以确保将答复发送到主机接口。当VirtualBox看到具有目标IP地址的传入数据包属于虚拟机适配器之一时，它将用VM适配器的MAC地址替换以太网标头中的目标MAC地址并继续传递。 VirtualBox检查ARP和DHCP数据包，以了解虚拟机的IP地址。
+
+根据您的主机操作系统，应牢记以下限制：
+
+在Macintosh主机上，使用AirPort（Mac的无线网络）进行桥接网络时，功能受到限制。当前，VirtualBox仅通过AirPort支持IPv4和IPv6。对于其他协议（例如IPX），必须选择有线接口。
+
+在Linux主机上，将无线接口用于桥接网络时，功能受到限制。当前，VirtualBox仅支持无线IPv4和IPv6。对于其他协议（例如IPX），必须选择有线接口。
+
+同样，已知在某些情况下，Marvell Yukon II EC超以太网NIC的sky2驱动程序提供的有线接口上的MTU设置为小于1500字节时，会导致数据包丢失。
+
+一些适配器会在硬件中剥离VLAN标签。这不允许在具有2.6.27之前的Linux内核以及Linux以外的主机操作系统的VM和外部网络之间使用VLAN中继。
+
+在Solaris主机上，不支持使用无线接口。由于Solaris网络子系统的技术限制，也不完全支持使用IPFilter筛选来宾流量。这些问题将在将来的Solaris 11版本中解决。
+
+从VirtualBox 4.1开始，在Solaris 11主机（内部版本159及更高版本）上，可以将Solaris的Crossbow虚拟网络接口（VNIC）直接与VirtualBox一起使用，而无需进行任何其他配置，但每个来宾网络接口必须互斥每个VNIC。
+
+从VirtualBox 2.0.4开始到VirtualBox 4.0，可以使用VNIC，但要注意以下几点：
+
+一个VNIC不能在多个来宾网络接口之间共享，即每个来宾网络接口必须具有自己的专用VNIC。
+
+必须为VNIC和使用VNIC的来宾网络接口分配相同的MAC地址。
+
+将VLAN接口与VirtualBox一起使用时，必须根据PPA-hack命名方案（例如“ e1000g513001”）来命名它们，否则访客可能会收到意外格式的数据包。
+--------------------------------------------------------------------------------
+
+[31] For Mac OS X and Solaris hosts, net filter drivers were already added in VirtualBox 2.0 (as initial support for Host Interface Networking on these platforms). With VirtualBox 2.1, net filter drivers were also added for the Windows and Linux hosts, replacing the mechanisms previously present in VirtualBox for those platforms; especially on Linux, the earlier method required creating TAP interfaces and bridges, which was complex and varied from one distribution to the next. None of this is necessary anymore. Bridged network was formerly called "Host Interface Networking" and has been renamed with version 2.2 without any change in functionality.
+
+

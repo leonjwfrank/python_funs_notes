@@ -1,0 +1,130 @@
+# repo 源配置
+## yum维护
+	1、查看系统默认安装的yum
+	# rpm -qa|grep yum
+
+	2 卸载yum
+
+	# rpm -e yum-fastestmirror-1.1.16-14.el5.centos.1 yum-metadata-parser-1.1.2-3.el5.centos yum-3.2.22-33.el5.centos
+	3、重新安装yum
+	这里可以通过wget 从网上下载相关包安装，也可以挂载系统安装光盘进行安装，这里选择挂载系统安装光盘进行安装。
+	# mount /dev/cdrom /mnt/cdrom/
+	# rpm -ivh yum-3.2.22-33.el5.centos.noarch.rpm yum-fastestmirror-1.1.16-14.el5.centos.1.noarch.rpm yum-metadata-parser-1.1.2-3.el5.centos.i386.rpm
+	# yum -v
+
+	yum 的基础安装包包括：
+	yum　　//RPM installer/updater
+	yum-fastestmirror　　//Yum plugin which chooses fastest repository from a mirrorlist
+	yum-metadata-parser　　//A fast metadata parser for yum
+
+	# yum配置
+	yum 的配置文件分为两部分：main 和repository
+	main 部分定义了全局配置选项，整个yum 配置文件应该只有一个main。常位于/etc/yum.conf 中。
+	repository 部分定义了每个源/服务器的具体配置，可以有一到多个。常位于/etc/yum.repo.d 目录下的各文件中。
+	yum.conf 文件一般位于/etc目录下，一般其中只包含main部分的配置选项。
+
+# cat /etc/yum.conf
+
+## yum指令参数说明
+	yum命令选项
+	--nogpgcheck：禁止进行gpgcheck
+	-y: 自动回答为“yes”
+	-q：静默模式
+	--disablerepo=repoidglob：临时禁用此处指定的repo
+	--enablerepo=repoidglob：临时启用此处指定的repo
+	--noplugins：禁用所有插件
+	yum源列表
+	yum repolist [all|enabled|disabled]:显示仓库列表
+	yum grouplist:显示包组
+	yum list {available|installed|updates} :显示包列表
+	yum list vsftpd* 显示和vsftpd匹配的包
+	yum安装卸载
+	yum install package
+	yum restall package:重做
+	yum update package：更新包
+	yum check-update
+	yum remove package1 [package2]
+
+## 参数说明
+	cachedir=/var/cache/yum/$basearch/$releasever #yum下载后的缓存目录
+	keepcache=0    #是否缓存，0为不缓存，1为缓存
+	debuglevel=2  # //Debug 信息输出等级，范围为0-10，缺省为2
+	logfile=/var/log/yum.log  #yum的安装日志 //yum 日志文件位置。用户可以到/var/log/yum.log 文件去查询过去所做的更新。
+	pkgpolicy=newest
+　　			# //包的策略。一共有两个选项，newest 和last，这个作用是如果你设置了多个repository，而同一软件在不同的repository 中同时存在，yum 应该安装哪一个，如果是newest，则yum 会安装最新的那个版本。如果是last，则yum 会将服务器id 以字母表排序，并选择最后的那个服务器上的软件安装。一般都是选newest。
+	distroverpkg=redhat-release
+　　//指定一个软件包，yum 会根据这个包判断你的发行版本，默认是redhat-release，也可以是安装的任何针对自己发行版的rpm 包。
+	tolerant=1
+　　# //有1和0两个选项，表示yum 是否容忍命令行发生与软件包有关的错误，比如你要安装1,2,3三个包，而其中3此前已经安装了，如果你设为1,则yum 不会出现错误信息。默认是0。
+	exactarch=1 　#//有1和0两个选项，设置为1，则yum 只会安装和系统架构匹配的软件包，例如，yum 不会将i686的软件包安装在适合i386的系统中。默认为1。
+	obsoletes=1   # //这是一个update 的参数，具体请参阅yum(8)，简单的说就是相当于upgrade，允许更新陈旧的RPM包。
+	gpgcheck=1  #默认是否进行gpg校验，0为不校验，1校验
+	plugins=1   # //是否启用插件，默认1为允许，0表示不允许。我们一般会用yum-fastestmirror这个插件。
+	installonly_limit=5
+	bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
+	exclude=selinux*　　# // 排除某些软件在升级名单之外，可以用通配符，列表中各个项目要用空格隔开，这个对于安装了诸如美化包，中文补丁的朋友特别有用。
+　　gpgcheck=1　　# // 有1和0两个选择，分别代表是否是否进行gpg(GNU Private Guard) 校验，以确定rpm 包的来源是有效和安全的。这个选项如果设置在[main]部分，则对每个repository 都有效。默认值为0。
+
+## 配置本地yum源
+	配置本地yum源
+
+	1、挂载系统安装光盘
+	# mount /dev/cdrom /mnt/cdrom/
+
+	2、配置本地yum源
+
+	# cd /etc/yum.repos.d/
+	# ls
+
+	会看到四个repo 文件
+	在baseurl 中修改第2个路径为/mnt/cdrom（即为光盘挂载点）
+	将enabled=0改为1
+
+	3、禁用默认的yum 网络源
+	将yum 网络源配置文件改名为CentOS-Base.repo.bak，否则会先在网络源中寻找适合的包，改名之后直接从本地源读取。
+	4、执行yum 命令
+	# yum install postgresql
+## 使用第三方软件库
+	RpmForge 有超过10000种的CentOS的软件包
+	# 安装yum-priorities这插件，保证官方推荐的源优先于第三方源安装
+
+## 配置示例
+[CentOS7-base]   #源名称，必填
+name=CentOS-$releasever-base  #源描述，可以不填，但是会有提示
+baseurl=file:///misc/cd/      #本地的光盘文件，可以有多个地址。必填
+        https://mirrors.aliyun.com/centos/7.3.1611/os/x86_64/
+gpgcheck=1                    #是否开启校验，在yum.conf中已经定义它默认值为1
+enabled=1                     #是否禁用此yum源,默认为
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+#如果开启yum源包校验，则需要导入RPM公钥，此处只是在系统没有导入rpm公钥时候进行安装
+#这里相当于rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+ 
+[aliyun_epel]   #这是Redhat的扩展包
+name=ailiyun_yum_epel
+baseurl=https://mirrors.aliyun.com/epel/$releasever/x86_64
+gpgkey=https://mirrors.aliyun.com/epel/RPM-GPG-KEY-EPEL-7
+
+
+
+
+
+
+# redhat 7
+sudo yum install -y curl policycoreutils-python openssh-server  # 需要有效的源repo配置
+sudo systemctl enable sshd
+sudo systemctl start sshd
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
+sudo systemctl reload firewalld
+
+
+## Add the GitLab package repository and install the package  添加gitlab源并安装包
+	curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+	//添加成功时的提示: the repository is setup you can now install packages.
+	
+## 安装GitLab软件包。更改https://gitlab.example.com为您要访问GitLab实例的URL。安装将自动配置并在该URL上启动GitLab
+	sudo EXTERNAL_URL="https://gitlab.example.com" yum install -y gitlab-ee
+
+
+
+

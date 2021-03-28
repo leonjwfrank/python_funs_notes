@@ -24,6 +24,11 @@
     城市人口密度分布模型 pareto 分布
     不同或相同分布之间的运算方法
     检验假设的方法
+    
+    概览
+   ![info_statistics](./DiscriPng/info-statistics.png)   
+   
+# 实践    
 
     假设的估计和多参数的相关性分析方法，比如蒙特卡罗随机场估计圆周率
    ![monte_carlo_pi_gif](./DiscriPng/Monte_Carlo_Pi_30K.gif)

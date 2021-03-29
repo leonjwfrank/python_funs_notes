@@ -37,4 +37,4 @@
    ![monte_carlo_pi_gif](./DiscriPng/2019-09-08_carlo.gif)
    
 # code
-     https://github.com/leonjwfrank/statistics
+     https://github.com/SuboFrank/statistics

@@ -26,7 +26,7 @@
     检验假设的方法
     
     概览
-   ![info_statistics](./DiscriPng/info-statistics.png)   
+   ![info_statistics](./DiscriPng/info-statistics.svg)   
    
 # 实践    
 

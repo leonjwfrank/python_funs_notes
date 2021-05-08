@@ -1,5 +1,5 @@
 
-#1， linux 环境及项目创建
+# 1， linux 环境及项目创建
    安装python3，django
    apt install python3 && pip install django ~=3.1.0
    make code && cd code
@@ -29,7 +29,7 @@
 		tests.py # 应用测试文件
         views.py # 处理Web应用程序的请求/响应逻辑的地方
 
-#2， 将app 构建为整体web应用
+# 2， 将app 构建为整体web应用
 	# 1，在config/setting 添加新的app到配置项 INSTALLED_APPS configuration
 	# 2，数据库，视图，连接，模板  数据库创建及管理员 
 	    books/models.py
@@ -111,7 +111,7 @@
 
 
 
-#3， 创建api服务
+# 3， 创建api服务
 	
 	安装 库 pip install djangorestframework~=3.11.0
 
@@ -170,10 +170,10 @@
 	通过url 127.0.0.1:1999/api/ 。 可以发现有一个此页面中内置的许多功能，比如可视化
 
 
-#4 后端Todo API 与 React 前端配合  
+# 4 后端Todo API 与 React 前端配合  
 
      清晰的看见 后端api 与 react融合
-#4.1
+## 4.1
      后端环境初始化，如果需要在新建的backend 虚拟化环境进行操作，重新安装django，否则django-admin 无效
      pip install install django~=3.1.0
      django-admin startproject config .
@@ -222,7 +222,7 @@
 	后端api服务 需要三个部分 urls.py, views.py, and serializers.py
 	不需要 template
 
-##4.2 urls, views, serializers
+## 4.2 urls, views, serializers
 	
 	全局urls
 	# config/urls.py
@@ -270,7 +270,7 @@
 
     ## 调用api
 
-##4.3 跨域资源共享 CORS  Cross-Origin Resource Sharing
+## 4.3 跨域资源共享 CORS  Cross-Origin Resource Sharing
 	当用户从不同站点或 同一个站点的不同位置访问时，需要配置此项。否则造成访问错误。
 	比如mysite.com vs yousite.cn, 或者 localhost:2000 vs localhost:3000
 
@@ -284,13 +284,13 @@
 	    2，创建白名单：
 	    CORS_ORIGIN_WHITELIST
 
-##4.4 小结
+## 4.4 小结
 	从传统Django需要的唯一组件是models.py文件，urls.py路由。 views.py和serializers.py文件完全是Django REST Framework
 
 	重要的是 通过配置  CORS headers 白名单只允许两个域访问我们的api，这是新手最简单重要的方式。
 	然后添加一点Django REST Framework的序列化器和视图提供的魔力。
 
-#5 前端 Node	
+# 5 前端 Node	
 
 	首先，将React应用配置为我们的前端。 
 	新建一个控制台界面，linux 下载并安装 node
@@ -357,7 +357,7 @@
     注意：如果在前端看见js错误，只需要重新安装npm
     该修复程序通常是npm-install，然后尝试重新启动npm。如果这样不起作用，则删除您的node_modules文件夹并运行npm install。这样就可以在99％的时间内解决问题。欢迎使用现代JavaScript。 :)
 
-##5.1 连接前后端  # 有bug
+## 5.1 连接前后端  # 有bug
 	使用 django api 替换 mock 数据
 	发出HTTP请求的两种流行方法：内置FetchAPI或axios它带有几个附加功能。在此示例中，我们将使用axios。使用Control-c停止运行的应用程序。然后安装axios
 
@@ -395,7 +395,7 @@
 	} }
 	export default App;
 
-##5.2 小结
+## 5.2 小结
   前后端分离将增强web站点的灵活性。
   接下来增强我们的API，使其支持多个HTTP动作，例如POST（添加新待办事项），PUT（更新现有的待办事项）和DELETE（删除待办事项）
 
@@ -502,7 +502,7 @@
     
     一个项目中有多个应用，创建专用的api应用可能更有意义将所有其他API网址路由都包含进去。但是对于像这样的基础项目，我宁愿避免仅用于路由的api应用。如有需要，我们随时可以添加一个.
 
-#7  查看和编辑权限 Permissions
+# 7  查看和编辑权限 Permissions
     安全性是任何网站的重要组成部分，但对于Web API而言则至关重要。现在rest_framework 有out-of-the-box 权限可以应用于项目水平，视图层 或 个人模型 （ project-level, a view-level，individual model level.）
     
     创建一个用户，并赋予它不同权限。
@@ -555,7 +555,7 @@
     
     向每个视图添加专用的Permission_classes如果要在整个API上设置相同的权限设置，则重复此操作。最好一次更改我们的权限（最好是在项目级别）。
 
-#7.1   # 项目权限限制
+# 7.1   # 项目权限限制
    在项目级别设置严格的权限策略，并根据需要在视图级别放宽策略。这这就是我们要做的。
    Django_REST_Framework随附了许多内置的项目级,我们可以使用的设置
     • AllowAny - #任何用户，无论是否登录，全部权限。
@@ -565,7 +565,7 @@
 
   这四个设置中的任何一个都需要更新DEFAULT_PERMISSION_CLASSES，然后设置和刷新我们的网络浏览器。
 
-#7.2 自定义权限 Custom permissions
+# 7.2 自定义权限 Custom permissions
     只希望特定博客帖子的作者能够对其进行编辑或删除；否则博客文章应为只读。
     超级用户帐户应具有对帐户的完整CRUD访问权限 ，但常规用户testuser只可编辑自己的。
 
@@ -590,7 +590,7 @@
    设置严格的项目级别权限策略的想法，这样只有经过身份验证的用户才能查看API。然后根据需要在特定API上更方便地访问视图级别或自定义权限端点。
 
 
-#8 用户认证
+# 8 用户认证
    User Authentication
    第7章我们更新了API权限，也称为授权。在本章我们将实现身份验证，这是用户可以注册的过程，新用户的登录登出控制等
    传统的整体式Django网站认证中，认证更为简单，涉及基于会话的Cookie模式，我们将在下面进行回顾。但是使用API​​会有些棘手。请记住，HTTP是无状态协议，因此没有内置的方式可以记住用户是否从一个请求到下一个请求进行了身份验证。每次用户请求受限资源时，必须验证自己。
@@ -626,7 +626,7 @@
 
       最后，这种方法 通常用于https加密传输 。
 
-##8.2 会话认证 
+## 8.2 会话认证 
     Session Authentication
     Django使用会话和Cookie的组合认证。在较高级别上，客户端使用其身份验证凭据（用户名&密码），然后从存储的服务器接收会话ID作为Cookie。然后，此会话ID将在以后的每个HTTP请求的标头中传递。
     传递会话ID后，服务器将使用它来查找包含所有内容的会话对象给定用户的可用信息，包括凭据。
@@ -838,7 +838,7 @@
 	dj-rest-auth & django-allauth
 
 
-#9， 视图集和路由集 Viewsets and Routers
+# 9， 视图集和路由集 Viewsets and Routers
 	viewsets   # rest_framework 的api视图开发工具
  	routers   # rest_framework的 api 路由开发工具
  	它们是视图和URL之上的附加抽象层。首要的好处是单个视图集可以替换多个相关视图。而且路由器可以自动为开发人员生成网址。在具有多个端点的大型项目中，这意味着开发人员可以编写更少的代码。可以说，对于有经验的开发人员来说也更好理解。
@@ -908,7 +908,7 @@
 
 		http://127.0.0.1:2000/api/v1/users/
 
-#9.1  视图集 Viewsets
+# 9.1  视图集 Viewsets
     视图集是一种将多个相关视图的逻辑组合到单个类中的方法。其他换句话说，一个视图集可以替换多个视图。目前，我们有四个视图：两个用于博客文章和两个给用户。我们可以使用两个视图集来模仿相同的功能：一个用于博客帖子和一个供用户使用.
     代码
 	    # posts/views.py
@@ -928,7 +928,7 @@
 
 	它既提供了列表视图又提供了为我们提供详细视图。而且我们不再对于每个视图都重复相同的queryset和serializer_class。
     现在服务停止了，因为缺少路由。 接下来配置路由
-#9.2 路由集    # Routers
+# 9.2 路由集    # Routers
     路由集直接与视图集一起使用，以自动为我们生成URL模式。我们目前posts/urls.py文件具有四个URL模式：两个用于博客文章，两个用于用户。我们可以 不用为每个视图集采用一条路线。因此，使用两个路由而不是四个URL路由模式。
     
      SimpleRouter  与 DefaultRouter
@@ -953,7 +953,7 @@
 	最终，何时向项目添加视图集和路由器的决定是非常主观的。一个好的经验法则是从视图和URL开始。如果您发现API随着复杂性的增长而增长，自己一遍又一遍地重复相同的端点模式，然后查看视图集并路由器。在此之前，请保持简单。
 
 
-#10 模式和文档
+# 10 模式和文档
 	现在已经完成了API，我们需要一种方法来快速记录其功能，并且准确地给别人。毕竟，在大多数公司和团队中，使用API​​的开发人员与最初构建它的开发人员不同。这对我们来说幸运的是，有自动工具可以处理。
 	schema是机器可读的文档，概述了所有可用的API端点，URL和支持的HTTP动词（GET，POST，PUT，DELETE等）。
 	将文档简化为人类易于阅读和使用的架构。在这里，我们将添加一个模式添加到Blog项目中，然后添加两种不同的文档编制方法。到最后我们将实现一种自动化的方式来记录我们的 API 当前和将来的 任何变化。
@@ -971,7 +971,7 @@
 	|/rest-auth/password/rest_framework |POST |
 	|/rest-auth/password/reset/confirm  |POST |
 
-#10.1 模式 Schemas
+## 10.1 模式 Schemas
 
 	#django rest framework 已经切换到OpenAPI模式
 	第一步是同时安装PyYAML和uritemplate PyYAML 这将改变我们的架构，转换为OpenAPI格式是基于YAML的，而uritemplate将参数添加到URL路径。

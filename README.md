@@ -2,13 +2,14 @@
     knowledge set 日常笔记博客
 
 
-# 基础算法
-    面向对象和高级语法
-    高级函数和匿名函数
-    code实现
+# 框架
+    以简单的方式通过django建站，django功能视图
+    support restful api service with django3   //daily_log/work_flow/
+    tornado功能视图
+    gin功能视图
 
 
-# 一些练习 
+# 一些算法
     简单密码解码和排序工具
     爬虫工具
     数字识别

@@ -38,4 +38,8 @@
    ![monte_carlo_pi_gif](./DiscriPng/2019-09-08_carlo.gif)
    
 # code
+<<<<<<< HEAD
      https://github.com/SuboFrank/statistics
+=======
+     https://github.com/SuboFrank/coding_example
+>>>>>>> ae7de116d1d86ea34c2be8ac63206b632ea61162
